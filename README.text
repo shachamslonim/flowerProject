@@ -1,0 +1,26 @@
+Go to the project
+cd C:\flowerProject
+
+Activate virtual environment (PowerShell)
+.\.venv\Scripts\Activate.ps1
+
+Install dependencies (if not already)
+pip install -r requirements.txt
+
+Credential requirement (important)
+Google Cloud Vision needs a Service Account key JSON file.
+Do not use OAuth client_secret JSON (file name usually starts with client_secret_...).
+
+Set .env
+GOOGLE_APPLICATION_CREDENTIALS=YOUR_SERVICE_ACCOUNT_KEY.json
+IMAGE_PATH=photo/kalanit.jpg
+
+Run the app
+python flower_vision.py
+
+If you still get credential error
+1) Enable Vision API in Google Cloud Console.
+2) Create Service Account -> Keys -> Add Key -> Create new key -> JSON.
+3) Save the downloaded JSON in C:\flowerProject.
+4) Update GOOGLE_APPLICATION_CREDENTIALS in .env with that JSON filename.
+5) Run python flower_vision.py again.
