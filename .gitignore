@@ -5,3 +5,9 @@ __pycache__/
 *.pyc
 flower-504717-82788587b8ec.json
 client_secret_985015144368-cn3g2ipe82q97gmoku2gu1jefllbfsk2.apps.googleusercontent.com.json
+
+flower_state_ai/data/
+flower_state_ai/models/checkpoints/
+flower_state_ai/models/tiny/
+flower_state_ai/models/logs/
+flower_state_ai/*.egg-info/
