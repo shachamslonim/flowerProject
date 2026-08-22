@@ -1,26 +1,156 @@
-Go to the project
-cd C:\flowerProject
+===============================================================
+  Flower Vision Project
+===============================================================
 
-Activate virtual environment (PowerShell)
-.\.venv\Scripts\Activate.ps1
+## Setup
 
-Install dependencies (if not already)
-pip install -r requirements.txt
+Go to the project:
+  cd C:\flowerAI\flowerProject
 
-Credential requirement (important)
-Google Cloud Vision needs a Service Account key JSON file.
-Do not use OAuth client_secret JSON (file name usually starts with client_secret_...).
+Create and activate virtual environment (PowerShell):
+  py -m venv .venv
+  .venv\Scripts\Activate.ps1
 
-Set .env
-GOOGLE_APPLICATION_CREDENTIALS=YOUR_SERVICE_ACCOUNT_KEY.json
-IMAGE_PATH=photo/kalanit.jpg
+Install dependencies:
+  python -m pip install --upgrade pip
+  pip install -r requirements.txt
 
-Run the app
-python flower_vision.py
+## Credential Setup
 
-If you still get credential error
-1) Enable Vision API in Google Cloud Console.
-2) Create Service Account -> Keys -> Add Key -> Create new key -> JSON.
-3) Save the downloaded JSON in C:\flowerProject.
-4) Update GOOGLE_APPLICATION_CREDENTIALS in .env with that JSON filename.
-5) Run python flower_vision.py again.
+Google Cloud Vision requires a Service Account key JSON file.
+Do NOT use OAuth client_secret JSON files.
+
+1) Enable Vision API in Google Cloud Console:
+   https://console.cloud.google.com/apis/api/vision.googleapis.com
+
+2) Create a Service Account:
+   IAM & Admin -> Service Accounts -> Create -> Keys -> Add Key -> JSON
+
+3) Save the downloaded JSON file in the project folder.
+
+4) Create a .env file with:
+   GOOGLE_APPLICATION_CREDENTIALS=your_service_account_key.json
+   IMAGE_PATH=photo/your_flower.jpg
+
+===============================================================
+  Running flower_vision.py (Single Image Detection)
+===============================================================
+
+Identifies a flower from a single image using Google Vision API.
+
+Usage:
+  python flower_vision.py
+  python flower_vision.py path\to\flower_image.jpg
+
+The script reads IMAGE_PATH from .env or accepts a command-line argument.
+
+Output:
+  - Detected labels with confidence scores
+  - Likely flower name(s) from the built-in keyword list
+
+===============================================================
+  Running test_flower_accuracy.py (Accuracy Test)
+===============================================================
+
+Tests the Google Vision API accuracy for flower identification
+across multiple flower types from the photo/ folder.
+
+## How It Works
+
+The test uses a 2-tier detection approach:
+  Tier 1: Label Detection (up to 15 labels)
+  Tier 2: Web Detection (fallback if Tier 1 doesn't match)
+
+For each flower in test_flowers.json:
+  - Sends up to 3 photos through the API
+  - Checks if the expected flower name appears in returned labels (case-insensitive)
+  - If any photo matches on any tier, the flower is marked as DETECTED
+  - If none match, retries with additional photos from the folder
+
+## Configuration (.env)
+
+Required:
+  GOOGLE_APPLICATION_CREDENTIALS=your_service_account_key.json
+
+Optional:
+  RETRY_NOT_MATCHED=2
+
+  RETRY_NOT_MATCHED controls how many times to retry unmatched flowers
+  using additional photos from the same folder. Each retry picks the
+  next 3 photos (not previously tested). Set to 0 to disable retries.
+
+## Test Data (test_flowers.json)
+
+JSON array where each entry has:
+  - expected_name: the flower name to match (lowercase)
+  - image_paths: array of relative paths to test photos
+  - folder_name: source folder for display
+
+Example entry:
+  {
+    "expected_name": "rose",
+    "image_paths": [
+      "photo/002_Rose/open/open_00002_pexels_38251394.jpg",
+      "photo/002_Rose/open/open_00006_pexels_38531905.jpg",
+      "photo/002_Rose/open/open_00008_pexels_12912281.jpg"
+    ],
+    "folder_name": "002_Rose"
+  }
+
+## Running the Test
+
+  .venv\Scripts\Activate.ps1
+  python test_flower_accuracy.py
+
+## Output Format
+
+Per-flower results:
+  [1/15] 002_Rose | Expected: rose
+    Photo 1/3 [Tier 1] Labels: Flower (0.99), Rose family (0.84), ...
+    Result: DETECTED (via Label Detection - Rose family (0.84))
+
+Retry rounds (if RETRY_NOT_MATCHED > 0):
+  RETRY ROUND 1/2 (2 flowers to retry)
+    [008_Ageratum] | Expected: ageratum (trying 3 new photos)
+    Result: DETECTED (via Web Detection)
+
+Summary:
+  SUMMARY
+  Total tested:  15
+  Matched:       14
+    - via Label Detection:  9
+    - via Web Detection:    5
+  Not matched:   1
+    - 009_Statice_Limonium (statice)
+  Errors:        0
+  Accuracy:      93.3%
+
+## Adding More Flowers to Test
+
+1) Find the flower folder under photo/ (e.g., photo/016_Celosia/open/)
+2) Pick 3 photos from the open/ subfolder
+3) Add an entry to test_flowers.json:
+   {
+     "expected_name": "celosia",
+     "image_paths": [
+       "photo/016_Celosia/open/open_00001_xxx.jpg",
+       "photo/016_Celosia/open/open_00002_xxx.jpg",
+       "photo/016_Celosia/open/open_00003_xxx.jpg"
+     ],
+     "folder_name": "016_Celosia"
+   }
+
+## Matching Logic
+
+- Case-insensitive "contains" match
+- Expected name "rose" matches labels like "Rose", "Rose family", "Garden roses"
+- Tier 1 (Label Detection) returns up to 15 labels with confidence scores
+- Tier 2 (Web Detection) returns web entity names from reverse image search
+- If any photo in the set matches on any tier, the flower is DETECTED
+
+## Notes
+
+- Photos must be from the "open" subfolder (open state flowers)
+- The API struggles with less common flowers (e.g., Statice, Ageratum)
+- Web Detection often catches flowers that Label Detection misses
+- Retries help by testing different photos of the same flower
