@@ -1,0 +1,137 @@
+[
+  {
+    "expected_name": "anemone",
+    "image_paths": [
+      "photo/001_Anemone/open/open_00005_pexels_18568132.jpg",
+      "photo/001_Anemone/open/open_00019_pexels_33815679.jpg",
+      "photo/001_Anemone/open/open_00023_pexels_35341651.jpg"
+    ],
+    "folder_name": "001_Anemone"
+  },
+  {
+    "expected_name": "rose",
+    "image_paths": [
+      "photo/002_Rose/open/open_00002_pexels_38251394.jpg",
+      "photo/002_Rose/open/open_00006_pexels_38531905.jpg",
+      "photo/002_Rose/open/open_00008_pexels_12912281.jpg"
+    ],
+    "folder_name": "002_Rose"
+  },
+  {
+    "expected_name": "sunflower",
+    "image_paths": [
+      "photo/003_Sunflower/open/open_00001_pexels_24031401.jpg",
+      "photo/003_Sunflower/open/open_00003_pexels_35556272.jpg",
+      "photo/003_Sunflower/open/open_00004_pexels_11357536.jpg"
+    ],
+    "folder_name": "003_Sunflower"
+  },
+  {
+    "expected_name": "tulip",
+    "image_paths": [
+      "photo/004_Tulip/open/open_00003_pexels_31628440.jpg",
+      "photo/004_Tulip/open/open_00006_pexels_38152700.jpg",
+      "photo/004_Tulip/open/open_00009_pexels_38656981.jpg"
+    ],
+    "folder_name": "004_Tulip"
+  },
+  {
+    "expected_name": "daffodil",
+    "image_paths": [
+      "photo/005_Daffodil/open/open_00008_pexels_36673109.jpg",
+      "photo/005_Daffodil/open/open_00010_pexels_7419801.jpg",
+      "photo/005_Daffodil/open/open_00043_pexels_31584394.jpg"
+    ],
+    "folder_name": "005_Daffodil"
+  },
+  {
+    "expected_name": "lily",
+    "image_paths": [
+      "photo/006_Lily/open/open_00002_pexels_38173703.jpg",
+      "photo/006_Lily/open/open_00006_pexels_33376867.jpg",
+      "photo/006_Lily/open/open_00007_pexels_33136666.jpg"
+    ],
+    "folder_name": "006_Lily"
+  },
+  {
+    "expected_name": "sage",
+    "image_paths": [
+      "photo/007_Sage/open/open_00011_pexels_37809661.jpg",
+      "photo/007_Sage/open/open_00013_pexels_37706156.jpg",
+      "photo/007_Sage/open/open_00014_pexels_35245531.jpg"
+    ],
+    "folder_name": "007_Sage"
+  },
+  {
+    "expected_name": "ageratum",
+    "image_paths": [
+      "photo/008_Ageratum/open/open_00037_perenual_622.jpg",
+      "photo/008_Ageratum/open/open_00038_unsplash_Rgq8ZBRASII.jpg",
+      "photo/008_Ageratum/open/open_00040_unsplash_1UQj1xltx0o.jpg"
+    ],
+    "folder_name": "008_Ageratum"
+  },
+  {
+    "expected_name": "statice",
+    "image_paths": [
+      "photo/009_Statice_Limonium/open/open_00016_pexels_35639604.jpg",
+      "photo/009_Statice_Limonium/open/open_00031_pexels_38325815.jpg",
+      "photo/009_Statice_Limonium/open/open_00038_pexels_38464665.jpg"
+    ],
+    "folder_name": "009_Statice_Limonium"
+  },
+  {
+    "expected_name": "geranium",
+    "image_paths": [
+      "photo/010_Geranium/open/open_00009_pexels_16017962.jpg",
+      "photo/010_Geranium/open/open_00052_pexels_33020809.jpg",
+      "photo/010_Geranium/open/open_00066_pexels_32785622.jpg"
+    ],
+    "folder_name": "010_Geranium"
+  },
+  {
+    "expected_name": "petunia",
+    "image_paths": [
+      "photo/011_Petunia/open/open_00026_pexels_1414037.jpg",
+      "photo/011_Petunia/open/open_00039_pexels_38834808.jpg",
+      "photo/011_Petunia/open/open_00044_pexels_33804049.jpg"
+    ],
+    "folder_name": "011_Petunia"
+  },
+  {
+    "expected_name": "poppy",
+    "image_paths": [
+      "photo/012_Poppy/open/open_00001_pexels_32605907.jpg",
+      "photo/012_Poppy/open/open_00004_pexels_37923134.jpg",
+      "photo/012_Poppy/open/open_00012_pexels_32605972.jpg"
+    ],
+    "folder_name": "012_Poppy"
+  },
+  {
+    "expected_name": "dahlia",
+    "image_paths": [
+      "photo/013_Dahlia/open/open_00017_pexels_36543222.jpg",
+      "photo/013_Dahlia/open/open_00021_pexels_13610690.jpg",
+      "photo/013_Dahlia/open/open_00039_pexels_38586957.jpg"
+    ],
+    "folder_name": "013_Dahlia"
+  },
+  {
+    "expected_name": "zinnia",
+    "image_paths": [
+      "photo/014_Zinnia/open/open_00001_pexels_23615938.jpg",
+      "photo/014_Zinnia/open/open_00003_pexels_31636404.jpg",
+      "photo/014_Zinnia/open/open_00005_pexels_37507062.jpg"
+    ],
+    "folder_name": "014_Zinnia"
+  },
+  {
+    "expected_name": "cosmos",
+    "image_paths": [
+      "photo/015_Cosmos/open/open_00001_pexels_29826505.jpg",
+      "photo/015_Cosmos/open/open_00002_pexels_11056904.jpg",
+      "photo/015_Cosmos/open/open_00003_pexels_11355020.jpg"
+    ],
+    "folder_name": "015_Cosmos"
+  }
+]
