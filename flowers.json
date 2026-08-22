@@ -1,0 +1,7458 @@
+[
+  {
+    "id": 1,
+    "hebrewName": "אדמונית",
+    "englishName": "Anemone",
+    "scientificName": "Anemone coronaria",
+    "commonNames": [
+      "Windflower",
+      "Poppy Anemone"
+    ],
+    "size": {
+      "height": "30-50 cm",
+      "width": "20-30 cm",
+      "spreadType": "compact"
+    },
+    "family": "Ranunculaceae",
+    "soilPH": {
+      "min": 3.5,
+      "max": 7,
+      "optimal": 6.5,
+      "description": "Slightly acidic to neutral"
+    },
+    "colors": [
+      "red",
+      "white",
+      "blue",
+      "purple",
+      "pink"
+    ],
+    "bloomSeason": {
+      "start": "February",
+      "end": "May",
+      "description": "Late winter to spring"
+    },
+    "vaseLife": {
+      "days": "7-10",
+      "tips": "Cut stems at an angle, change water every 2 days, keep away from direct sunlight"
+    },
+    "symbolism": [
+      "anticipation",
+      "protection against evil",
+      "fragility"
+    ],
+    "nativeRegion": "Mediterranean",
+    "toxicity": "Mildly toxic - contains protoanemonin",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "waterUse": {
+      "frequency": "moderate",
+      "amount": "10-15 mm per week",
+      "soilMoisture": "moist but not waterlogged"
+    },
+    "temperature": {
+      "min": 5,
+      "max": 20,
+      "unit": "°C",
+      "preferredRange": "12-18°C"
+    },
+    "petalCount": {
+      "min": 5,
+      "max": 8
+    },
+    "petalTurgorPressure": {
+      "closeOptimal": 0.35,
+      "openOptimal": 0.5,
+      "unit": "MPa"
+    },
+    "preservation": {
+      "ethyleneSensitivity": "3",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-75",
+          "concentrationRate": "0.5",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "3",
+        "description": "moderate sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "coltar 0.1"
+    }
+  },
+  {
+    "id": 2,
+    "hebrewName": "ורד",
+    "englishName": "Rose",
+    "scientificName": "Rosa hybrida",
+    "commonNames": [
+      "Rose"
+    ],
+    "size": {
+      "height": "60-150 cm",
+      "width": "40-100 cm",
+      "spreadType": "shrub"
+    },
+    "family": "Rosaceae",
+    "soilPH": {
+      "min": 3.5,
+      "max": 7,
+      "optimal": 6.5,
+      "description": "Slightly acidic to neutral"
+    },
+    "colors": [
+      "red",
+      "white",
+      "pink",
+      "yellow",
+      "orange",
+      "lavender",
+      "peach"
+    ],
+    "bloomSeason": {
+      "start": "May",
+      "end": "September",
+      "description": "Spring through fall, peak in summer"
+    },
+    "vaseLife": {
+      "days": "7-14",
+      "tips": "Remove lower leaves, cut stems underwater at 45 degrees, use flower food, change water every 2 days"
+    },
+    "symbolism": [
+      "love",
+      "beauty",
+      "honor",
+      "faith",
+      "devotion"
+    ],
+    "nativeRegion": "Asia, Europe, North America",
+    "toxicity": "Non-toxic (thorns can cause injury)",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "hummingbirds"
+    ],
+    "waterUse": {
+      "frequency": "regular",
+      "amount": "2.5-5 cm per week",
+      "soilMoisture": "evenly moist"
+    },
+    "temperature": {
+      "min": 10,
+      "max": 25,
+      "unit": "°C",
+      "preferredRange": "15-22°C"
+    },
+    "petalCount": {
+      "min": 20,
+      "max": 60
+    },
+    "petalTurgorPressure": {
+      "closeOptimal": 0.38,
+      "openOptimal": 0.55,
+      "unit": "MPa"
+    },
+    "preservation": {
+      "ethyleneSensitivity": "1 (2)",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-75",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-Galileo",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1 (2)",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    }
+  },
+  {
+    "id": 3,
+    "hebrewName": "חמניה",
+    "englishName": "Sunflower",
+    "scientificName": "Helianthus annuus",
+    "commonNames": [
+      "Sunflower",
+      "Common Sunflower"
+    ],
+    "size": {
+      "height": "100-250 cm",
+      "width": "30-60 cm",
+      "spreadType": "tall upright"
+    },
+    "family": "Asteraceae",
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 6.5,
+      "description": "Slightly acidic to slightly alkaline"
+    },
+    "colors": [
+      "yellow",
+      "orange",
+      "red",
+      "cream",
+      "burgundy",
+      "bicolor"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "October",
+      "description": "Midsummer to early fall"
+    },
+    "vaseLife": {
+      "days": "6-12",
+      "tips": "Remove all leaves below waterline, use warm water with flower food, recut stems every 2-3 days"
+    },
+    "symbolism": [
+      "adoration",
+      "loyalty",
+      "longevity",
+      "happiness",
+      "warmth"
+    ],
+    "nativeRegion": "North America",
+    "toxicity": "Non-toxic, seeds are edible",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "birds"
+    ],
+    "waterUse": {
+      "frequency": "moderate",
+      "amount": "2.5-5 cm per week",
+      "soilMoisture": "moist"
+    },
+    "temperature": {
+      "min": 15,
+      "max": 30,
+      "unit": "°C",
+      "preferredRange": "20-28°C"
+    },
+    "petalCount": {
+      "min": 20,
+      "max": 100
+    },
+    "petalTurgorPressure": {
+      "closeOptimal": 0.35,
+      "openOptimal": 0.5,
+      "unit": "MPa"
+    },
+    "preservation": {
+      "ethyleneSensitivity": "2",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-75",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-Galileo",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "TOG-L-101",
+          "concentrationRate": "0.5",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "2",
+        "description": "low sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    }
+  },
+  {
+    "id": 4,
+    "hebrewName": "טוליפ",
+    "englishName": "Tulip",
+    "scientificName": "Tulipa spp.",
+    "commonNames": [
+      "Tulip"
+    ],
+    "size": {
+      "height": "10-70 cm",
+      "width": "10-20 cm",
+      "spreadType": "upright"
+    },
+    "family": "Liliaceae",
+    "soilPH": {
+      "min": 3.5,
+      "max": 7,
+      "optimal": 6.5,
+      "description": "Slightly acidic to neutral"
+    },
+    "colors": [
+      "red",
+      "yellow",
+      "pink",
+      "purple",
+      "white",
+      "orange",
+      "bicolor"
+    ],
+    "bloomSeason": {
+      "start": "March",
+      "end": "May",
+      "description": "Early to late spring"
+    },
+    "vaseLife": {
+      "days": "5-7",
+      "tips": "Keep in cool location, stems continue to grow in vase, use cold water, avoid placing near fruit"
+    },
+    "symbolism": [
+      "perfect love",
+      "rebirth",
+      "spring",
+      "prosperity",
+      "new beginnings"
+    ],
+    "nativeRegion": "Central Asia, Turkey",
+    "toxicity": "Mildly toxic to pets and humans",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "waterUse": {
+      "frequency": "moderate",
+      "amount": "1.25-2.5 cm per week",
+      "soilMoisture": "moist during growth"
+    },
+    "temperature": {
+      "min": 2,
+      "max": 18,
+      "unit": "°C",
+      "preferredRange": "8-15°C"
+    },
+    "petalCount": {
+      "min": 6,
+      "max": 6
+    },
+    "petalTurgorPressure": {
+      "closeOptimal": 0.35,
+      "openOptimal": 0.5,
+      "unit": "MPa"
+    },
+    "preservation": {
+      "ethyleneSensitivity": null,
+      "farmerTreatment": [],
+      "customerTreatment": [],
+      "ethyleneSensitivityScale": {
+        "value": null,
+        "description": "not rated",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    }
+  },
+  {
+    "id": 5,
+    "hebrewName": "דלילה",
+    "englishName": "Daffodil",
+    "scientificName": "Narcissus spp.",
+    "commonNames": [
+      "Daffodil",
+      "Narcissus",
+      "Jonquil"
+    ],
+    "size": {
+      "height": "15-60 cm",
+      "width": "10-15 cm",
+      "spreadType": "upright"
+    },
+    "family": "Amaryllidaceae",
+    "soilPH": {
+      "min": 3.5,
+      "max": 7,
+      "optimal": 6.5,
+      "description": "Slightly acidic to neutral"
+    },
+    "colors": [
+      "yellow",
+      "white",
+      "orange",
+      "bicolor"
+    ],
+    "bloomSeason": {
+      "start": "February",
+      "end": "April",
+      "description": "Late winter to early spring"
+    },
+    "vaseLife": {
+      "days": "5-10",
+      "tips": "Condition separately first (sap can harm other flowers), do not recut stems after initial conditioning"
+    },
+    "symbolism": [
+      "new beginnings",
+      "rebirth",
+      "prosperity",
+      "hope",
+      "self-reflection"
+    ],
+    "nativeRegion": "Mediterranean, Western Europe",
+    "toxicity": "Toxic - contains lycorine, harmful to pets and humans",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "waterUse": {
+      "frequency": "moderate",
+      "amount": "1.25-2.5 cm per week",
+      "soilMoisture": "moist but well-drained"
+    },
+    "temperature": {
+      "min": 3,
+      "max": 20,
+      "unit": "°C",
+      "preferredRange": "10-18°C"
+    },
+    "petalCount": {
+      "min": 6,
+      "max": 6
+    },
+    "petalTurgorPressure": {
+      "closeOptimal": 0.35,
+      "openOptimal": 0.5,
+      "unit": "MPa"
+    },
+    "preservation": {
+      "ethyleneSensitivity": null,
+      "farmerTreatment": [],
+      "customerTreatment": [],
+      "ethyleneSensitivityScale": {
+        "value": null,
+        "description": "not rated",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    }
+  },
+  {
+    "id": 6,
+    "hebrewName": "שושנה",
+    "englishName": "Lily",
+    "scientificName": "Lilium spp.",
+    "commonNames": [
+      "Lily",
+      "Asiatic Lily",
+      "Oriental Lily"
+    ],
+    "size": {
+      "height": "60-200 cm",
+      "width": "20-40 cm",
+      "spreadType": "upright"
+    },
+    "family": "Liliaceae",
+    "soilPH": {
+      "min": 3.5,
+      "max": 6.5,
+      "optimal": 6,
+      "description": "Slightly acidic"
+    },
+    "colors": [
+      "white",
+      "pink",
+      "red",
+      "orange",
+      "yellow",
+      "purple"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "August",
+      "description": "Early to late summer"
+    },
+    "vaseLife": {
+      "days": "10-14",
+      "tips": "Remove pollen anthers to avoid staining, recut stems, buds will continue opening in vase"
+    },
+    "symbolism": [
+      "purity",
+      "devotion",
+      "rebirth",
+      "motherhood",
+      "royalty"
+    ],
+    "nativeRegion": "Northern Hemisphere temperate regions",
+    "toxicity": "Highly toxic to cats, mildly toxic to dogs and humans",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "moths"
+    ],
+    "waterUse": {
+      "frequency": "moderate",
+      "amount": "2.5-5 cm per week",
+      "soilMoisture": "well-drained, evenly moist"
+    },
+    "temperature": {
+      "min": 10,
+      "max": 25,
+      "unit": "°C",
+      "preferredRange": "15-22°C"
+    },
+    "petalCount": {
+      "min": 6,
+      "max": 6
+    },
+    "petalTurgorPressure": {
+      "closeOptimal": 0.35,
+      "openOptimal": 0.5,
+      "unit": "MPa"
+    },
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        }
+      ],
+      "customerTreatment": [],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "salt 0.3"
+    }
+  },
+  {
+    "id": 7,
+    "hebrewName": "סלווי",
+    "englishName": "Sage",
+    "scientificName": "Salvia spp.",
+    "commonNames": [
+      "Sage",
+      "Salvia"
+    ],
+    "size": {
+      "height": "30-90 cm",
+      "width": "30-60 cm",
+      "spreadType": "bushy"
+    },
+    "family": "Lamiaceae",
+    "soilPH": {
+      "min": 3.5,
+      "max": 7,
+      "optimal": 6.5,
+      "description": "Slightly acidic to neutral"
+    },
+    "colors": [
+      "blue",
+      "purple",
+      "red",
+      "white",
+      "pink"
+    ],
+    "bloomSeason": {
+      "start": "May",
+      "end": "October",
+      "description": "Late spring through fall"
+    },
+    "vaseLife": {
+      "days": "5-7",
+      "tips": "Strip lower foliage, use clean water, keep in cool spot"
+    },
+    "symbolism": [
+      "wisdom",
+      "health",
+      "longevity",
+      "virtue",
+      "immortality"
+    ],
+    "nativeRegion": "Mediterranean, Central America",
+    "toxicity": "Non-toxic, many species are culinary herbs",
+    "pollinators": [
+      "bees",
+      "hummingbirds",
+      "butterflies"
+    ],
+    "waterUse": {
+      "frequency": "low",
+      "amount": "1.25-2.5 cm per week",
+      "soilMoisture": "dry to moderate"
+    },
+    "temperature": {
+      "min": 5,
+      "max": 35,
+      "unit": "°C",
+      "preferredRange": "15-25°C"
+    },
+    "petalCount": {
+      "min": 2,
+      "max": 5
+    },
+    "petalTurgorPressure": {
+      "closeOptimal": 0.35,
+      "openOptimal": 0.5,
+      "unit": "MPa"
+    },
+    "preservation": {
+      "ethyleneSensitivity": null,
+      "farmerTreatment": [],
+      "customerTreatment": [],
+      "ethyleneSensitivityScale": {
+        "value": null,
+        "description": "not rated",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    }
+  },
+  {
+    "id": 8,
+    "hebrewName": "אגרטום",
+    "englishName": "Ageratum",
+    "scientificName": "Ageratum houstonianum",
+    "commonNames": [
+      "Ageratum",
+      "Floss Flower"
+    ],
+    "size": {
+      "height": "20-60 cm",
+      "width": "20-45 cm",
+      "spreadType": "compact mound"
+    },
+    "family": "Asteraceae",
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 6.5,
+      "description": "Slightly acidic to slightly alkaline"
+    },
+    "colors": [
+      "blue",
+      "purple",
+      "pink",
+      "white"
+    ],
+    "bloomSeason": {
+      "start": "May",
+      "end": "October",
+      "description": "Late spring to first frost"
+    },
+    "vaseLife": {
+      "days": "7-10",
+      "tips": "Cut when flowers are fully open, change water frequently"
+    },
+    "symbolism": [
+      "politeness",
+      "trust"
+    ],
+    "nativeRegion": "Central America, Mexico",
+    "toxicity": "Mildly toxic to pets",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "waterUse": {
+      "frequency": "moderate",
+      "amount": "1.25-2.5 cm per week",
+      "soilMoisture": "evenly moist"
+    },
+    "temperature": {
+      "min": 10,
+      "max": 28,
+      "unit": "°C",
+      "preferredRange": "18-24°C"
+    },
+    "petalCount": {
+      "min": 15,
+      "max": 40
+    },
+    "petalTurgorPressure": {
+      "closeOptimal": 0.35,
+      "openOptimal": 0.5,
+      "unit": "MPa"
+    },
+    "preservation": {
+      "ethyleneSensitivity": "2",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-3",
+          "concentrationRate": "0.15",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-75",
+          "concentrationRate": "0.25",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "2",
+        "description": "low sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    }
+  },
+  {
+    "id": 9,
+    "hebrewName": "סטטיצה",
+    "englishName": "Statice/Limonium",
+    "scientificName": "Limonium sinuatum",
+    "commonNames": [
+      "Statice",
+      "Sea Lavender",
+      "Limonium"
+    ],
+    "size": {
+      "height": "45-75 cm",
+      "width": "30-45 cm",
+      "spreadType": "upright"
+    },
+    "family": "Plumbaginaceae",
+    "soilPH": {
+      "min": 3.5,
+      "max": 8,
+      "optimal": 7,
+      "description": "Neutral to slightly alkaline, tolerates wide range"
+    },
+    "colors": [
+      "blue",
+      "purple",
+      "yellow",
+      "white",
+      "pink",
+      "salmon"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "September",
+      "description": "Summer, available year-round as cut flower"
+    },
+    "vaseLife": {
+      "days": "7-10",
+      "tips": "Excellent for drying - hang upside down in dark warm place; lasts weeks as dried flower"
+    },
+    "symbolism": [
+      "remembrance",
+      "sympathy",
+      "success"
+    ],
+    "nativeRegion": "Mediterranean, Central Asia",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "waterUse": {
+      "frequency": "low to moderate",
+      "amount": "1.25-2.5 cm per week",
+      "soilMoisture": "dry to moderate"
+    },
+    "temperature": {
+      "min": 5,
+      "max": 30,
+      "unit": "°C",
+      "preferredRange": "15-24°C"
+    },
+    "petalCount": {
+      "min": 5,
+      "max": 10
+    },
+    "petalTurgorPressure": {
+      "closeOptimal": 0.35,
+      "openOptimal": 0.5,
+      "unit": "MPa"
+    },
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Sugar",
+          "concentrationRate": "0.2",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    }
+  },
+  {
+    "id": 10,
+    "hebrewName": "גרניום",
+    "englishName": "Geranium",
+    "scientificName": "Pelargonium spp.",
+    "commonNames": [
+      "Geranium",
+      "Pelargonium",
+      "Cranesbill"
+    ],
+    "size": {
+      "height": "30-60 cm",
+      "width": "30-45 cm",
+      "spreadType": "bushy"
+    },
+    "family": "Geraniaceae",
+    "soilPH": {
+      "min": 3.5,
+      "max": 6.5,
+      "optimal": 6.2,
+      "description": "Slightly acidic"
+    },
+    "colors": [
+      "red",
+      "pink",
+      "white",
+      "salmon",
+      "lavender",
+      "bicolor"
+    ],
+    "bloomSeason": {
+      "start": "May",
+      "end": "October",
+      "description": "Late spring through fall"
+    },
+    "vaseLife": {
+      "days": "5-7",
+      "tips": "Cut when most florets are open, remove spent flowers, use flower food"
+    },
+    "symbolism": [
+      "friendship",
+      "happiness",
+      "good health",
+      "comfort"
+    ],
+    "nativeRegion": "South Africa",
+    "toxicity": "Mildly toxic to pets",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "waterUse": {
+      "frequency": "moderate",
+      "amount": "1.25-2.5 cm per week",
+      "soilMoisture": "moist but not waterlogged"
+    },
+    "temperature": {
+      "min": 5,
+      "max": 28,
+      "unit": "°C",
+      "preferredRange": "15-22°C"
+    },
+    "petalCount": {
+      "min": 5,
+      "max": 5
+    },
+    "petalTurgorPressure": {
+      "closeOptimal": 0.35,
+      "openOptimal": 0.5,
+      "unit": "MPa"
+    },
+    "preservation": {
+      "ethyleneSensitivity": null,
+      "farmerTreatment": [],
+      "customerTreatment": [],
+      "ethyleneSensitivityScale": {
+        "value": null,
+        "description": "not rated",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    }
+  },
+  {
+    "id": 11,
+    "hebrewName": "פטוניה",
+    "englishName": "Petunia",
+    "scientificName": "Petunia × hybrida",
+    "commonNames": [
+      "Petunia"
+    ],
+    "size": {
+      "height": "20-60 cm",
+      "width": "30-90 cm",
+      "spreadType": "spreading"
+    },
+    "family": "Solanaceae",
+    "soilPH": {
+      "min": 3.5,
+      "max": 6.5,
+      "optimal": 6,
+      "description": "Slightly acidic"
+    },
+    "colors": [
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "bicolor",
+      "striped"
+    ],
+    "bloomSeason": {
+      "start": "April",
+      "end": "October",
+      "description": "Spring through first frost"
+    },
+    "vaseLife": {
+      "days": "3-5",
+      "tips": "Best as garden flower; for cutting, harvest in early morning and use flower preservative"
+    },
+    "symbolism": [
+      "desire",
+      "comfort",
+      "soothing presence",
+      "resentment (in some traditions)"
+    ],
+    "nativeRegion": "South America",
+    "toxicity": "Non-toxic to humans and pets",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "hummingbirds",
+      "moths"
+    ],
+    "waterUse": {
+      "frequency": "moderate",
+      "amount": "1.25-2.5 cm per week",
+      "soilMoisture": "moist"
+    },
+    "temperature": {
+      "min": 10,
+      "max": 32,
+      "unit": "°C",
+      "preferredRange": "18-26°C"
+    },
+    "petalCount": {
+      "min": 5,
+      "max": 5
+    },
+    "petalTurgorPressure": {
+      "closeOptimal": 0.35,
+      "openOptimal": 0.5,
+      "unit": "MPa"
+    },
+    "preservation": {
+      "ethyleneSensitivity": null,
+      "farmerTreatment": [],
+      "customerTreatment": [],
+      "ethyleneSensitivityScale": {
+        "value": null,
+        "description": "not rated",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    }
+  },
+  {
+    "id": 12,
+    "hebrewName": "כלנית",
+    "englishName": "Poppy",
+    "scientificName": "Papaver spp.",
+    "commonNames": [
+      "Poppy",
+      "Corn Poppy",
+      "Field Poppy"
+    ],
+    "size": {
+      "height": "30-90 cm",
+      "width": "30-45 cm",
+      "spreadType": "upright"
+    },
+    "family": "Papaveraceae",
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 7,
+      "description": "Neutral to slightly alkaline"
+    },
+    "colors": [
+      "red",
+      "orange",
+      "yellow",
+      "white",
+      "pink",
+      "purple"
+    ],
+    "bloomSeason": {
+      "start": "May",
+      "end": "July",
+      "description": "Late spring to midsummer"
+    },
+    "vaseLife": {
+      "days": "3-5",
+      "tips": "Sear stem ends with flame immediately after cutting, use cold water, handle gently"
+    },
+    "symbolism": [
+      "remembrance",
+      "sleep",
+      "peace",
+      "consolation",
+      "imagination"
+    ],
+    "nativeRegion": "Europe, Asia",
+    "toxicity": "Some species contain alkaloids; mildly toxic",
+    "pollinators": [
+      "bees",
+      "beetles"
+    ],
+    "waterUse": {
+      "frequency": "low to moderate",
+      "amount": "1.25-2.5 cm per week",
+      "soilMoisture": "dry to moderate, well-drained"
+    },
+    "temperature": {
+      "min": 5,
+      "max": 25,
+      "unit": "°C",
+      "preferredRange": "12-20°C"
+    },
+    "petalCount": {
+      "min": 4,
+      "max": 6
+    },
+    "petalTurgorPressure": {
+      "closeOptimal": 0.35,
+      "openOptimal": 0.5,
+      "unit": "MPa"
+    },
+    "preservation": {
+      "ethyleneSensitivity": null,
+      "farmerTreatment": [],
+      "customerTreatment": [],
+      "ethyleneSensitivityScale": {
+        "value": null,
+        "description": "not rated",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    }
+  },
+  {
+    "id": 13,
+    "hebrewName": "ניצן",
+    "englishName": "Dahlia",
+    "scientificName": "Dahlia spp.",
+    "commonNames": [
+      "Dahlia"
+    ],
+    "size": {
+      "height": "60-150 cm",
+      "width": "45-90 cm",
+      "spreadType": "upright bushy"
+    },
+    "family": "Asteraceae",
+    "soilPH": {
+      "min": 3.5,
+      "max": 6.5,
+      "optimal": 6.2,
+      "description": "Slightly acidic"
+    },
+    "colors": [
+      "red",
+      "pink",
+      "orange",
+      "yellow",
+      "white",
+      "purple",
+      "bicolor"
+    ],
+    "bloomSeason": {
+      "start": "July",
+      "end": "October",
+      "description": "Midsummer to first frost, 3-4 month bloom period"
+    },
+    "vaseLife": {
+      "days": "4-6",
+      "tips": "Cut in early morning, dip stems in hot water for 10 seconds, use flower food, change water daily"
+    },
+    "symbolism": [
+      "elegance",
+      "dignity",
+      "inner strength",
+      "creativity",
+      "change"
+    ],
+    "nativeRegion": "Mexico, Central America",
+    "toxicity": "Mildly toxic to pets",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "beetles"
+    ],
+    "waterUse": {
+      "frequency": "regular",
+      "amount": "2.5-5 cm per week",
+      "soilMoisture": "evenly moist, well-drained"
+    },
+    "temperature": {
+      "min": 10,
+      "max": 28,
+      "unit": "°C",
+      "preferredRange": "15-24°C"
+    },
+    "petalCount": {
+      "min": 20,
+      "max": 200
+    },
+    "petalTurgorPressure": {
+      "closeOptimal": 0.35,
+      "openOptimal": 0.5,
+      "unit": "MPa"
+    },
+    "preservation": {
+      "ethyleneSensitivity": null,
+      "farmerTreatment": [],
+      "customerTreatment": [],
+      "ethyleneSensitivityScale": {
+        "value": null,
+        "description": "not rated",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    }
+  },
+  {
+    "id": 14,
+    "hebrewName": "זינניה",
+    "englishName": "Zinnia",
+    "scientificName": "Zinnia elegans",
+    "commonNames": [
+      "Zinnia",
+      "Youth-and-age"
+    ],
+    "size": {
+      "height": "30-90 cm",
+      "width": "30-60 cm",
+      "spreadType": "bushy upright"
+    },
+    "family": "Asteraceae",
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 6.5,
+      "description": "Slightly acidic to slightly alkaline"
+    },
+    "colors": [
+      "red",
+      "orange",
+      "yellow",
+      "pink",
+      "purple",
+      "white",
+      "green",
+      "bicolor"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "October",
+      "description": "Summer through first frost"
+    },
+    "vaseLife": {
+      "days": "7-12",
+      "tips": "Use wiggle test - only cut when stem is firm; condition in deep water immediately; recut every 2 days"
+    },
+    "symbolism": [
+      "lasting affection",
+      "remembrance of absent friends",
+      "goodness",
+      "endurance"
+    ],
+    "nativeRegion": "Mexico",
+    "toxicity": "Non-toxic to humans and pets",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "hummingbirds"
+    ],
+    "waterUse": {
+      "frequency": "moderate",
+      "amount": "2.5-5 cm per week",
+      "soilMoisture": "moist but well-drained"
+    },
+    "temperature": {
+      "min": 15,
+      "max": 32,
+      "unit": "°C",
+      "preferredRange": "20-28°C"
+    },
+    "petalCount": {
+      "min": 8,
+      "max": 40
+    },
+    "petalTurgorPressure": {
+      "closeOptimal": 0.35,
+      "openOptimal": 0.5,
+      "unit": "MPa"
+    },
+    "preservation": {
+      "ethyleneSensitivity": null,
+      "farmerTreatment": [],
+      "customerTreatment": [],
+      "ethyleneSensitivityScale": {
+        "value": null,
+        "description": "not rated",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    }
+  },
+  {
+    "id": 15,
+    "hebrewName": "קוספיה",
+    "englishName": "Cosmos",
+    "scientificName": "Cosmos bipinnatus",
+    "commonNames": [
+      "Cosmos",
+      "Mexican Aster"
+    ],
+    "size": {
+      "height": "60-120 cm",
+      "width": "45-60 cm",
+      "spreadType": "upright airy"
+    },
+    "family": "Asteraceae",
+    "soilPH": {
+      "min": 3.5,
+      "max": 7,
+      "optimal": 6.5,
+      "description": "Slightly acidic to neutral"
+    },
+    "colors": [
+      "pink",
+      "white",
+      "red",
+      "orange",
+      "yellow",
+      "chocolate"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "October",
+      "description": "Early summer through first frost"
+    },
+    "vaseLife": {
+      "days": "5-7",
+      "tips": "Sear stem ends to extend life, keep water clean, cut when petals just start to unfurl"
+    },
+    "symbolism": [
+      "order",
+      "harmony",
+      "balance",
+      "peace",
+      "joy in love"
+    ],
+    "nativeRegion": "Mexico, Central America",
+    "toxicity": "Non-toxic to humans and pets",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "birds"
+    ],
+    "waterUse": {
+      "frequency": "low",
+      "amount": "1.25-2.5 cm per week",
+      "soilMoisture": "dry to moderate"
+    },
+    "temperature": {
+      "min": 10,
+      "max": 30,
+      "unit": "°C",
+      "preferredRange": "18-26°C"
+    },
+    "petalCount": {
+      "min": 8,
+      "max": 8
+    },
+    "petalTurgorPressure": {
+      "closeOptimal": 0.35,
+      "openOptimal": 0.5,
+      "unit": "MPa"
+    },
+    "preservation": {
+      "ethyleneSensitivity": null,
+      "farmerTreatment": [],
+      "customerTreatment": [],
+      "ethyleneSensitivityScale": {
+        "value": null,
+        "description": "not rated",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    }
+  },
+  {
+    "id": 16,
+    "hebrewName": "סנדיפלום",
+    "englishName": "Celosia",
+    "scientificName": "Celosia argentea",
+    "commonNames": [
+      "Celosia",
+      "Cockscomb",
+      "Plumed Cockscomb"
+    ],
+    "size": {
+      "height": "30-90 cm",
+      "width": "30-45 cm",
+      "spreadType": "upright"
+    },
+    "family": "Amaranthaceae",
+    "soilPH": {
+      "min": 3.5,
+      "max": 7,
+      "optimal": 6.5,
+      "description": "Slightly acidic to neutral"
+    },
+    "colors": [
+      "red",
+      "orange",
+      "yellow",
+      "pink",
+      "purple",
+      "magenta",
+      "cream"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "October",
+      "description": "Early summer until hard frost"
+    },
+    "vaseLife": {
+      "days": "10-14",
+      "tips": "Excellent for drying; strip lower leaves, use warm water with flower food. Dried blooms last months"
+    },
+    "symbolism": [
+      "boldness",
+      "humor",
+      "warmth",
+      "affection"
+    ],
+    "nativeRegion": "Tropical Africa, Asia",
+    "toxicity": "Non-toxic, some species are edible",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "waterUse": {
+      "frequency": "moderate",
+      "amount": "1.25-2.5 cm per week",
+      "soilMoisture": "moist but well-drained"
+    },
+    "temperature": {
+      "min": 15,
+      "max": 32,
+      "unit": "°C",
+      "preferredRange": "20-28°C"
+    },
+    "petalCount": {
+      "min": 20,
+      "max": 80
+    },
+    "petalTurgorPressure": {
+      "closeOptimal": 0.35,
+      "openOptimal": 0.5,
+      "unit": "MPa"
+    },
+    "preservation": {
+      "ethyleneSensitivity": "2",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-3",
+          "concentrationRate": "0.15",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "2",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "2",
+        "description": "low sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    }
+  },
+  {
+    "id": 17,
+    "hebrewName": "קלרקיה",
+    "englishName": "Clarkia",
+    "scientificName": "Clarkia unguiculata",
+    "commonNames": [
+      "Clarkia",
+      "Godetia",
+      "Farewell-to-spring"
+    ],
+    "size": {
+      "height": "30-60 cm",
+      "width": "20-30 cm",
+      "spreadType": "upright"
+    },
+    "family": "Onagraceae",
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 6.5,
+      "description": "Slightly acidic to slightly alkaline"
+    },
+    "colors": [
+      "pink",
+      "red",
+      "purple",
+      "salmon",
+      "white"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "August",
+      "description": "Early to midsummer"
+    },
+    "vaseLife": {
+      "days": "5-7",
+      "tips": "Cut when lower buds start opening, buds will continue to open; change water daily"
+    },
+    "symbolism": [
+      "grace",
+      "beauty"
+    ],
+    "nativeRegion": "Western North America (California)",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "waterUse": {
+      "frequency": "moderate",
+      "amount": "1.25-2.5 cm per week",
+      "soilMoisture": "moist"
+    },
+    "temperature": {
+      "min": 10,
+      "max": 25,
+      "unit": "°C",
+      "preferredRange": "15-22°C"
+    },
+    "petalCount": {
+      "min": 4,
+      "max": 4
+    },
+    "petalTurgorPressure": {
+      "closeOptimal": 0.35,
+      "openOptimal": 0.5,
+      "unit": "MPa"
+    },
+    "preservation": {
+      "ethyleneSensitivity": null,
+      "farmerTreatment": [],
+      "customerTreatment": [],
+      "ethyleneSensitivityScale": {
+        "value": null,
+        "description": "not rated",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    }
+  },
+  {
+    "id": 18,
+    "hebrewName": "גדיול",
+    "englishName": "Gladiolus",
+    "scientificName": "Gladiolus spp.",
+    "commonNames": [
+      "Gladiolus",
+      "Sword Lily",
+      "Gladiola"
+    ],
+    "size": {
+      "height": "60-150 cm",
+      "width": "10-20 cm",
+      "spreadType": "tall spike"
+    },
+    "family": "Iridaceae",
+    "soilPH": {
+      "min": 3.5,
+      "max": 7,
+      "optimal": 6.5,
+      "description": "Slightly acidic to neutral"
+    },
+    "colors": [
+      "red",
+      "pink",
+      "purple",
+      "yellow",
+      "white",
+      "orange",
+      "green",
+      "bicolor"
+    ],
+    "bloomSeason": {
+      "start": "July",
+      "end": "September",
+      "description": "Mid to late summer, 60-90 days after planting"
+    },
+    "vaseLife": {
+      "days": "7-10",
+      "tips": "Remove top 2-3 buds to help lower flowers open, remove spent florets daily, recut stems"
+    },
+    "symbolism": [
+      "strength",
+      "moral integrity",
+      "honor",
+      "remembrance",
+      "infatuation"
+    ],
+    "nativeRegion": "South Africa, Mediterranean",
+    "toxicity": "Toxic to pets (dogs, cats, horses)",
+    "pollinators": [
+      "bees",
+      "hummingbirds"
+    ],
+    "waterUse": {
+      "frequency": "moderate",
+      "amount": "2.5-5 cm per week",
+      "soilMoisture": "moist but well-drained"
+    },
+    "temperature": {
+      "min": 12,
+      "max": 28,
+      "unit": "°C",
+      "preferredRange": "18-24°C"
+    },
+    "petalCount": {
+      "min": 6,
+      "max": 6
+    },
+    "petalTurgorPressure": {
+      "closeOptimal": 0.35,
+      "openOptimal": 0.5,
+      "unit": "MPa"
+    },
+    "preservation": {
+      "ethyleneSensitivity": "2",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "5-10",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "2",
+        "description": "low sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    }
+  },
+  {
+    "id": 19,
+    "hebrewName": "אכילאה",
+    "englishName": "Achillea",
+    "family": "Asteraceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Achillea millefolium",
+    "commonNames": [
+      "Yarrow",
+      "Milfoil"
+    ],
+    "colors": [
+      "white",
+      "yellow",
+      "pink",
+      "red",
+      "orange"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "September",
+      "description": "Summer"
+    },
+    "vaseLife": {
+      "days": "7-10",
+      "tips": "Strip lower leaves, change water every 2 days"
+    },
+    "symbolism": [
+      "healing",
+      "courage",
+      "protection"
+    ],
+    "nativeRegion": "Europe, Asia, North America",
+    "toxicity": "Mildly toxic to pets",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "beetles"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 6.5,
+      "description": "Slightly acidic to slightly alkaline"
+    }
+  },
+  {
+    "id": 20,
+    "hebrewName": "אקוניטום",
+    "englishName": "Aconitum",
+    "family": "Ranunculaceae",
+    "preservation": {
+      "ethyleneSensitivity": "4",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.3-0.5",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "4",
+        "description": "very high sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Aconitum napellus",
+    "commonNames": [
+      "Monkshood",
+      "Wolfsbane",
+      "Aconite"
+    ],
+    "colors": [
+      "blue",
+      "purple",
+      "white",
+      "pink"
+    ],
+    "bloomSeason": {
+      "start": "July",
+      "end": "September",
+      "description": "Mid to late summer"
+    },
+    "vaseLife": {
+      "days": "5-7",
+      "tips": "Handle with gloves (toxic), cut when lower flowers open"
+    },
+    "symbolism": [
+      "caution",
+      "misanthropy"
+    ],
+    "nativeRegion": "Europe, Asia",
+    "toxicity": "Highly toxic - all parts extremely poisonous",
+    "pollinators": [
+      "bumblebees"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.0,
+      "optimal": 6.0,
+      "description": "Slightly acidic to neutral"
+    }
+  },
+  {
+    "id": 21,
+    "hebrewName": "אדננתוס",
+    "englishName": "Adenanthos",
+    "family": "Proteaceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Adenanthos spp.",
+    "commonNames": [
+      "Woollybush"
+    ],
+    "colors": [
+      "red",
+      "orange",
+      "pink"
+    ],
+    "bloomSeason": {
+      "start": "March",
+      "end": "November",
+      "description": "Spring through fall"
+    },
+    "vaseLife": {
+      "days": "14-21",
+      "tips": "Long lasting foliage; strip lower leaves"
+    },
+    "symbolism": [
+      "resilience",
+      "endurance"
+    ],
+    "nativeRegion": "Australia",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "birds",
+      "bees"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 6.5,
+      "optimal": 6.0,
+      "description": "Acidic to slightly acidic"
+    }
+  },
+  {
+    "id": 22,
+    "hebrewName": "אלסטרומריה",
+    "englishName": "Alstromeria",
+    "family": "Alstroemeriaceae",
+    "preservation": {
+      "ethyleneSensitivity": "3",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-75",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "TOG-L-101",
+          "concentrationRate": "0.15",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "3",
+        "description": "moderate sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Alstroemeria spp.",
+    "commonNames": [
+      "Peruvian Lily",
+      "Lily of the Incas"
+    ],
+    "colors": [
+      "pink",
+      "orange",
+      "yellow",
+      "red",
+      "white",
+      "purple"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "October",
+      "description": "Summer through fall"
+    },
+    "vaseLife": {
+      "days": "10-14",
+      "tips": "Remove lower leaves, recut stems; very long-lasting cut flower"
+    },
+    "symbolism": [
+      "friendship",
+      "devotion",
+      "prosperity"
+    ],
+    "nativeRegion": "South America",
+    "toxicity": "Mildly toxic to pets",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.0,
+      "optimal": 6.5,
+      "description": "Slightly acidic to neutral"
+    }
+  },
+  {
+    "id": 23,
+    "hebrewName": "אסטילבה",
+    "englishName": "Astilbe",
+    "family": "Saxifragaceae",
+    "preservation": {
+      "ethyleneSensitivity": null,
+      "farmerTreatment": [
+        {
+          "productName": "TOG-3",
+          "concentrationRate": "0.3",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        }
+      ],
+      "customerTreatment": [],
+      "ethyleneSensitivityScale": {
+        "value": null,
+        "description": "not rated",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Astilbe spp.",
+    "commonNames": [
+      "Astilbe",
+      "False Spirea"
+    ],
+    "colors": [
+      "pink",
+      "red",
+      "white",
+      "purple",
+      "lavender"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "August",
+      "description": "Early to midsummer"
+    },
+    "vaseLife": {
+      "days": "5-7",
+      "tips": "Cut when half the flowers are open; dries well"
+    },
+    "symbolism": [
+      "patience",
+      "dedication"
+    ],
+    "nativeRegion": "Asia, North America",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 6.5,
+      "optimal": 6.0,
+      "description": "Slightly acidic"
+    }
+  },
+  {
+    "id": 24,
+    "hebrewName": "אמי",
+    "englishName": "Ammi visnaga",
+    "family": "Apiaceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "2",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Ammi visnaga",
+    "commonNames": [
+      "Bishop's Weed",
+      "Khella",
+      "Toothpick Plant"
+    ],
+    "colors": [
+      "white",
+      "green-white"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "September",
+      "description": "Summer"
+    },
+    "vaseLife": {
+      "days": "7-10",
+      "tips": "Cut when most florets are open; great filler flower"
+    },
+    "symbolism": [
+      "sanctuary",
+      "protection"
+    ],
+    "nativeRegion": "Mediterranean",
+    "toxicity": "Mildly toxic",
+    "pollinators": [
+      "bees",
+      "wasps",
+      "flies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 7.0,
+      "description": "Neutral to slightly alkaline"
+    }
+  },
+  {
+    "id": 25,
+    "hebrewName": "אניגוזנתוס",
+    "englishName": "Anigozanthos",
+    "family": "Haemodoraceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Anigozanthos spp.",
+    "commonNames": [
+      "Kangaroo Paw"
+    ],
+    "colors": [
+      "red",
+      "yellow",
+      "orange",
+      "green",
+      "pink"
+    ],
+    "bloomSeason": {
+      "start": "May",
+      "end": "November",
+      "description": "Spring through fall"
+    },
+    "vaseLife": {
+      "days": "10-14",
+      "tips": "Very long-lasting; strip lower leaves, use clean water"
+    },
+    "symbolism": [
+      "uniqueness",
+      "awareness"
+    ],
+    "nativeRegion": "Australia",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "birds",
+      "bees"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 6.5,
+      "optimal": 6.0,
+      "description": "Slightly acidic"
+    }
+  },
+  {
+    "id": 26,
+    "hebrewName": "לוע ארי",
+    "englishName": "Antirrhinum",
+    "family": "Plantaginaceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.5",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "2",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "Alar 0.03%"
+    },
+    "scientificName": "Antirrhinum majus",
+    "commonNames": [
+      "Snapdragon"
+    ],
+    "colors": [
+      "red",
+      "pink",
+      "yellow",
+      "orange",
+      "white",
+      "purple",
+      "bicolor"
+    ],
+    "bloomSeason": {
+      "start": "April",
+      "end": "October",
+      "description": "Spring through fall"
+    },
+    "vaseLife": {
+      "days": "7-12",
+      "tips": "Remove lower leaves, florets open from bottom up; recut stems"
+    },
+    "symbolism": [
+      "grace",
+      "strength",
+      "deviousness"
+    ],
+    "nativeRegion": "Mediterranean",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "bumblebees",
+      "bees"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 6.5,
+      "description": "Slightly acidic to slightly alkaline"
+    }
+  },
+  {
+    "id": 27,
+    "hebrewName": "אראליה",
+    "englishName": "Aralia",
+    "family": "Araliaceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "Ultra fine 0.3+Polar 0.05"
+    },
+    "scientificName": "Aralia spp.",
+    "commonNames": [
+      "Aralia",
+      "Spikenard"
+    ],
+    "colors": [
+      "green",
+      "white"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "August",
+      "description": "Summer"
+    },
+    "vaseLife": {
+      "days": "14-21",
+      "tips": "Used primarily as foliage; long-lasting in arrangements"
+    },
+    "symbolism": [
+      "boldness",
+      "protection"
+    ],
+    "nativeRegion": "Asia, Americas",
+    "toxicity": "Mildly toxic",
+    "pollinators": [
+      "bees",
+      "flies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.0,
+      "optimal": 6.0,
+      "description": "Slightly acidic to neutral"
+    }
+  },
+  {
+    "id": 28,
+    "hebrewName": "אסקלפיאס",
+    "englishName": "Asclpias tuberrosa",
+    "family": "Apocynaceae",
+    "preservation": {
+      "ethyleneSensitivity": "3",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-3",
+          "concentrationRate": "0.15",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.1-0.2",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "3",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "3",
+        "description": "moderate sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Asclepias tuberosa",
+    "commonNames": [
+      "Butterfly Weed",
+      "Milkweed"
+    ],
+    "colors": [
+      "orange",
+      "yellow",
+      "red"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "September",
+      "description": "Summer"
+    },
+    "vaseLife": {
+      "days": "5-8",
+      "tips": "Sear stem ends to stop milky sap; use warm water"
+    },
+    "symbolism": [
+      "letting go",
+      "freedom"
+    ],
+    "nativeRegion": "North America",
+    "toxicity": "Mildly toxic",
+    "pollinators": [
+      "butterflies",
+      "bees",
+      "hummingbirds"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.0,
+      "optimal": 6.5,
+      "description": "Slightly acidic to neutral"
+    }
+  },
+  {
+    "id": 29,
+    "hebrewName": "אספרגוס",
+    "englishName": "Asparagus Myriocladius",
+    "family": "Asparagaceae",
+    "preservation": {
+      "ethyleneSensitivity": "4",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.3",
+          "applicationMethod": "dipping",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "4",
+        "description": "very high sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "Ultra fine 0.2+TOG 6 0.1"
+    },
+    "scientificName": "Asparagus virgatus",
+    "commonNames": [
+      "Tree Fern",
+      "Ming Fern"
+    ],
+    "colors": [
+      "green"
+    ],
+    "bloomSeason": {
+      "start": "Year-round",
+      "end": "",
+      "description": "Foliage plant, year-round availability"
+    },
+    "vaseLife": {
+      "days": "14-21",
+      "tips": "Mist regularly; keep in cool conditions"
+    },
+    "symbolism": [
+      "delicacy",
+      "fascination"
+    ],
+    "nativeRegion": "South Africa",
+    "toxicity": "Mildly toxic to pets",
+    "pollinators": [
+      "bees"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.0,
+      "optimal": 6.5,
+      "description": "Slightly acidic to neutral"
+    }
+  },
+  {
+    "id": 30,
+    "hebrewName": "אספידיסטרה",
+    "englishName": "Aspidistra",
+    "family": "Asparagaceae",
+    "preservation": {
+      "ethyleneSensitivity": "2",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-Galileo",
+          "concentrationRate": "0.2",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Sugar",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "2",
+        "description": "low sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "Ga3 50ppm Ultra Fine 0.2"
+    },
+    "scientificName": "Aspidistra elatior",
+    "commonNames": [
+      "Cast Iron Plant",
+      "Bar Room Plant"
+    ],
+    "colors": [
+      "green",
+      "variegated"
+    ],
+    "bloomSeason": {
+      "start": "Year-round",
+      "end": "",
+      "description": "Foliage plant, year-round"
+    },
+    "vaseLife": {
+      "days": "21-28",
+      "tips": "Extremely long-lasting foliage; wipe leaves clean"
+    },
+    "symbolism": [
+      "endurance",
+      "determination"
+    ],
+    "nativeRegion": "Japan, Taiwan",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "slugs",
+      "amphipods"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.0,
+      "optimal": 6.5,
+      "description": "Slightly acidic to neutral"
+    }
+  },
+  {
+    "id": 31,
+    "hebrewName": "אסתר",
+    "englishName": "Aster",
+    "family": "Asteraceae",
+    "preservation": {
+      "ethyleneSensitivity": "3",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-3",
+          "concentrationRate": "0.15",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.1-0.2",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "3",
+        "description": "moderate sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Aster spp.",
+    "commonNames": [
+      "Aster",
+      "Michaelmas Daisy"
+    ],
+    "colors": [
+      "purple",
+      "blue",
+      "pink",
+      "white"
+    ],
+    "bloomSeason": {
+      "start": "August",
+      "end": "October",
+      "description": "Late summer to fall"
+    },
+    "vaseLife": {
+      "days": "7-14",
+      "tips": "Strip lower foliage, use flower food; recut stems every 3 days"
+    },
+    "symbolism": [
+      "love",
+      "wisdom",
+      "patience",
+      "elegance"
+    ],
+    "nativeRegion": "North America, Europe",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 6.5,
+      "description": "Slightly acidic to slightly alkaline"
+    }
+  },
+  {
+    "id": 32,
+    "hebrewName": "אסתר סינית",
+    "englishName": "Aster Callistephus Chinensis",
+    "family": "Asteraceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Sugar",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Callistephus chinensis",
+    "commonNames": [
+      "China Aster",
+      "Annual Aster"
+    ],
+    "colors": [
+      "purple",
+      "pink",
+      "white",
+      "red",
+      "blue"
+    ],
+    "bloomSeason": {
+      "start": "July",
+      "end": "October",
+      "description": "Midsummer to fall"
+    },
+    "vaseLife": {
+      "days": "7-12",
+      "tips": "Cut when petals are fully open, strip leaves below waterline"
+    },
+    "symbolism": [
+      "patience",
+      "elegance",
+      "daintiness"
+    ],
+    "nativeRegion": "China",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.0,
+      "optimal": 6.5,
+      "description": "Slightly acidic to neutral"
+    }
+  },
+  {
+    "id": 33,
+    "hebrewName": "בנקסיה",
+    "englishName": "Banksia",
+    "family": "Proteaceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-3",
+          "concentrationRate": "0.15",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Sugar",
+          "concentrationRate": "",
+          "applicationMethod": "dipping",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "5",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "Scour 0.1"
+    },
+    "scientificName": "Banksia spp.",
+    "commonNames": [
+      "Banksia",
+      "Australian Honeysuckle"
+    ],
+    "colors": [
+      "yellow",
+      "orange",
+      "red",
+      "pink"
+    ],
+    "bloomSeason": {
+      "start": "March",
+      "end": "August",
+      "description": "Autumn to winter (Southern Hemisphere)"
+    },
+    "vaseLife": {
+      "days": "14-21",
+      "tips": "Very long-lasting; also dries beautifully"
+    },
+    "symbolism": [
+      "resilience",
+      "rebirth"
+    ],
+    "nativeRegion": "Australia",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "birds",
+      "bees",
+      "possums"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 6.5,
+      "optimal": 5.5,
+      "description": "Acidic"
+    }
+  },
+  {
+    "id": 34,
+    "hebrewName": "פעמונית",
+    "englishName": "Campanula",
+    "family": "Campanulaceae",
+    "preservation": {
+      "ethyleneSensitivity": "2",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.1-0.2",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-75",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "2",
+        "description": "low sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Campanula medium",
+    "commonNames": [
+      "Bellflower",
+      "Canterbury Bells"
+    ],
+    "colors": [
+      "blue",
+      "purple",
+      "white",
+      "pink"
+    ],
+    "bloomSeason": {
+      "start": "May",
+      "end": "July",
+      "description": "Late spring to midsummer"
+    },
+    "vaseLife": {
+      "days": "7-10",
+      "tips": "Cut when lower bells open; change water frequently"
+    },
+    "symbolism": [
+      "gratitude",
+      "constancy",
+      "humility"
+    ],
+    "nativeRegion": "Europe",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 6.8,
+      "description": "Neutral"
+    }
+  },
+  {
+    "id": 35,
+    "hebrewName": "קרתמוס",
+    "englishName": "Carthamus",
+    "family": "Asteraceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-3",
+          "concentrationRate": "0.15",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Carthamus tinctorius",
+    "commonNames": [
+      "Safflower"
+    ],
+    "colors": [
+      "orange",
+      "yellow",
+      "red"
+    ],
+    "bloomSeason": {
+      "start": "July",
+      "end": "September",
+      "description": "Summer"
+    },
+    "vaseLife": {
+      "days": "7-10",
+      "tips": "Long-lasting; dries well for dried arrangements"
+    },
+    "symbolism": [
+      "warmth",
+      "caring"
+    ],
+    "nativeRegion": "Middle East, Asia",
+    "toxicity": "Non-toxic, edible oil",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 8.0,
+      "optimal": 7.0,
+      "description": "Neutral to slightly alkaline"
+    }
+  },
+  {
+    "id": 36,
+    "hebrewName": "צסטרום",
+    "englishName": "Cestrum",
+    "family": "Solanaceae",
+    "preservation": {
+      "ethyleneSensitivity": "4",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.3",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "2",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "4",
+        "description": "very high sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "2,4-D 20ppm"
+    },
+    "scientificName": "Cestrum spp.",
+    "commonNames": [
+      "Jessamine",
+      "Night Jasmine"
+    ],
+    "colors": [
+      "yellow",
+      "green",
+      "orange",
+      "red"
+    ],
+    "bloomSeason": {
+      "start": "May",
+      "end": "October",
+      "description": "Spring through fall"
+    },
+    "vaseLife": {
+      "days": "5-7",
+      "tips": "Fragrant at night; keep water fresh"
+    },
+    "symbolism": [
+      "night beauty",
+      "mystery"
+    ],
+    "nativeRegion": "Central & South America",
+    "toxicity": "Toxic - berries are poisonous",
+    "pollinators": [
+      "moths",
+      "hummingbirds"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.0,
+      "optimal": 6.5,
+      "description": "Slightly acidic to neutral"
+    }
+  },
+  {
+    "id": 37,
+    "hebrewName": "קוטינוס",
+    "englishName": "Cotinus",
+    "family": "Anacardiaceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.05",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Cotinus coggygria",
+    "commonNames": [
+      "Smoke Tree",
+      "Smoke Bush"
+    ],
+    "colors": [
+      "pink",
+      "purple",
+      "green"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "August",
+      "description": "Summer"
+    },
+    "vaseLife": {
+      "days": "7-14",
+      "tips": "Used as filler/foliage; sear stems in hot water"
+    },
+    "symbolism": [
+      "mystery",
+      "ethereal beauty"
+    ],
+    "nativeRegion": "Southern Europe, Central China",
+    "toxicity": "Skin irritant",
+    "pollinators": [
+      "bees",
+      "flies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 8.0,
+      "optimal": 7.0,
+      "description": "Wide range, prefers neutral"
+    }
+  },
+  {
+    "id": 38,
+    "hebrewName": "חרצית",
+    "englishName": "Chrysanthemum",
+    "family": "Asteraceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-75",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-Galileo",
+          "concentrationRate": "0.5",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "101 0.5%"
+    },
+    "scientificName": "Chrysanthemum morifolium",
+    "commonNames": [
+      "Chrysanthemum",
+      "Mum"
+    ],
+    "colors": [
+      "white",
+      "yellow",
+      "red",
+      "pink",
+      "purple",
+      "orange",
+      "bronze"
+    ],
+    "bloomSeason": {
+      "start": "August",
+      "end": "November",
+      "description": "Late summer to fall"
+    },
+    "vaseLife": {
+      "days": "14-21",
+      "tips": "Break stems (don't cut); remove all leaves below water; extremely long-lasting"
+    },
+    "symbolism": [
+      "loyalty",
+      "joy",
+      "longevity",
+      "optimism"
+    ],
+    "nativeRegion": "China, Japan",
+    "toxicity": "Mildly toxic to pets",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "flies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.0,
+      "optimal": 6.5,
+      "description": "Slightly acidic to neutral"
+    }
+  },
+  {
+    "id": 39,
+    "hebrewName": "כורכום",
+    "englishName": "Curcuma",
+    "family": "Zingiberaceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-Galileo",
+          "concentrationRate": "0.15",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Sugar",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "Ga3 24 ppm"
+    },
+    "scientificName": "Curcuma spp.",
+    "commonNames": [
+      "Curcuma",
+      "Siam Tulip",
+      "Hidden Ginger"
+    ],
+    "colors": [
+      "pink",
+      "white",
+      "purple",
+      "red"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "October",
+      "description": "Summer to fall"
+    },
+    "vaseLife": {
+      "days": "10-14",
+      "tips": "Keep warm (tropical); change water every 2 days"
+    },
+    "symbolism": [
+      "prosperity",
+      "grace"
+    ],
+    "nativeRegion": "Southeast Asia",
+    "toxicity": "Non-toxic (related to turmeric)",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.0,
+      "optimal": 6.0,
+      "description": "Slightly acidic"
+    }
+  },
+  {
+    "id": 40,
+    "hebrewName": "דלפיניום",
+    "englishName": "Delphinium elatum",
+    "family": "Ranunculaceae",
+    "preservation": {
+      "ethyleneSensitivity": "4",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.3",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "5",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "4",
+        "description": "very high sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Delphinium elatum",
+    "commonNames": [
+      "Delphinium",
+      "Larkspur"
+    ],
+    "colors": [
+      "blue",
+      "purple",
+      "white",
+      "pink"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "August",
+      "description": "Early to midsummer"
+    },
+    "vaseLife": {
+      "days": "4-7",
+      "tips": "Top-heavy; support stems. Fill hollow stems with water then plug with cotton"
+    },
+    "symbolism": [
+      "cheerfulness",
+      "goodwill",
+      "levity"
+    ],
+    "nativeRegion": "Europe",
+    "toxicity": "Highly toxic - all parts",
+    "pollinators": [
+      "bumblebees",
+      "hummingbirds"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 7.0,
+      "description": "Neutral to slightly alkaline"
+    }
+  },
+  {
+    "id": 41,
+    "hebrewName": "דלפיניום בלדונה",
+    "englishName": "Delphinium belladonna",
+    "family": "Ranunculaceae",
+    "preservation": {
+      "ethyleneSensitivity": "4",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.2-0.3",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "5",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "4",
+        "description": "very high sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Delphinium x belladonna",
+    "commonNames": [
+      "Belladonna Delphinium"
+    ],
+    "colors": [
+      "blue",
+      "white",
+      "pink"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "September",
+      "description": "Summer"
+    },
+    "vaseLife": {
+      "days": "5-8",
+      "tips": "More branching than elatum; same hollow stem care"
+    },
+    "symbolism": [
+      "cheerfulness",
+      "protection"
+    ],
+    "nativeRegion": "Hybrid origin",
+    "toxicity": "Highly toxic",
+    "pollinators": [
+      "bumblebees",
+      "hummingbirds"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 7.0,
+      "description": "Neutral to slightly alkaline"
+    }
+  },
+  {
+    "id": 42,
+    "hebrewName": "ציפורן",
+    "englishName": "Dianthus standard/spray",
+    "family": "Caryophyllaceae",
+    "preservation": {
+      "ethyleneSensitivity": "4",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.2-0.3",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "5",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "4",
+        "description": "very high sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Dianthus caryophyllus",
+    "commonNames": [
+      "Carnation",
+      "Dianthus",
+      "Pink"
+    ],
+    "colors": [
+      "red",
+      "pink",
+      "white",
+      "yellow",
+      "purple",
+      "bicolor"
+    ],
+    "bloomSeason": {
+      "start": "May",
+      "end": "October",
+      "description": "Late spring through fall"
+    },
+    "vaseLife": {
+      "days": "14-21",
+      "tips": "One of the longest lasting cut flowers; use flower food, recut stems"
+    },
+    "symbolism": [
+      "love",
+      "fascination",
+      "distinction"
+    ],
+    "nativeRegion": "Mediterranean",
+    "toxicity": "Mildly toxic to pets",
+    "pollinators": [
+      "butterflies",
+      "bees"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 6.8,
+      "description": "Neutral"
+    }
+  },
+  {
+    "id": 43,
+    "hebrewName": "דיגיטליס",
+    "englishName": "Digitalis",
+    "family": "Plantaginaceae",
+    "preservation": {
+      "ethyleneSensitivity": "4",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.2",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "2",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "4",
+        "description": "very high sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Digitalis purpurea",
+    "commonNames": [
+      "Foxglove"
+    ],
+    "colors": [
+      "purple",
+      "pink",
+      "white",
+      "yellow"
+    ],
+    "bloomSeason": {
+      "start": "May",
+      "end": "July",
+      "description": "Late spring to midsummer"
+    },
+    "vaseLife": {
+      "days": "5-8",
+      "tips": "Cut when lower flowers open; remove spent blooms"
+    },
+    "symbolism": [
+      "insincerity",
+      "magic"
+    ],
+    "nativeRegion": "Europe",
+    "toxicity": "Highly toxic - contains digitalis",
+    "pollinators": [
+      "bumblebees"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 6.5,
+      "optimal": 6.0,
+      "description": "Slightly acidic"
+    }
+  },
+  {
+    "id": 44,
+    "hebrewName": "קיפודן",
+    "englishName": "Echinops",
+    "family": "Asteraceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Echinops ritro",
+    "commonNames": [
+      "Globe Thistle"
+    ],
+    "colors": [
+      "blue",
+      "steel blue",
+      "white"
+    ],
+    "bloomSeason": {
+      "start": "July",
+      "end": "September",
+      "description": "Mid to late summer"
+    },
+    "vaseLife": {
+      "days": "7-14",
+      "tips": "Cut before fully open; dries excellently"
+    },
+    "symbolism": [
+      "independence",
+      "nobility"
+    ],
+    "nativeRegion": "Europe, Central Asia",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 8.0,
+      "optimal": 7.0,
+      "description": "Neutral, very adaptable"
+    }
+  },
+  {
+    "id": 45,
+    "hebrewName": "חלבלוב",
+    "englishName": "Euphorbia fulgens",
+    "family": "Euphorbiaceae",
+    "preservation": {
+      "ethyleneSensitivity": "4",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-3",
+          "concentrationRate": "0.2",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.3",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "2",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "4",
+        "description": "very high sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "Ga3 20 ppm"
+    },
+    "scientificName": "Euphorbia fulgens",
+    "commonNames": [
+      "Scarlet Plume"
+    ],
+    "colors": [
+      "orange",
+      "red",
+      "white",
+      "pink"
+    ],
+    "bloomSeason": {
+      "start": "November",
+      "end": "March",
+      "description": "Winter to early spring"
+    },
+    "vaseLife": {
+      "days": "7-14",
+      "tips": "Sear stem ends to stop latex; avoid latex on skin"
+    },
+    "symbolism": [
+      "persistence",
+      "warmth"
+    ],
+    "nativeRegion": "Mexico",
+    "toxicity": "Toxic - milky latex irritant",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.0,
+      "optimal": 6.5,
+      "description": "Slightly acidic to neutral"
+    }
+  },
+  {
+    "id": 46,
+    "hebrewName": "ליזיאנטוס",
+    "englishName": "Eustoma (Lisianthus)",
+    "family": "Gentianaceae",
+    "preservation": {
+      "ethyleneSensitivity": "2",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-75",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-Galileo",
+          "concentrationRate": "0.5",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "2",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "2",
+        "description": "low sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "1"
+    },
+    "scientificName": "Eustoma grandiflorum",
+    "commonNames": [
+      "Lisianthus",
+      "Eustoma",
+      "Prairie Gentian"
+    ],
+    "colors": [
+      "purple",
+      "pink",
+      "white",
+      "green",
+      "cream",
+      "bicolor"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "October",
+      "description": "Summer through fall"
+    },
+    "vaseLife": {
+      "days": "10-14",
+      "tips": "Excellent vase life; change water every 2-3 days, buds continue to open"
+    },
+    "symbolism": [
+      "appreciation",
+      "gratitude",
+      "charm"
+    ],
+    "nativeRegion": "North America (prairies)",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 7.0,
+      "description": "Neutral to slightly alkaline"
+    }
+  },
+  {
+    "id": 47,
+    "hebrewName": "חרחבינה",
+    "englishName": "Eryngium",
+    "family": "Apiaceae",
+    "preservation": {
+      "ethyleneSensitivity": "2",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-3",
+          "concentrationRate": "0.15",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "2",
+        "description": "low sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Eryngium spp.",
+    "commonNames": [
+      "Sea Holly",
+      "Eryngo"
+    ],
+    "colors": [
+      "blue",
+      "steel blue",
+      "silver",
+      "green"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "September",
+      "description": "Summer"
+    },
+    "vaseLife": {
+      "days": "10-14",
+      "tips": "Very long-lasting; dries well. Strip lower leaves"
+    },
+    "symbolism": [
+      "independence",
+      "attraction",
+      "admiration"
+    ],
+    "nativeRegion": "Europe, Mediterranean",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "wasps"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 6.5,
+      "description": "Slightly acidic to slightly alkaline"
+    }
+  },
+  {
+    "id": 48,
+    "hebrewName": "גרברה",
+    "englishName": "Gerbera",
+    "family": "Asteraceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "Ga3 20 ppm"
+    },
+    "scientificName": "Gerbera jamesonii",
+    "commonNames": [
+      "Gerbera Daisy",
+      "Transvaal Daisy"
+    ],
+    "colors": [
+      "pink",
+      "red",
+      "orange",
+      "yellow",
+      "white",
+      "cream",
+      "bicolor"
+    ],
+    "bloomSeason": {
+      "start": "May",
+      "end": "October",
+      "description": "Spring through fall"
+    },
+    "vaseLife": {
+      "days": "7-10",
+      "tips": "Support stems with wire; only 5cm water in vase; use flower food"
+    },
+    "symbolism": [
+      "cheerfulness",
+      "innocence",
+      "purity"
+    ],
+    "nativeRegion": "South Africa",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 6.5,
+      "optimal": 6.0,
+      "description": "Slightly acidic"
+    }
+  },
+  {
+    "id": 49,
+    "hebrewName": "גודטיה",
+    "englishName": "Godetia",
+    "family": "Onagraceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-75",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Clarkia amoena",
+    "commonNames": [
+      "Godetia",
+      "Farewell-to-spring",
+      "Satin Flower"
+    ],
+    "colors": [
+      "pink",
+      "red",
+      "white",
+      "salmon",
+      "lavender"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "August",
+      "description": "Early to midsummer"
+    },
+    "vaseLife": {
+      "days": "5-7",
+      "tips": "Cut when buds show color; buds will open in vase"
+    },
+    "symbolism": [
+      "grace",
+      "beauty"
+    ],
+    "nativeRegion": "Western North America",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 6.5,
+      "description": "Slightly acidic to slightly alkaline"
+    }
+  },
+  {
+    "id": 50,
+    "hebrewName": "גומפרנה",
+    "englishName": "Gomphrena",
+    "family": "Amaranthaceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Gomphrena globosa",
+    "commonNames": [
+      "Globe Amaranth"
+    ],
+    "colors": [
+      "purple",
+      "pink",
+      "white",
+      "red",
+      "orange"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "October",
+      "description": "Summer to fall"
+    },
+    "vaseLife": {
+      "days": "10-14",
+      "tips": "Excellent for drying; retains color perfectly when dried"
+    },
+    "symbolism": [
+      "unfading love",
+      "immortality"
+    ],
+    "nativeRegion": "Central America",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 6.5,
+      "description": "Slightly acidic to slightly alkaline"
+    }
+  },
+  {
+    "id": 51,
+    "hebrewName": "גרוילאה",
+    "englishName": "Grevillea",
+    "family": "Proteaceae",
+    "preservation": {
+      "ethyleneSensitivity": "4",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-3",
+          "concentrationRate": "0.2",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.3",
+          "applicationMethod": "dipping",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-75",
+          "concentrationRate": "0.5",
+          "applicationMethod": "dipping",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "4",
+        "description": "very high sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "Polar or switch"
+    },
+    "scientificName": "Grevillea spp.",
+    "commonNames": [
+      "Grevillea",
+      "Spider Flower"
+    ],
+    "colors": [
+      "red",
+      "pink",
+      "orange",
+      "yellow",
+      "white"
+    ],
+    "bloomSeason": {
+      "start": "Year-round",
+      "end": "",
+      "description": "Various species bloom year-round"
+    },
+    "vaseLife": {
+      "days": "14-21",
+      "tips": "Very long-lasting; use clean water"
+    },
+    "symbolism": [
+      "boldness",
+      "strength"
+    ],
+    "nativeRegion": "Australia",
+    "toxicity": "Contact dermatitis possible",
+    "pollinators": [
+      "birds",
+      "bees"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 6.5,
+      "optimal": 5.5,
+      "description": "Acidic"
+    }
+  },
+  {
+    "id": 52,
+    "hebrewName": "גיפסנית",
+    "englishName": "Gypsophila",
+    "family": "Caryophyllaceae",
+    "preservation": {
+      "ethyleneSensitivity": "2",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-3",
+          "concentrationRate": "0.15",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.15-0.075",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "5",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "2",
+        "description": "low sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Gypsophila paniculata",
+    "commonNames": [
+      "Baby's Breath"
+    ],
+    "colors": [
+      "white",
+      "pink"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "September",
+      "description": "Summer"
+    },
+    "vaseLife": {
+      "days": "7-14",
+      "tips": "Dries naturally in vase; use preservative for fresh look"
+    },
+    "symbolism": [
+      "innocence",
+      "everlasting love",
+      "purity"
+    ],
+    "nativeRegion": "Europe, Asia",
+    "toxicity": "Mildly toxic to pets",
+    "pollinators": [
+      "bees",
+      "flies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 8.0,
+      "optimal": 7.5,
+      "description": "Alkaline (name means 'loves gypsum')"
+    }
+  },
+  {
+    "id": 53,
+    "hebrewName": "היביסקוס",
+    "englishName": "Hibiscus",
+    "family": "Malvaceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "Ultra fine 0.2+polar 0.05"
+    },
+    "scientificName": "Hibiscus rosa-sinensis",
+    "commonNames": [
+      "Hibiscus",
+      "Chinese Hibiscus",
+      "Rose of China"
+    ],
+    "colors": [
+      "red",
+      "pink",
+      "orange",
+      "yellow",
+      "white"
+    ],
+    "bloomSeason": {
+      "start": "May",
+      "end": "October",
+      "description": "Late spring through fall"
+    },
+    "vaseLife": {
+      "days": "1-3",
+      "tips": "Very short-lived as cut; float in water for display"
+    },
+    "symbolism": [
+      "delicate beauty",
+      "femininity"
+    ],
+    "nativeRegion": "Tropical Asia",
+    "toxicity": "Non-toxic, edible flowers",
+    "pollinators": [
+      "hummingbirds",
+      "butterflies",
+      "bees"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.0,
+      "optimal": 6.5,
+      "description": "Slightly acidic to neutral"
+    }
+  },
+  {
+    "id": 54,
+    "hebrewName": "היפאסטרום",
+    "englishName": "Hippeastrum",
+    "family": "Amaryllidaceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "salt 0.3"
+    },
+    "scientificName": "Hippeastrum spp.",
+    "commonNames": [
+      "Amaryllis"
+    ],
+    "colors": [
+      "red",
+      "white",
+      "pink",
+      "orange",
+      "bicolor",
+      "striped"
+    ],
+    "bloomSeason": {
+      "start": "December",
+      "end": "April",
+      "description": "Winter to early spring"
+    },
+    "vaseLife": {
+      "days": "7-14",
+      "tips": "Support hollow stems with stake; change water frequently"
+    },
+    "symbolism": [
+      "pride",
+      "determination",
+      "beauty"
+    ],
+    "nativeRegion": "South America",
+    "toxicity": "Toxic - contains lycorine",
+    "pollinators": [
+      "hummingbirds",
+      "bees"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.0,
+      "optimal": 6.5,
+      "description": "Slightly acidic to neutral"
+    }
+  },
+  {
+    "id": 55,
+    "hebrewName": "הלבורוס",
+    "englishName": "Hloborus",
+    "family": "Ranunculaceae",
+    "preservation": {
+      "ethyleneSensitivity": null,
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Sugar",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": null,
+        "description": "not rated",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Helleborus spp.",
+    "commonNames": [
+      "Hellebore",
+      "Christmas Rose",
+      "Lenten Rose"
+    ],
+    "colors": [
+      "white",
+      "green",
+      "purple",
+      "pink",
+      "red"
+    ],
+    "bloomSeason": {
+      "start": "December",
+      "end": "April",
+      "description": "Winter to early spring"
+    },
+    "vaseLife": {
+      "days": "7-14",
+      "tips": "Float flowers in shallow water or sear stems; condition in deep water overnight"
+    },
+    "symbolism": [
+      "peace",
+      "tranquility",
+      "serenity"
+    ],
+    "nativeRegion": "Europe, Asia",
+    "toxicity": "Toxic - all parts",
+    "pollinators": [
+      "bees"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 7.0,
+      "description": "Neutral to slightly alkaline"
+    }
+  },
+  {
+    "id": 56,
+    "hebrewName": "פרע",
+    "englishName": "Hypericum",
+    "family": "Hypericaceae",
+    "preservation": {
+      "ethyleneSensitivity": "3",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.1",
+          "applicationMethod": "dipping",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-Galileo",
+          "concentrationRate": "0.15",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "3",
+        "description": "moderate sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "Ultra fine 0.2+polar 0.05"
+    },
+    "scientificName": "Hypericum spp.",
+    "commonNames": [
+      "St. John's Wort",
+      "Hypericum Berries"
+    ],
+    "colors": [
+      "yellow flowers",
+      "red berries",
+      "green berries",
+      "brown berries"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "September",
+      "description": "Summer (berries available longer)"
+    },
+    "vaseLife": {
+      "days": "10-14",
+      "tips": "Popular for berries in arrangements; very long-lasting"
+    },
+    "symbolism": [
+      "protection",
+      "good health"
+    ],
+    "nativeRegion": "Europe, Asia",
+    "toxicity": "Mildly toxic to pets",
+    "pollinators": [
+      "bees",
+      "flies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.0,
+      "optimal": 6.0,
+      "description": "Slightly acidic to neutral"
+    }
+  },
+  {
+    "id": 57,
+    "hebrewName": "הורטנזיה",
+    "englishName": "Hydrangea",
+    "family": "Hydrangeaceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Sugar",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "Put in tubes Long Life SL 1.0%"
+    },
+    "scientificName": "Hydrangea macrophylla",
+    "commonNames": [
+      "Hydrangea",
+      "Hortensia"
+    ],
+    "colors": [
+      "blue",
+      "pink",
+      "white",
+      "purple",
+      "green"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "September",
+      "description": "Summer"
+    },
+    "vaseLife": {
+      "days": "5-10",
+      "tips": "Submerge whole flower head in water for 30 min to revive; mist petals; use alum on stems"
+    },
+    "symbolism": [
+      "gratitude",
+      "grace",
+      "abundance"
+    ],
+    "nativeRegion": "Asia, Americas",
+    "toxicity": "Mildly toxic",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.0,
+      "optimal": 5.5,
+      "description": "Acidic for blue, alkaline for pink"
+    }
+  },
+  {
+    "id": 58,
+    "hebrewName": "כוכיה",
+    "englishName": "Kochia",
+    "family": "Amaranthaceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Bassia scoparia",
+    "commonNames": [
+      "Kochia",
+      "Burning Bush",
+      "Summer Cypress"
+    ],
+    "colors": [
+      "green",
+      "red (fall)"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "October",
+      "description": "Summer foliage, turns red in fall"
+    },
+    "vaseLife": {
+      "days": "7-10",
+      "tips": "Used as foliage/filler; long-lasting"
+    },
+    "symbolism": [
+      "transience",
+      "change"
+    ],
+    "nativeRegion": "Europe, Asia",
+    "toxicity": "Mildly toxic to livestock",
+    "pollinators": [
+      "wind-pollinated"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 8.0,
+      "optimal": 7.0,
+      "description": "Neutral to alkaline"
+    }
+  },
+  {
+    "id": 59,
+    "hebrewName": "ליאטריס",
+    "englishName": "Liatris",
+    "family": "Asteraceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-3",
+          "concentrationRate": "0.15",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "5",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Liatris spicata",
+    "commonNames": [
+      "Blazing Star",
+      "Gayfeather"
+    ],
+    "colors": [
+      "purple",
+      "white",
+      "pink"
+    ],
+    "bloomSeason": {
+      "start": "July",
+      "end": "September",
+      "description": "Mid to late summer"
+    },
+    "vaseLife": {
+      "days": "10-14",
+      "tips": "Unique - opens from top down; very long-lasting"
+    },
+    "symbolism": [
+      "joy",
+      "bliss",
+      "happiness"
+    ],
+    "nativeRegion": "North America",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "hummingbirds"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.0,
+      "optimal": 6.5,
+      "description": "Slightly acidic to neutral"
+    }
+  },
+  {
+    "id": 60,
+    "hebrewName": "שחליים",
+    "englishName": "Lipdium",
+    "family": "Brassicaceae",
+    "preservation": {
+      "ethyleneSensitivity": "2",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-3",
+          "concentrationRate": "0.15",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Sugar",
+          "concentrationRate": "0.15",
+          "applicationMethod": "dipping",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "0.5",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "2",
+        "description": "low sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Lepidium sativum",
+    "commonNames": [
+      "Garden Cress",
+      "Lepidium"
+    ],
+    "colors": [
+      "white",
+      "green"
+    ],
+    "bloomSeason": {
+      "start": "May",
+      "end": "July",
+      "description": "Late spring to midsummer"
+    },
+    "vaseLife": {
+      "days": "7-10",
+      "tips": "Used as filler green; keep water clean"
+    },
+    "symbolism": [
+      "vitality",
+      "growth"
+    ],
+    "nativeRegion": "Mediterranean, Middle East",
+    "toxicity": "Non-toxic, edible",
+    "pollinators": [
+      "bees",
+      "flies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 6.8,
+      "description": "Neutral"
+    }
+  },
+  {
+    "id": 61,
+    "hebrewName": "לאוקדנדרון",
+    "englishName": "Leucadendron (Safari sunset)",
+    "family": "Proteaceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-3",
+          "concentrationRate": "0.15",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "5",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "TOG star"
+    },
+    "scientificName": "Leucadendron salignum",
+    "commonNames": [
+      "Leucadendron",
+      "Safari Sunset",
+      "Conebush"
+    ],
+    "colors": [
+      "red",
+      "yellow",
+      "green",
+      "burgundy"
+    ],
+    "bloomSeason": {
+      "start": "Year-round",
+      "end": "",
+      "description": "Year-round availability"
+    },
+    "vaseLife": {
+      "days": "21-28",
+      "tips": "Extremely long-lasting; also dries beautifully"
+    },
+    "symbolism": [
+      "courage",
+      "survival"
+    ],
+    "nativeRegion": "South Africa",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "birds",
+      "bees"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 6.5,
+      "optimal": 5.5,
+      "description": "Acidic"
+    }
+  },
+  {
+    "id": 62,
+    "hebrewName": "שושן",
+    "englishName": "Lilium",
+    "family": "Liliaceae",
+    "preservation": {
+      "ethyleneSensitivity": "3",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "TOG-L-101",
+          "concentrationRate": "0.15",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "3",
+        "description": "moderate sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Lilium spp.",
+    "commonNames": [
+      "Lily",
+      "Oriental Lily",
+      "Asiatic Lily"
+    ],
+    "colors": [
+      "white",
+      "pink",
+      "red",
+      "orange",
+      "yellow",
+      "purple"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "August",
+      "description": "Summer"
+    },
+    "vaseLife": {
+      "days": "10-14",
+      "tips": "Remove anthers to prevent staining; buds continue opening"
+    },
+    "symbolism": [
+      "purity",
+      "devotion",
+      "motherhood"
+    ],
+    "nativeRegion": "Northern Hemisphere",
+    "toxicity": "Highly toxic to cats",
+    "pollinators": [
+      "bees",
+      "moths",
+      "butterflies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 6.5,
+      "optimal": 6.0,
+      "description": "Slightly acidic"
+    }
+  },
+  {
+    "id": 63,
+    "hebrewName": "לימוניום",
+    "englishName": "Limonium",
+    "family": "Plumbaginaceae",
+    "preservation": {
+      "ethyleneSensitivity": "2",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-3",
+          "concentrationRate": "0.3",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.3",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "10",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "2",
+        "description": "low sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "Ga3 10 ppm"
+    },
+    "scientificName": "Limonium spp.",
+    "commonNames": [
+      "Sea Lavender",
+      "Statice"
+    ],
+    "colors": [
+      "purple",
+      "blue",
+      "white",
+      "pink",
+      "yellow"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "September",
+      "description": "Summer"
+    },
+    "vaseLife": {
+      "days": "10-14",
+      "tips": "Dries perfectly; retains color when dried"
+    },
+    "symbolism": [
+      "remembrance",
+      "sympathy"
+    ],
+    "nativeRegion": "Mediterranean, Central Asia",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 8.0,
+      "optimal": 7.0,
+      "description": "Neutral to alkaline"
+    }
+  },
+  {
+    "id": 64,
+    "hebrewName": "שחליים",
+    "englishName": "Lepidium",
+    "family": "Brassicaceae",
+    "preservation": {
+      "ethyleneSensitivity": "2",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-3",
+          "concentrationRate": "0.3",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Sugar",
+          "concentrationRate": "0.3",
+          "applicationMethod": "dipping",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "0.5",
+          "applicationMethod": "dipping",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "2",
+        "description": "low sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Lepidium spp.",
+    "commonNames": [
+      "Pepperweed",
+      "Lepidium"
+    ],
+    "colors": [
+      "white",
+      "green"
+    ],
+    "bloomSeason": {
+      "start": "May",
+      "end": "August",
+      "description": "Late spring to summer"
+    },
+    "vaseLife": {
+      "days": "7-10",
+      "tips": "Filler green; strip lower leaves"
+    },
+    "symbolism": [
+      "simplicity"
+    ],
+    "nativeRegion": "Worldwide",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "bees",
+      "flies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 6.8,
+      "description": "Neutral"
+    }
+  },
+  {
+    "id": 65,
+    "hebrewName": "תורמוס",
+    "englishName": "Lupinus",
+    "family": "Fabaceae",
+    "preservation": {
+      "ethyleneSensitivity": "4",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.3",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "4",
+        "description": "very high sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Lupinus spp.",
+    "commonNames": [
+      "Lupin",
+      "Lupine"
+    ],
+    "colors": [
+      "blue",
+      "purple",
+      "pink",
+      "white",
+      "yellow",
+      "bicolor"
+    ],
+    "bloomSeason": {
+      "start": "May",
+      "end": "July",
+      "description": "Late spring to midsummer"
+    },
+    "vaseLife": {
+      "days": "4-6",
+      "tips": "Fill hollow stems with water; short-lived but dramatic"
+    },
+    "symbolism": [
+      "imagination",
+      "admiration",
+      "happiness"
+    ],
+    "nativeRegion": "Americas, Mediterranean",
+    "toxicity": "Seeds toxic if untreated",
+    "pollinators": [
+      "bumblebees",
+      "bees"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.0,
+      "optimal": 6.0,
+      "description": "Slightly acidic to neutral"
+    }
+  },
+  {
+    "id": 66,
+    "hebrewName": "מתיולה",
+    "englishName": "Matthiola",
+    "family": "Brassicaceae",
+    "preservation": {
+      "ethyleneSensitivity": "3",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-3",
+          "concentrationRate": "0.15",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-75",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-Galileo",
+          "concentrationRate": "1.0",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "3",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "3",
+        "description": "moderate sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "1"
+    },
+    "scientificName": "Matthiola incana",
+    "commonNames": [
+      "Stock",
+      "Gillyflower"
+    ],
+    "colors": [
+      "purple",
+      "pink",
+      "white",
+      "cream",
+      "red"
+    ],
+    "bloomSeason": {
+      "start": "March",
+      "end": "July",
+      "description": "Spring to midsummer"
+    },
+    "vaseLife": {
+      "days": "7-10",
+      "tips": "Very fragrant; strip leaves below waterline (they rot quickly)"
+    },
+    "symbolism": [
+      "lasting beauty",
+      "happy life",
+      "contentment"
+    ],
+    "nativeRegion": "Mediterranean",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "moths"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 7.0,
+      "description": "Neutral to slightly alkaline"
+    }
+  },
+  {
+    "id": 67,
+    "hebrewName": "מולוצלה",
+    "englishName": "Mollcella",
+    "family": "Lamiaceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Sugar",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Moluccella laevis",
+    "commonNames": [
+      "Bells of Ireland",
+      "Shell Flower"
+    ],
+    "colors": [
+      "green"
+    ],
+    "bloomSeason": {
+      "start": "July",
+      "end": "September",
+      "description": "Summer"
+    },
+    "vaseLife": {
+      "days": "7-14",
+      "tips": "Strip lower leaves; dries well for dried arrangements"
+    },
+    "symbolism": [
+      "good luck",
+      "fortune"
+    ],
+    "nativeRegion": "Turkey, Syria",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "bees"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 7.0,
+      "description": "Neutral to slightly alkaline"
+    }
+  },
+  {
+    "id": 68,
+    "hebrewName": "הדס",
+    "englishName": "Myrtus",
+    "family": "Myrtaceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "Polar 0.05"
+    },
+    "scientificName": "Myrtus communis",
+    "commonNames": [
+      "Myrtle"
+    ],
+    "colors": [
+      "white",
+      "green foliage"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "August",
+      "description": "Summer"
+    },
+    "vaseLife": {
+      "days": "10-14",
+      "tips": "Aromatic foliage; long-lasting as greenery in arrangements"
+    },
+    "symbolism": [
+      "love",
+      "marriage",
+      "good luck"
+    ],
+    "nativeRegion": "Mediterranean",
+    "toxicity": "Non-toxic, berries edible",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 6.5,
+      "description": "Slightly acidic to slightly alkaline"
+    }
+  },
+  {
+    "id": 69,
+    "hebrewName": "נץ חלב",
+    "englishName": "Ornithogalum Dubium",
+    "family": "Asparagaceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Ornithogalum dubium",
+    "commonNames": [
+      "Sun Star",
+      "Star of Bethlehem"
+    ],
+    "colors": [
+      "orange",
+      "yellow",
+      "white"
+    ],
+    "bloomSeason": {
+      "start": "March",
+      "end": "June",
+      "description": "Spring"
+    },
+    "vaseLife": {
+      "days": "14-21",
+      "tips": "Very long-lasting; buds open sequentially over weeks"
+    },
+    "symbolism": [
+      "hope",
+      "purity",
+      "forgiveness"
+    ],
+    "nativeRegion": "South Africa",
+    "toxicity": "Toxic - bulbs especially",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 6.5,
+      "description": "Slightly acidic to slightly alkaline"
+    }
+  },
+  {
+    "id": 70,
+    "hebrewName": "אדמונית-הרופא",
+    "englishName": "Paeonia",
+    "family": "Paeoniaceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-75",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Paeonia lactiflora",
+    "commonNames": [
+      "Peony"
+    ],
+    "colors": [
+      "pink",
+      "white",
+      "red",
+      "coral",
+      "yellow"
+    ],
+    "bloomSeason": {
+      "start": "April",
+      "end": "June",
+      "description": "Late spring to early summer"
+    },
+    "vaseLife": {
+      "days": "5-7",
+      "tips": "Cut in bud stage (marshmallow test); keep cool; very fragrant"
+    },
+    "symbolism": [
+      "romance",
+      "prosperity",
+      "honor",
+      "compassion"
+    ],
+    "nativeRegion": "Asia, Southern Europe, Western North America",
+    "toxicity": "Mildly toxic to pets",
+    "pollinators": [
+      "bees",
+      "ants"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.0,
+      "optimal": 6.5,
+      "description": "Slightly acidic to neutral"
+    }
+  },
+  {
+    "id": 71,
+    "hebrewName": "פילודנדרון",
+    "englishName": "Philodendron",
+    "family": "Araceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-Galileo",
+          "concentrationRate": "0.2",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "Ga3 30 ppm"
+    },
+    "scientificName": "Philodendron spp.",
+    "commonNames": [
+      "Philodendron"
+    ],
+    "colors": [
+      "green",
+      "variegated"
+    ],
+    "bloomSeason": {
+      "start": "Year-round",
+      "end": "",
+      "description": "Foliage plant, year-round"
+    },
+    "vaseLife": {
+      "days": "14-21",
+      "tips": "Long-lasting foliage; wipe leaves with damp cloth"
+    },
+    "symbolism": [
+      "love of nature",
+      "health"
+    ],
+    "nativeRegion": "Central & South America",
+    "toxicity": "Toxic - calcium oxalate crystals",
+    "pollinators": [
+      "beetles"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 6.5,
+      "optimal": 6.0,
+      "description": "Slightly acidic"
+    }
+  },
+  {
+    "id": 72,
+    "hebrewName": "פלוקס",
+    "englishName": "Phlox",
+    "family": "Polemoniaceae",
+    "preservation": {
+      "ethyleneSensitivity": "4",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.1-0.2",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-75",
+          "concentrationRate": "0.5",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "2",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "4",
+        "description": "very high sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "1 Polar 0.05"
+    },
+    "scientificName": "Phlox paniculata",
+    "commonNames": [
+      "Phlox",
+      "Garden Phlox"
+    ],
+    "colors": [
+      "pink",
+      "purple",
+      "white",
+      "red",
+      "lavender",
+      "bicolor"
+    ],
+    "bloomSeason": {
+      "start": "July",
+      "end": "September",
+      "description": "Mid to late summer"
+    },
+    "vaseLife": {
+      "days": "5-7",
+      "tips": "Fragrant; strip lower leaves, change water daily"
+    },
+    "symbolism": [
+      "harmony",
+      "agreement",
+      "sweet dreams"
+    ],
+    "nativeRegion": "North America",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "butterflies",
+      "hummingbirds",
+      "moths"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 6.5,
+      "description": "Slightly acidic to slightly alkaline"
+    }
+  },
+  {
+    "id": 73,
+    "hebrewName": "טוברוזה",
+    "englishName": "Polianthes tuberosa",
+    "family": "Asparagaceae",
+    "preservation": {
+      "ethyleneSensitivity": "4",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.05",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.5",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "10",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "4",
+        "description": "very high sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Polianthes tuberosa",
+    "commonNames": [
+      "Tuberose"
+    ],
+    "colors": [
+      "white",
+      "pink"
+    ],
+    "bloomSeason": {
+      "start": "July",
+      "end": "October",
+      "description": "Mid to late summer"
+    },
+    "vaseLife": {
+      "days": "7-10",
+      "tips": "Extremely fragrant; florets open from bottom up"
+    },
+    "symbolism": [
+      "dangerous pleasures",
+      "sensuality",
+      "peace"
+    ],
+    "nativeRegion": "Mexico",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "moths",
+      "bees"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 7.0,
+      "description": "Neutral"
+    }
+  },
+  {
+    "id": 74,
+    "hebrewName": "פיטוספורום",
+    "englishName": "Pittosporum",
+    "family": "Pittosporaceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "Rovral 0.2%+TOG-6 0.18%"
+    },
+    "scientificName": "Pittosporum spp.",
+    "commonNames": [
+      "Pittosporum",
+      "Mock Orange"
+    ],
+    "colors": [
+      "green foliage",
+      "small white flowers"
+    ],
+    "bloomSeason": {
+      "start": "Year-round",
+      "end": "",
+      "description": "Foliage available year-round"
+    },
+    "vaseLife": {
+      "days": "14-21",
+      "tips": "Popular greenery; long-lasting foliage for arrangements"
+    },
+    "symbolism": [
+      "shelter",
+      "protection"
+    ],
+    "nativeRegion": "Asia, Australia, Africa",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "bees",
+      "beetles"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 6.5,
+      "description": "Slightly acidic to slightly alkaline"
+    }
+  },
+  {
+    "id": 75,
+    "hebrewName": "נורית",
+    "englishName": "Ranunculus",
+    "family": "Ranunculaceae",
+    "preservation": {
+      "ethyleneSensitivity": "2",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-75",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-Galileo",
+          "concentrationRate": "0.25",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "2",
+        "description": "low sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "Ga3 10 ppm"
+    },
+    "scientificName": "Ranunculus asiaticus",
+    "commonNames": [
+      "Ranunculus",
+      "Persian Buttercup"
+    ],
+    "colors": [
+      "red",
+      "pink",
+      "orange",
+      "yellow",
+      "white",
+      "purple"
+    ],
+    "bloomSeason": {
+      "start": "March",
+      "end": "May",
+      "description": "Spring"
+    },
+    "vaseLife": {
+      "days": "7-10",
+      "tips": "Cut when buds are soft like marshmallow; stems grow in vase"
+    },
+    "symbolism": [
+      "charm",
+      "attractiveness",
+      "radiance"
+    ],
+    "nativeRegion": "Mediterranean, Southwest Asia",
+    "toxicity": "Mildly toxic - contains ranunculin",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.0,
+      "optimal": 6.5,
+      "description": "Slightly acidic to neutral"
+    }
+  },
+  {
+    "id": 76,
+    "hebrewName": "רוסקוס",
+    "englishName": "Ruscus",
+    "family": "Asparagaceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "Ultra fine 0.5+Polar 0.05"
+    },
+    "scientificName": "Ruscus spp.",
+    "commonNames": [
+      "Ruscus",
+      "Butcher's Broom",
+      "Israeli Ruscus"
+    ],
+    "colors": [
+      "green foliage"
+    ],
+    "bloomSeason": {
+      "start": "Year-round",
+      "end": "",
+      "description": "Foliage available year-round"
+    },
+    "vaseLife": {
+      "days": "21-30",
+      "tips": "Extremely long-lasting foliage; one of the best greenery fillers"
+    },
+    "symbolism": [
+      "endurance",
+      "strength"
+    ],
+    "nativeRegion": "Mediterranean, Western Europe",
+    "toxicity": "Mildly toxic - berries",
+    "pollinators": [
+      "bees"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 7.0,
+      "description": "Neutral"
+    }
+  },
+  {
+    "id": 77,
+    "hebrewName": "תגית",
+    "englishName": "Scabiosa",
+    "family": "Caprifoliaceae",
+    "preservation": {
+      "ethyleneSensitivity": "2",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Sugar",
+          "concentrationRate": "0.2",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "2",
+        "description": "low sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Scabiosa spp.",
+    "commonNames": [
+      "Scabiosa",
+      "Pincushion Flower"
+    ],
+    "colors": [
+      "purple",
+      "blue",
+      "pink",
+      "white",
+      "lavender"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "October",
+      "description": "Summer to fall"
+    },
+    "vaseLife": {
+      "days": "5-7",
+      "tips": "Delicate; change water frequently, use flower food"
+    },
+    "symbolism": [
+      "unfortunate love",
+      "peace"
+    ],
+    "nativeRegion": "Europe, Asia, Africa",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 7.0,
+      "description": "Neutral to slightly alkaline"
+    }
+  },
+  {
+    "id": 78,
+    "hebrewName": "סולידגו",
+    "englishName": "Solidago",
+    "family": "Asteraceae",
+    "preservation": {
+      "ethyleneSensitivity": "3",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-75",
+          "concentrationRate": "0.5",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "3",
+        "description": "moderate sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "Culter 0.2"
+    },
+    "scientificName": "Solidago spp.",
+    "commonNames": [
+      "Solidago",
+      "Goldenrod"
+    ],
+    "colors": [
+      "yellow",
+      "gold"
+    ],
+    "bloomSeason": {
+      "start": "July",
+      "end": "October",
+      "description": "Mid to late summer"
+    },
+    "vaseLife": {
+      "days": "7-14",
+      "tips": "Popular filler; strip lower leaves, long-lasting"
+    },
+    "symbolism": [
+      "encouragement",
+      "good fortune",
+      "growth"
+    ],
+    "nativeRegion": "North America",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "flies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 6.5,
+      "description": "Slightly acidic to slightly alkaline"
+    }
+  },
+  {
+    "id": 79,
+    "hebrewName": "ספטיפילום",
+    "englishName": "Spathipyllium",
+    "family": "Araceae",
+    "preservation": {
+      "ethyleneSensitivity": "4",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.3",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "5",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "4",
+        "description": "very high sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "1"
+    },
+    "scientificName": "Spathiphyllum spp.",
+    "commonNames": [
+      "Peace Lily"
+    ],
+    "colors": [
+      "white",
+      "green"
+    ],
+    "bloomSeason": {
+      "start": "March",
+      "end": "September",
+      "description": "Spring through fall"
+    },
+    "vaseLife": {
+      "days": "10-14",
+      "tips": "Keep warm; mist leaves; avoid cold drafts"
+    },
+    "symbolism": [
+      "peace",
+      "purity",
+      "sympathy",
+      "healing"
+    ],
+    "nativeRegion": "Central & South America, Southeast Asia",
+    "toxicity": "Toxic to pets - calcium oxalate",
+    "pollinators": [
+      "beetles"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 6.5,
+      "optimal": 6.0,
+      "description": "Slightly acidic"
+    }
+  },
+  {
+    "id": 80,
+    "hebrewName": "חמנייה",
+    "englishName": "Sun flower",
+    "family": "Asteraceae",
+    "preservation": {
+      "ethyleneSensitivity": "1",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Sugar",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Bulb SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "1",
+        "description": "non sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Helianthus annuus",
+    "commonNames": [
+      "Sunflower"
+    ],
+    "colors": [
+      "yellow",
+      "orange",
+      "red",
+      "cream",
+      "bicolor"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "October",
+      "description": "Summer to fall"
+    },
+    "vaseLife": {
+      "days": "6-12",
+      "tips": "Remove leaves below water; use warm water with food"
+    },
+    "symbolism": [
+      "adoration",
+      "loyalty",
+      "happiness"
+    ],
+    "nativeRegion": "North America",
+    "toxicity": "Non-toxic, seeds edible",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "birds"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 6.5,
+      "description": "Slightly acidic to slightly alkaline"
+    }
+  },
+  {
+    "id": 81,
+    "hebrewName": "אפונה ריחנית",
+    "englishName": "Sweet pea",
+    "family": "Fabaceae",
+    "preservation": {
+      "ethyleneSensitivity": "3",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.3",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "3",
+        "description": "moderate sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Lathyrus odoratus",
+    "commonNames": [
+      "Sweet Pea"
+    ],
+    "colors": [
+      "pink",
+      "purple",
+      "white",
+      "red",
+      "lavender",
+      "bicolor"
+    ],
+    "bloomSeason": {
+      "start": "April",
+      "end": "July",
+      "description": "Spring to early summer"
+    },
+    "vaseLife": {
+      "days": "3-5",
+      "tips": "Very fragrant; short-lived but charming. Keep cool, change water daily"
+    },
+    "symbolism": [
+      "blissful pleasure",
+      "goodbye",
+      "thank you"
+    ],
+    "nativeRegion": "Italy, Sicily",
+    "toxicity": "Seeds are toxic",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 8.0,
+      "optimal": 7.5,
+      "description": "Neutral to slightly alkaline"
+    }
+  },
+  {
+    "id": 82,
+    "hebrewName": "טרכליום",
+    "englishName": "Trachelium",
+    "family": "Campanulaceae",
+    "preservation": {
+      "ethyleneSensitivity": "2",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "5",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "2",
+        "description": "low sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Trachelium caeruleum",
+    "commonNames": [
+      "Trachelium",
+      "Throatwort"
+    ],
+    "colors": [
+      "purple",
+      "white",
+      "pink",
+      "green"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "September",
+      "description": "Summer"
+    },
+    "vaseLife": {
+      "days": "7-12",
+      "tips": "Remove foliage; change water every 2 days; use flower food"
+    },
+    "symbolism": [
+      "admiration"
+    ],
+    "nativeRegion": "Mediterranean",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 6.8,
+      "description": "Neutral"
+    }
+  },
+  {
+    "id": 83,
+    "hebrewName": "ורוניקה",
+    "englishName": "Veronica",
+    "family": "Plantaginaceae",
+    "preservation": {
+      "ethyleneSensitivity": "2 (3)",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-3",
+          "concentrationRate": "0.15",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.2",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "2",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Long Life SG",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "2 (3)",
+        "description": "low sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": null
+    },
+    "scientificName": "Veronica longifolia",
+    "commonNames": [
+      "Veronica",
+      "Speedwell"
+    ],
+    "colors": [
+      "blue",
+      "purple",
+      "pink",
+      "white"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "September",
+      "description": "Summer"
+    },
+    "vaseLife": {
+      "days": "7-10",
+      "tips": "Cut when lower half of spike is open; remove lower leaves"
+    },
+    "symbolism": [
+      "fidelity",
+      "loyalty"
+    ],
+    "nativeRegion": "Europe, Asia",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.5,
+      "optimal": 6.5,
+      "description": "Slightly acidic to slightly alkaline"
+    }
+  },
+  {
+    "id": 84,
+    "hebrewName": "ויבורנום",
+    "englishName": "Viburnum",
+    "family": "Adoxaceae",
+    "preservation": {
+      "ethyleneSensitivity": "4",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-3",
+          "concentrationRate": "0.5",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.3",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "4",
+        "description": "very high sensitive",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "STS 0.3 2,4 D 20 ppm (Hadranol 0.04)"
+    },
+    "scientificName": "Viburnum spp.",
+    "commonNames": [
+      "Viburnum",
+      "Snowball Bush"
+    ],
+    "colors": [
+      "white",
+      "pink",
+      "green"
+    ],
+    "bloomSeason": {
+      "start": "April",
+      "end": "June",
+      "description": "Spring to early summer"
+    },
+    "vaseLife": {
+      "days": "5-7",
+      "tips": "Smash woody stems; use warm water initially"
+    },
+    "symbolism": [
+      "thoughts of heaven",
+      "purity"
+    ],
+    "nativeRegion": "Northern Hemisphere",
+    "toxicity": "Mildly toxic - berries",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "flies"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.0,
+      "optimal": 6.5,
+      "description": "Slightly acidic to neutral"
+    }
+  },
+  {
+    "id": 85,
+    "hebrewName": "שעוונית",
+    "englishName": "Wax flower",
+    "family": "Myrtaceae",
+    "preservation": {
+      "ethyleneSensitivity": "3",
+      "farmerTreatment": [
+        {
+          "productName": "TOG-6",
+          "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.3",
+          "applicationMethod": "dipping",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-75",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "customerTreatment": [
+        {
+          "productName": "Long Life SL",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Long Life",
+          "concentrationRate": "1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        }
+      ],
+      "ethyleneSensitivityScale": {
+        "value": "3",
+        "description": "moderate sensitivity",
+        "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
+      },
+      "additives": "Polar 0.05+TOG-10 20.1%"
+    },
+    "scientificName": "Chamelaucium uncinatum",
+    "commonNames": [
+      "Waxflower",
+      "Geraldton Waxflower"
+    ],
+    "colors": [
+      "pink",
+      "white",
+      "purple",
+      "red"
+    ],
+    "bloomSeason": {
+      "start": "June",
+      "end": "November",
+      "description": "Winter to spring (Southern Hemisphere); available year-round"
+    },
+    "vaseLife": {
+      "days": "10-21",
+      "tips": "Very long-lasting; strip lower leaves, use preservative"
+    },
+    "symbolism": [
+      "lasting love",
+      "patience",
+      "richness"
+    ],
+    "nativeRegion": "Australia",
+    "toxicity": "Non-toxic",
+    "pollinators": [
+      "bees",
+      "birds"
+    ],
+    "soilPH": {
+      "min": 3.5,
+      "max": 7.0,
+      "optimal": 6.0,
+      "description": "Slightly acidic to neutral"
+    }
+  }
+]
