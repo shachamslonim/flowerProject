@@ -11,3 +11,6 @@ flower_state_ai/models/checkpoints/
 flower_state_ai/models/tiny/
 flower_state_ai/models/logs/
 flower_state_ai/*.egg-info/
+
+# Generated HTML instruction outputs
+InstructionsForTreatment/result/

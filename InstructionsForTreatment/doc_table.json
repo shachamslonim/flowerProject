@@ -1,0 +1,4802 @@
+[
+  {
+    "Flower": {
+      "text": "Flower",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "Pre-treatment grower",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "Florist           consumer Wholesaler",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "consumer",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "Ethylene sensitivity",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "TOG-3",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "TOG-6",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "TOG-10",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "TOG-30",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "TOG-75",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "TOG-Galileo",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "TOG-L-101",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "TOG-L-103",
+      "red": false
+    },
+    "Sugar": {
+      "text": "Sugar",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "Long Life SL",
+      "red": false
+    },
+    "Long life Bulb SG": {
+      "text": "Long lifeBulb SG",
+      "red": false
+    },
+    "Long Life SG": {
+      "text": "Long Life SG",
+      "red": false
+    },
+    "Additives": {
+      "text": "Additives",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Achillea",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "0.1",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Aconitum",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "4",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "0.3-0.5",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Adenanthos",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": true
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Ageratum",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "2",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "0.15",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "0.1",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "0.25",
+      "red": true
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "1",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Alstromeria",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "3",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "0.1",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "0.15",
+      "red": true
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Astilbe",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "0.3",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": true
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "",
+      "red": false
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Ammi visnaga",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "2",
+      "red": true
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Anemone",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "3",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "0.1",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "0.5",
+      "red": true
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "coltar 0.1",
+      "red": true
+    }
+  },
+  {
+    "Flower": {
+      "text": "Anigozanthos",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Antirrhinum",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "0.5",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "2",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "Alar 0.03%",
+      "red": true
+    }
+  },
+  {
+    "Flower": {
+      "text": "Aralia",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": true
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "Ultra fine 0.3+Polar0.05*",
+      "red": true
+    }
+  },
+  {
+    "Flower": {
+      "text": "Asclpias tuberrosa",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "3",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "0.15",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "0.1-0.2",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "3",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Asparagus Myriocladius",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "4",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": true
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "0.3*",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "Ultra fine 0.2*+TOG 6 0.1*",
+      "red": true
+    }
+  },
+  {
+    "Flower": {
+      "text": "Aspidistra",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "2",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "0.2",
+      "red": true
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "1",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "Ga3 * 50ppm Ultra Fine 0.2*",
+      "red": true
+    }
+  },
+  {
+    "Flower": {
+      "text": "Aster",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "3",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "0.15",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "0.1-0.2",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Aster Callistephus Chinensis",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "0.1",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "0.1",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Banksia",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "0.15",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089*",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "5",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "Scour 0.1*",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Calla Lily",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "",
+      "red": false
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "",
+      "red": true
+    },
+    "Additives": {
+      "text": "salt  0.3",
+      "red": true
+    }
+  },
+  {
+    "Flower": {
+      "text": "Campanula",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "2",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "0.1-0.2",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "0.1",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Carthamus",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "0.15",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Cestrum",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "4",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "0.3",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "2",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "2,4-D 20ppm",
+      "red": true
+    }
+  },
+  {
+    "Flower": {
+      "text": "Cotinus",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.05",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Chrysanthemum",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": true
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "0.1",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "0.5",
+      "red": true
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "1",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "101 0.5%*",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Curcuma",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "0.15",
+      "red": true
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "1",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "Ga3  24 ppm",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Celosia",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "2",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "0.15",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "0.1",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "2",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Delphinium elatum",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "4",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "0.3",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "5",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Delphinium belladonna",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "4",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "0.2-0.3",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "5",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Dianthus standard\\spray",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "4",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "0.2-0.3",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": true
+    },
+    "Sugar": {
+      "text": "5",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Digitalis",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "4",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "0.2",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "2",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Echinops",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": true
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Euphorbia fulgens",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "4",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "0.2",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "0.3",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "2",
+      "red": true
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "Ga3  20 ppm",
+      "red": true
+    }
+  },
+  {
+    "Flower": {
+      "text": "Eustoma   (Lisianthus)",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "2",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "0.1",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "0.1",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "0.5",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "2",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "1",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Eryngium",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "2",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "0.15",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "0.1",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Gerbera",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": true
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "0.1",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "Ga3  20 ppm",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Gladiolus",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "2",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "0.1",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "5-10",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": false
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": true
+    }
+  },
+  {
+    "Flower": {
+      "text": "Godetia",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "0.1",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": true
+    }
+  },
+  {
+    "Flower": {
+      "text": "Gomphrena",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": true
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Grevillea0.20.0011  0.3*0.5*  0.11TDZ  10 ppm",
+      "red": true
+    },
+    "Ethylene": {
+      "text": "4",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "0.2",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "0.3*",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "0.5*",
+      "red": true
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "1",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "Polar or switch*",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Gypsophila",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "2",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "0.15",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "0.15-0.075",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "5",
+      "red": true
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Helianthus",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "2",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "0.1",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "0.1",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "0.5",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Hibiscus",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": true
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "Ultra fine 0.2* +polar 0.05*",
+      "red": true
+    }
+  },
+  {
+    "Flower": {
+      "text": "Hippeastrum",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "salt  0.3",
+      "red": true
+    }
+  },
+  {
+    "Flower": {
+      "text": "Hloborus",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "0.1",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "",
+      "red": false
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": true
+    }
+  },
+  {
+    "Flower": {
+      "text": "Hypericum",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "3",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "0.1*",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "0.15",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "Ultra fine 0.2* +polar 0.05*",
+      "red": true
+    }
+  },
+  {
+    "Flower": {
+      "text": "Hydrangea",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "0.1",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "Put in tubes Long Life SL1.0%",
+      "red": true
+    }
+  },
+  {
+    "Flower": {
+      "text": "Kochia",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": true
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Liatris",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "0.15",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "5",
+      "red": true
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Lipdium",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "2",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "0.15",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "0.15*",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "*0.5",
+      "red": true
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SL": {
+      "text": "",
+      "red": false
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Leucadendron(Safari sunset)",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "0.15",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "5",
+      "red": true
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "TOG star*",
+      "red": true
+    }
+  },
+  {
+    "Flower": {
+      "text": "Lilium",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "3",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "0.1",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "0.15",
+      "red": true
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "1",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Limonium  sinutatum",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "0.2",
+      "red": true
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "",
+      "red": false
+    },
+    "Long life Bulb SG": {
+      "text": "1",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Limonium",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "2",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "0.3",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "0.3",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "10",
+      "red": true
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "Ga3  10 ppm",
+      "red": true
+    }
+  },
+  {
+    "Flower": {
+      "text": "Lipidium",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "2",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "0.3",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "0.3*",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "0.5*",
+      "red": true
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SL": {
+      "text": "",
+      "red": false
+    },
+    "Long life Bulb SG": {
+      "text": "1",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SL": {
+      "text": "",
+      "red": false
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Lupinus",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "4",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "0.3",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Matthiola",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "3",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "0.15",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "0.1",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "1.0",
+      "red": true
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "3",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "1",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Mollcella",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "0.1",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "0.1",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "",
+      "red": false
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Myrtus",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": true
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "Polar *0.05",
+      "red": true
+    }
+  },
+  {
+    "Flower": {
+      "text": "Ornithogalum Dubium",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": true
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Paeonia",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": true
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "0.1",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Philodendron",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "0.2",
+      "red": true
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "Ga3  30 ppm",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Phlox",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "4",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "0.1-0.2",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "0.5",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "2",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "1",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "Polar *0.05",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Polianthes tuberosa",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "4",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.05",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "0.5",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": true
+    },
+    "Sugar": {
+      "text": "10",
+      "red": true
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Pittosporum",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": true
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "Rovral0.2%+TOG-6 0.18%*",
+      "red": true
+    }
+  },
+  {
+    "Flower": {
+      "text": "Ranunculus",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "2",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": true
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "0.1",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "0.25",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": true
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "Ga3 10 ppm",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Roses",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1 (2)",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": true
+    },
+    "TOG-10": {
+      "text": "0.1",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "0.1",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "0.1",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Roscus",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": true
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "",
+      "red": false
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "Ultra fine 0.5+Polar 0.05*",
+      "red": true
+    }
+  },
+  {
+    "Flower": {
+      "text": "Scabiosa",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "2",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": true
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "0.2",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "0.1",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "",
+      "red": false
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": true
+    }
+  },
+  {
+    "Flower": {
+      "text": "Solidago",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "3",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "0.1",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "0.5",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "1",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "Culter 0.2",
+      "red": true
+    }
+  },
+  {
+    "Flower": {
+      "text": "Spathipyllium",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "4",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "0.3",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": true
+    },
+    "Sugar": {
+      "text": "5",
+      "red": true
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "1",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Sun flower",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "1",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "0.1",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "0.1",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": true
+    },
+    "Sugar": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "1",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Sweet pea",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "3",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "0.3",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": true
+    },
+    "Sugar": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Trachelium",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "2",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": true
+    },
+    "TOG-75": {
+      "text": "",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": true
+    },
+    "Sugar": {
+      "text": "5",
+      "red": true
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Veronica",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "2 (3)",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "0.15",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "0.2",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "2",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "",
+      "red": false
+    }
+  },
+  {
+    "Flower": {
+      "text": "Viburnum",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "4",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "0.5",
+      "red": true
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": false
+    },
+    "TOG-30": {
+      "text": "",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "0.3",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "STS 0.3*  2,4 D  20 ppm(Hadranol 0.04)*",
+      "red": true
+    }
+  },
+  {
+    "Flower": {
+      "text": "Wax flower",
+      "red": false
+    },
+    "Ethylene": {
+      "text": "3",
+      "red": false
+    },
+    "TOG-3": {
+      "text": "",
+      "red": false
+    },
+    "TOG-6": {
+      "text": "0.0089",
+      "red": false
+    },
+    "TOG-10": {
+      "text": "",
+      "red": true
+    },
+    "TOG-30": {
+      "text": "0.035",
+      "red": false
+    },
+    "TOG-75": {
+      "text": "0.3*",
+      "red": true
+    },
+    "TOG-Galileo": {
+      "text": "0.1",
+      "red": true
+    },
+    "TOG-L-101": {
+      "text": "",
+      "red": false
+    },
+    "TOG-L-103": {
+      "text": "",
+      "red": false
+    },
+    "Sugar": {
+      "text": "",
+      "red": false
+    },
+    "Long Life SL": {
+      "text": "1",
+      "red": true
+    },
+    "Long life Bulb SG": {
+      "text": "",
+      "red": true
+    },
+    "Long Life SG": {
+      "text": "1",
+      "red": true
+    },
+    "Additives": {
+      "text": "Polar 0.05*+ TOG-1020.1%*",
+      "red": true
+    }
+  }
+]
