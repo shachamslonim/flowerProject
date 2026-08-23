@@ -74,25 +74,19 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
-        },
-        {
-          "productName": "TOG-10",
-          "concentrationRate": "0.035",
-          "applicationMethod": "mixing",
           "priority": "standard"
         },
         {
           "productName": "TOG-30",
-          "concentrationRate": "0.1",
+          "concentrationRate": "0.035",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         },
         {
           "productName": "TOG-75",
-          "concentrationRate": "0.5",
+          "concentrationRate": "0.1",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -114,7 +108,15 @@
         "description": "moderate sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "coltar 0.1"
+      "additives": "coltar 0.1",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": {
+        "productName": "TOG-L-101",
+        "concentrationRate": "0.5",
+        "applicationMethod": "mixing",
+        "priority": "recommended"
+      },
+      "leafTreatment": null
     }
   },
   {
@@ -202,7 +204,7 @@
           "productName": "TOG-10",
           "concentrationRate": "0.1",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         },
         {
           "productName": "TOG-30",
@@ -220,7 +222,7 @@
           "productName": "TOG-Galileo",
           "concentrationRate": "0.1",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -242,7 +244,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": 50,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     }
   },
   {
@@ -324,10 +329,10 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
+          "priority": "standard"
         },
         {
-          "productName": "TOG-10",
+          "productName": "TOG-30",
           "concentrationRate": "0.035",
           "applicationMethod": "mixing",
           "priority": "standard"
@@ -342,7 +347,7 @@
           "productName": "TOG-Galileo",
           "concentrationRate": "0.1",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -370,7 +375,15 @@
         "description": "low sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": {
+        "productName": "TOG-L-101",
+        "concentrationRate": "0.5",
+        "applicationMethod": "mixing",
+        "priority": "standard"
+      },
+      "leafTreatment": null
     }
   },
   {
@@ -453,7 +466,8 @@
         "description": "not rated",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null
     }
   },
   {
@@ -535,7 +549,8 @@
         "description": "not rated",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null
     }
   },
   {
@@ -618,7 +633,7 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
+          "priority": "standard"
         }
       ],
       "customerTreatment": [],
@@ -627,7 +642,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "salt 0.3"
+      "additives": "salt  0.3",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     }
   },
   {
@@ -710,7 +728,8 @@
         "description": "not rated",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null
     }
   },
   {
@@ -786,29 +805,23 @@
           "productName": "TOG-3",
           "concentrationRate": "0.15",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         },
         {
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
+          "priority": "standard"
         },
         {
-          "productName": "TOG-10",
+          "productName": "TOG-30",
           "concentrationRate": "0.035",
           "applicationMethod": "mixing",
           "priority": "standard"
         },
         {
-          "productName": "TOG-30",
-          "concentrationRate": "0.1",
-          "applicationMethod": "mixing",
-          "priority": "standard"
-        },
-        {
           "productName": "TOG-75",
-          "concentrationRate": "0.25",
+          "concentrationRate": "0.1",
           "applicationMethod": "mixing",
           "priority": "standard"
         }
@@ -838,7 +851,15 @@
         "description": "low sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": {
+        "productName": "TOG-L-101",
+        "concentrationRate": "0.25",
+        "applicationMethod": "mixing",
+        "priority": "recommended"
+      },
+      "leafTreatment": null
     }
   },
   {
@@ -918,7 +939,7 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
+          "priority": "standard"
         }
       ],
       "customerTreatment": [
@@ -940,7 +961,15 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": {
+        "productName": "TOG-L-103",
+        "concentrationRate": "0.2",
+        "applicationMethod": "mixing",
+        "priority": "recommended"
+      }
     }
   },
   {
@@ -1023,7 +1052,8 @@
         "description": "not rated",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null
     }
   },
   {
@@ -1107,7 +1137,8 @@
         "description": "not rated",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null
     }
   },
   {
@@ -1191,7 +1222,8 @@
         "description": "not rated",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null
     }
   },
   {
@@ -1275,7 +1307,8 @@
         "description": "not rated",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null
     }
   },
   {
@@ -1360,7 +1393,8 @@
         "description": "not rated",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null
     }
   },
   {
@@ -1444,7 +1478,8 @@
         "description": "not rated",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null
     }
   },
   {
@@ -1526,17 +1561,23 @@
           "productName": "TOG-3",
           "concentrationRate": "0.15",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         },
         {
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-75",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
           "priority": "recommended"
         },
         {
-          "productName": "TOG-30",
-          "concentrationRate": "0.1",
+          "productName": "Sugar",
+          "concentrationRate": "2",
           "applicationMethod": "mixing",
           "priority": "standard"
         }
@@ -1566,7 +1607,10 @@
         "description": "low sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     }
   },
   {
@@ -1646,7 +1690,8 @@
         "description": "not rated",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null
     }
   },
   {
@@ -1730,17 +1775,23 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
-        },
-        {
-          "productName": "TOG-10",
-          "concentrationRate": "0.035",
-          "applicationMethod": "mixing",
           "priority": "standard"
         },
         {
           "productName": "TOG-30",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-75",
           "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Sugar",
+          "concentrationRate": "5-10",
           "applicationMethod": "mixing",
           "priority": "standard"
         }
@@ -1770,7 +1821,10 @@
         "description": "low sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     }
   },
   {
@@ -1785,13 +1839,13 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
+          "priority": "standard"
         },
         {
-          "productName": "TOG-30",
+          "productName": "TOG-Galileo",
           "concentrationRate": "0.1",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -1813,7 +1867,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Achillea millefolium",
     "commonNames": [
@@ -1867,19 +1924,19 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
-        },
-        {
-          "productName": "TOG-10",
-          "concentrationRate": "0.035",
-          "applicationMethod": "mixing",
           "priority": "standard"
         },
         {
           "productName": "TOG-30",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-75",
           "concentrationRate": "0.3-0.5",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -1901,7 +1958,10 @@
         "description": "very high sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Aconitum napellus",
     "commonNames": [
@@ -1974,7 +2034,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Adenanthos spp.",
     "commonNames": [
@@ -2023,7 +2086,7 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
+          "priority": "standard"
         },
         {
           "productName": "TOG-30",
@@ -2035,7 +2098,7 @@
           "productName": "TOG-75",
           "concentrationRate": "0.1",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -2063,7 +2126,15 @@
         "description": "moderate sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": {
+        "productName": "TOG-L-103",
+        "concentrationRate": "0.15",
+        "applicationMethod": "mixing",
+        "priority": "recommended"
+      }
     },
     "scientificName": "Alstroemeria spp.",
     "commonNames": [
@@ -2117,13 +2188,13 @@
           "productName": "TOG-3",
           "concentrationRate": "0.3",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         },
         {
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
+          "priority": "standard"
         }
       ],
       "customerTreatment": [],
@@ -2132,7 +2203,10 @@
         "description": "not rated",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Astilbe spp.",
     "commonNames": [
@@ -2174,7 +2248,7 @@
   },
   {
     "id": 24,
-    "hebrewName": "אמי",
+    "hebrewName": "אמי וויזנגה",
     "englishName": "Ammi visnaga",
     "family": "Apiaceae",
     "preservation": {
@@ -2184,16 +2258,28 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
           "priority": "recommended"
         },
         {
-          "productName": "TOG-10",
-          "concentrationRate": "0.035",
+          "productName": "Sugar",
+          "concentrationRate": "2",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
+        {
+          "productName": "Sugar",
+          "concentrationRate": "2",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
         {
           "productName": "Long Life SL",
           "concentrationRate": "2",
@@ -2218,7 +2304,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Ammi visnaga",
     "commonNames": [
@@ -2269,13 +2358,13 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
+          "priority": "standard"
         },
         {
-          "productName": "TOG-10",
+          "productName": "TOG-30",
           "concentrationRate": "0.035",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -2297,7 +2386,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Anigozanthos spp.",
     "commonNames": [
@@ -2348,17 +2440,23 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
-        },
-        {
-          "productName": "TOG-10",
-          "concentrationRate": "0.035",
-          "applicationMethod": "mixing",
           "priority": "standard"
         },
         {
           "productName": "TOG-30",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-75",
           "concentrationRate": "0.5",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Sugar",
+          "concentrationRate": "2",
           "applicationMethod": "mixing",
           "priority": "standard"
         }
@@ -2388,7 +2486,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "Alar 0.03%"
+      "additives": "Alar 0.03%",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Antirrhinum majus",
     "commonNames": [
@@ -2464,7 +2565,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "Ultra fine 0.3+Polar 0.05"
+      "additives": "Ultra fine 0.3+Polar0.05*",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Aralia spp.",
     "commonNames": [
@@ -2519,17 +2623,23 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
-        },
-        {
-          "productName": "TOG-10",
-          "concentrationRate": "0.035",
-          "applicationMethod": "mixing",
           "priority": "standard"
         },
         {
           "productName": "TOG-30",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-75",
           "concentrationRate": "0.1-0.2",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Sugar",
+          "concentrationRate": "3",
           "applicationMethod": "mixing",
           "priority": "standard"
         }
@@ -2559,7 +2669,10 @@
         "description": "moderate sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Asclepias tuberosa",
     "commonNames": [
@@ -2613,10 +2726,10 @@
           "priority": "recommended"
         },
         {
-          "productName": "TOG-30",
+          "productName": "TOG-75",
           "concentrationRate": "0.3",
           "applicationMethod": "dipping",
-          "priority": "standard"
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -2638,7 +2751,10 @@
         "description": "very high sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "Ultra fine 0.2+TOG 6 0.1"
+      "additives": "Ultra fine 0.2*+TOG 6 0.1*",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Asparagus virgatus",
     "commonNames": [
@@ -2685,17 +2801,11 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
-        },
-        {
-          "productName": "TOG-10",
-          "concentrationRate": "0.035",
-          "applicationMethod": "mixing",
           "priority": "standard"
         },
         {
-          "productName": "TOG-Galileo",
-          "concentrationRate": "0.2",
+          "productName": "TOG-30",
+          "concentrationRate": "0.035",
           "applicationMethod": "mixing",
           "priority": "standard"
         }
@@ -2725,7 +2835,15 @@
         "description": "low sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "Ga3 50ppm Ultra Fine 0.2"
+      "additives": "Ga3 * 50ppm Ultra Fine 0.2*",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": {
+        "productName": "TOG-L-103",
+        "concentrationRate": "0.2",
+        "applicationMethod": "mixing",
+        "priority": "recommended"
+      }
     },
     "scientificName": "Aspidistra elatior",
     "commonNames": [
@@ -2780,19 +2898,19 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
-        },
-        {
-          "productName": "TOG-10",
-          "concentrationRate": "0.035",
-          "applicationMethod": "mixing",
           "priority": "standard"
         },
         {
           "productName": "TOG-30",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-75",
           "concentrationRate": "0.1-0.2",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -2814,7 +2932,10 @@
         "description": "moderate sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Aster spp.",
     "commonNames": [
@@ -2867,6 +2988,18 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-Galileo",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
           "priority": "recommended"
         }
       ],
@@ -2901,7 +3034,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Callistephus chinensis",
     "commonNames": [
@@ -2954,13 +3090,19 @@
           "productName": "TOG-3",
           "concentrationRate": "0.15",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         },
         {
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
+          "applicationMethod": "dipping",
+          "priority": "standard"
+        },
+        {
+          "productName": "Sugar",
+          "concentrationRate": "5",
           "applicationMethod": "mixing",
-          "priority": "recommended"
+          "priority": "standard"
         }
       ],
       "customerTreatment": [
@@ -2994,7 +3136,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "Scour 0.1"
+      "additives": "Scour 0.1*",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Banksia spp.",
     "commonNames": [
@@ -3046,22 +3191,22 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
-        },
-        {
-          "productName": "TOG-10",
-          "concentrationRate": "0.035",
-          "applicationMethod": "mixing",
           "priority": "standard"
         },
         {
           "productName": "TOG-30",
-          "concentrationRate": "0.1-0.2",
+          "concentrationRate": "0.035",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         },
         {
           "productName": "TOG-75",
+          "concentrationRate": "0.1-0.2",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-Galileo",
           "concentrationRate": "0.1",
           "applicationMethod": "mixing",
           "priority": "standard"
@@ -3086,7 +3231,10 @@
         "description": "low sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Campanula medium",
     "commonNames": [
@@ -3138,13 +3286,13 @@
           "productName": "TOG-3",
           "concentrationRate": "0.15",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         },
         {
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
+          "priority": "standard"
         }
       ],
       "customerTreatment": [
@@ -3166,7 +3314,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Carthamus tinctorius",
     "commonNames": [
@@ -3215,17 +3366,23 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
-        },
-        {
-          "productName": "TOG-10",
-          "concentrationRate": "0.035",
-          "applicationMethod": "mixing",
           "priority": "standard"
         },
         {
           "productName": "TOG-30",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-75",
           "concentrationRate": "0.3",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Sugar",
+          "concentrationRate": "2",
           "applicationMethod": "mixing",
           "priority": "standard"
         }
@@ -3255,7 +3412,10 @@
         "description": "very high sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "2,4-D 20ppm"
+      "additives": "2,4-D 20ppm",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Cestrum spp.",
     "commonNames": [
@@ -3306,13 +3466,13 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
+          "priority": "standard"
         },
         {
-          "productName": "TOG-10",
+          "productName": "TOG-30",
           "concentrationRate": "0.05",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -3334,7 +3494,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Cotinus coggygria",
     "commonNames": [
@@ -3387,14 +3550,8 @@
           "priority": "recommended"
         },
         {
-          "productName": "TOG-75",
-          "concentrationRate": "0.1",
-          "applicationMethod": "mixing",
-          "priority": "standard"
-        },
-        {
           "productName": "TOG-Galileo",
-          "concentrationRate": "0.5",
+          "concentrationRate": "0.1",
           "applicationMethod": "mixing",
           "priority": "standard"
         }
@@ -3424,7 +3581,15 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "101 0.5%"
+      "additives": "101 0.5%*",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": {
+        "productName": "TOG-L-101",
+        "concentrationRate": "0.5",
+        "applicationMethod": "mixing",
+        "priority": "recommended"
+      },
+      "leafTreatment": null
     },
     "scientificName": "Chrysanthemum morifolium",
     "commonNames": [
@@ -3481,17 +3646,11 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
-        },
-        {
-          "productName": "TOG-10",
-          "concentrationRate": "0.035",
-          "applicationMethod": "mixing",
           "priority": "standard"
         },
         {
-          "productName": "TOG-Galileo",
-          "concentrationRate": "0.15",
+          "productName": "TOG-30",
+          "concentrationRate": "0.035",
           "applicationMethod": "mixing",
           "priority": "standard"
         }
@@ -3521,7 +3680,15 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "Ga3 24 ppm"
+      "additives": "Ga3  24 ppm",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": {
+        "productName": "TOG-L-103",
+        "concentrationRate": "0.15",
+        "applicationMethod": "mixing",
+        "priority": "recommended"
+      }
     },
     "scientificName": "Curcuma spp.",
     "commonNames": [
@@ -3573,17 +3740,23 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
-        },
-        {
-          "productName": "TOG-10",
-          "concentrationRate": "0.035",
-          "applicationMethod": "mixing",
           "priority": "standard"
         },
         {
           "productName": "TOG-30",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-75",
           "concentrationRate": "0.3",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Sugar",
+          "concentrationRate": "5",
           "applicationMethod": "mixing",
           "priority": "standard"
         }
@@ -3613,7 +3786,10 @@
         "description": "very high sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Delphinium elatum",
     "commonNames": [
@@ -3665,17 +3841,23 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
-        },
-        {
-          "productName": "TOG-10",
-          "concentrationRate": "0.035",
-          "applicationMethod": "mixing",
           "priority": "standard"
         },
         {
           "productName": "TOG-30",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-75",
           "concentrationRate": "0.2-0.3",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Sugar",
+          "concentrationRate": "5",
           "applicationMethod": "mixing",
           "priority": "standard"
         }
@@ -3705,7 +3887,10 @@
         "description": "very high sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Delphinium x belladonna",
     "commonNames": [
@@ -3754,17 +3939,23 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
-        },
-        {
-          "productName": "TOG-10",
-          "concentrationRate": "0.035",
-          "applicationMethod": "mixing",
           "priority": "standard"
         },
         {
           "productName": "TOG-30",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-75",
           "concentrationRate": "0.2-0.3",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Sugar",
+          "concentrationRate": "5",
           "applicationMethod": "mixing",
           "priority": "standard"
         }
@@ -3794,7 +3985,10 @@
         "description": "very high sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Dianthus caryophyllus",
     "commonNames": [
@@ -3849,17 +4043,23 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
-        },
-        {
-          "productName": "TOG-10",
-          "concentrationRate": "0.035",
-          "applicationMethod": "mixing",
           "priority": "standard"
         },
         {
           "productName": "TOG-30",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-75",
           "concentrationRate": "0.2",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Sugar",
+          "concentrationRate": "2",
           "applicationMethod": "mixing",
           "priority": "standard"
         }
@@ -3889,7 +4089,10 @@
         "description": "very high sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Digitalis purpurea",
     "commonNames": [
@@ -3960,7 +4163,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Echinops ritro",
     "commonNames": [
@@ -4009,19 +4215,25 @@
           "productName": "TOG-3",
           "concentrationRate": "0.2",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         },
         {
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-75",
+          "concentrationRate": "0.3",
+          "applicationMethod": "mixing",
           "priority": "recommended"
         },
         {
-          "productName": "TOG-30",
-          "concentrationRate": "0.3",
+          "productName": "Sugar",
+          "concentrationRate": "2",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -4049,7 +4261,10 @@
         "description": "very high sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "Ga3 20 ppm"
+      "additives": "Ga3  20 ppm",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Euphorbia fulgens",
     "commonNames": [
@@ -4099,29 +4314,29 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
-        },
-        {
-          "productName": "TOG-10",
-          "concentrationRate": "0.035",
-          "applicationMethod": "mixing",
           "priority": "standard"
         },
         {
           "productName": "TOG-30",
-          "concentrationRate": "0.1",
+          "concentrationRate": "0.035",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         },
         {
           "productName": "TOG-75",
           "concentrationRate": "0.1",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         },
         {
           "productName": "TOG-Galileo",
-          "concentrationRate": "0.5",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Sugar",
+          "concentrationRate": "2",
           "applicationMethod": "mixing",
           "priority": "standard"
         }
@@ -4151,7 +4366,15 @@
         "description": "low sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "1"
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": {
+        "productName": "TOG-L-101",
+        "concentrationRate": "0.5",
+        "applicationMethod": "mixing",
+        "priority": "standard"
+      },
+      "leafTreatment": null
     },
     "scientificName": "Eustoma grandiflorum",
     "commonNames": [
@@ -4206,19 +4429,19 @@
           "productName": "TOG-3",
           "concentrationRate": "0.15",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         },
         {
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
+          "priority": "standard"
         },
         {
-          "productName": "TOG-30",
+          "productName": "TOG-75",
           "concentrationRate": "0.1",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -4240,7 +4463,10 @@
         "description": "low sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Eryngium spp.",
     "commonNames": [
@@ -4296,10 +4522,10 @@
           "priority": "recommended"
         },
         {
-          "productName": "TOG-30",
+          "productName": "TOG-Galileo",
           "concentrationRate": "0.1",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -4321,7 +4547,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "Ga3 20 ppm"
+      "additives": "Ga3  20 ppm",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Gerbera jamesonii",
     "commonNames": [
@@ -4376,13 +4605,13 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
+          "priority": "standard"
         },
         {
-          "productName": "TOG-10",
+          "productName": "TOG-30",
           "concentrationRate": "0.035",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         },
         {
           "productName": "TOG-75",
@@ -4410,7 +4639,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Clarkia amoena",
     "commonNames": [
@@ -4485,7 +4717,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Gomphrena globosa",
     "commonNames": [
@@ -4536,25 +4771,19 @@
           "productName": "TOG-3",
           "concentrationRate": "0.2",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         },
         {
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
-        },
-        {
-          "productName": "TOG-30",
-          "concentrationRate": "0.3",
-          "applicationMethod": "dipping",
           "priority": "standard"
         },
         {
           "productName": "TOG-75",
-          "concentrationRate": "0.5",
+          "concentrationRate": "0.3",
           "applicationMethod": "dipping",
-          "priority": "standard"
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -4582,7 +4811,15 @@
         "description": "very high sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "Polar or switch"
+      "additives": "Polar or switch*",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": {
+        "productName": "TOG-L-101",
+        "concentrationRate": "0.5",
+        "applicationMethod": "dipping",
+        "priority": "recommended"
+      },
+      "leafTreatment": null
     },
     "scientificName": "Grevillea spp.",
     "commonNames": [
@@ -4634,19 +4871,25 @@
           "productName": "TOG-3",
           "concentrationRate": "0.15",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         },
         {
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-75",
+          "concentrationRate": "0.15-0.075",
+          "applicationMethod": "mixing",
           "priority": "recommended"
         },
         {
-          "productName": "TOG-30",
-          "concentrationRate": "0.15-0.075",
+          "productName": "Sugar",
+          "concentrationRate": "5",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -4674,7 +4917,10 @@
         "description": "low sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Gypsophila paniculata",
     "commonNames": [
@@ -4745,7 +4991,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "Ultra fine 0.2+polar 0.05"
+      "additives": "Ultra fine 0.2* +polar 0.05*",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Hibiscus rosa-sinensis",
     "commonNames": [
@@ -4799,7 +5048,7 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
+          "priority": "standard"
         }
       ],
       "customerTreatment": [
@@ -4821,7 +5070,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "salt 0.3"
+      "additives": "salt  0.3",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Hippeastrum spp.",
     "commonNames": [
@@ -4874,6 +5126,12 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-Galileo",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
           "priority": "recommended"
         }
       ],
@@ -4890,7 +5148,10 @@
         "description": "not rated",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Helleborus spp.",
     "commonNames": [
@@ -4943,25 +5204,19 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
-        },
-        {
-          "productName": "TOG-10",
-          "concentrationRate": "0.035",
-          "applicationMethod": "mixing",
           "priority": "standard"
         },
         {
           "productName": "TOG-30",
-          "concentrationRate": "0.1",
-          "applicationMethod": "dipping",
-          "priority": "standard"
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
         },
         {
-          "productName": "TOG-Galileo",
-          "concentrationRate": "0.15",
-          "applicationMethod": "mixing",
-          "priority": "standard"
+          "productName": "TOG-75",
+          "concentrationRate": "0.1",
+          "applicationMethod": "dipping",
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -4983,7 +5238,15 @@
         "description": "moderate sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "Ultra fine 0.2+polar 0.05"
+      "additives": "Ultra fine 0.2* +polar 0.05*",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": {
+        "productName": "TOG-L-103",
+        "concentrationRate": "0.15",
+        "applicationMethod": "mixing",
+        "priority": "standard"
+      }
     },
     "scientificName": "Hypericum spp.",
     "commonNames": [
@@ -5034,6 +5297,12 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
           "priority": "recommended"
         }
       ],
@@ -5062,7 +5331,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "Put in tubes Long Life SL 1.0%"
+      "additives": "Put in tubes Long Life SL1.0%",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Hydrangea macrophylla",
     "commonNames": [
@@ -5137,7 +5409,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Bassia scoparia",
     "commonNames": [
@@ -5186,11 +5461,17 @@
           "productName": "TOG-3",
           "concentrationRate": "0.15",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         },
         {
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Sugar",
+          "concentrationRate": "5",
           "applicationMethod": "mixing",
           "priority": "recommended"
         }
@@ -5220,7 +5501,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Liatris spicata",
     "commonNames": [
@@ -5272,7 +5556,13 @@
           "productName": "TOG-3",
           "concentrationRate": "0.15",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-75",
+          "concentrationRate": "0.15",
+          "applicationMethod": "dipping",
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -5294,7 +5584,15 @@
         "description": "low sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": {
+        "productName": "TOG-L-101",
+        "concentrationRate": "0.5",
+        "applicationMethod": "dipping",
+        "priority": "recommended"
+      },
+      "leafTreatment": null
     },
     "scientificName": "Lepidium sativum",
     "commonNames": [
@@ -5343,11 +5641,17 @@
           "productName": "TOG-3",
           "concentrationRate": "0.15",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         },
         {
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "Sugar",
+          "concentrationRate": "5",
           "applicationMethod": "mixing",
           "priority": "recommended"
         }
@@ -5377,7 +5681,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "TOG star"
+      "additives": "TOG star*",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Leucadendron salignum",
     "commonNames": [
@@ -5429,19 +5736,19 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
+          "priority": "standard"
         },
         {
-          "productName": "TOG-10",
+          "productName": "TOG-30",
           "concentrationRate": "0.035",
           "applicationMethod": "mixing",
           "priority": "standard"
         },
         {
-          "productName": "TOG-30",
+          "productName": "TOG-75",
           "concentrationRate": "0.1",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -5475,7 +5782,15 @@
         "description": "moderate sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": {
+        "productName": "TOG-L-103",
+        "concentrationRate": "0.15",
+        "applicationMethod": "mixing",
+        "priority": "recommended"
+      }
     },
     "scientificName": "Lilium spp.",
     "commonNames": [
@@ -5531,19 +5846,25 @@
           "productName": "TOG-3",
           "concentrationRate": "0.3",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         },
         {
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-75",
+          "concentrationRate": "0.3",
+          "applicationMethod": "mixing",
           "priority": "recommended"
         },
         {
-          "productName": "TOG-30",
-          "concentrationRate": "0.3",
+          "productName": "Sugar",
+          "concentrationRate": "10",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -5571,7 +5892,10 @@
         "description": "low sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "Ga3 10 ppm"
+      "additives": "Ga3  10 ppm",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Limonium spp.",
     "commonNames": [
@@ -5623,7 +5947,13 @@
           "productName": "TOG-3",
           "concentrationRate": "0.3",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-75",
+          "concentrationRate": "0.3",
+          "applicationMethod": "dipping",
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -5651,7 +5981,15 @@
         "description": "low sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": {
+        "productName": "TOG-L-101",
+        "concentrationRate": "0.5",
+        "applicationMethod": "dipping",
+        "priority": "recommended"
+      },
+      "leafTreatment": null
     },
     "scientificName": "Lepidium spp.",
     "commonNames": [
@@ -5699,19 +6037,19 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
-        },
-        {
-          "productName": "TOG-10",
-          "concentrationRate": "0.035",
-          "applicationMethod": "mixing",
           "priority": "standard"
         },
         {
           "productName": "TOG-30",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-75",
           "concentrationRate": "0.3",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -5733,7 +6071,10 @@
         "description": "very high sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Lupinus spp.",
     "commonNames": [
@@ -5787,23 +6128,23 @@
           "productName": "TOG-3",
           "concentrationRate": "0.15",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         },
         {
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
+          "priority": "standard"
         },
         {
           "productName": "TOG-75",
           "concentrationRate": "0.1",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         },
         {
-          "productName": "TOG-Galileo",
-          "concentrationRate": "1.0",
+          "productName": "Sugar",
+          "concentrationRate": "3",
           "applicationMethod": "mixing",
           "priority": "standard"
         }
@@ -5833,7 +6174,15 @@
         "description": "moderate sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "1"
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": {
+        "productName": "TOG-L-101",
+        "concentrationRate": "1.0",
+        "applicationMethod": "mixing",
+        "priority": "recommended"
+      },
+      "leafTreatment": null
     },
     "scientificName": "Matthiola incana",
     "commonNames": [
@@ -5887,6 +6236,18 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-Galileo",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
           "priority": "recommended"
         }
       ],
@@ -5909,7 +6270,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Moluccella laevis",
     "commonNames": [
@@ -5978,7 +6342,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "Polar 0.05"
+      "additives": "Polar *0.05",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Myrtus communis",
     "commonNames": [
@@ -6049,7 +6416,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Ornithogalum dubium",
     "commonNames": [
@@ -6103,7 +6473,7 @@
           "priority": "recommended"
         },
         {
-          "productName": "TOG-75",
+          "productName": "TOG-Galileo",
           "concentrationRate": "0.1",
           "applicationMethod": "mixing",
           "priority": "standard"
@@ -6128,7 +6498,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Paeonia lactiflora",
     "commonNames": [
@@ -6181,12 +6554,6 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
-        },
-        {
-          "productName": "TOG-Galileo",
-          "concentrationRate": "0.2",
-          "applicationMethod": "mixing",
           "priority": "standard"
         }
       ],
@@ -6209,7 +6576,15 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "Ga3 30 ppm"
+      "additives": "Ga3  30 ppm",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": {
+        "productName": "TOG-L-103",
+        "concentrationRate": "0.2",
+        "applicationMethod": "mixing",
+        "priority": "recommended"
+      }
     },
     "scientificName": "Philodendron spp.",
     "commonNames": [
@@ -6256,23 +6631,23 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
-        },
-        {
-          "productName": "TOG-10",
-          "concentrationRate": "0.035",
-          "applicationMethod": "mixing",
           "priority": "standard"
         },
         {
           "productName": "TOG-30",
-          "concentrationRate": "0.1-0.2",
+          "concentrationRate": "0.035",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         },
         {
           "productName": "TOG-75",
-          "concentrationRate": "0.5",
+          "concentrationRate": "0.1-0.2",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "Sugar",
+          "concentrationRate": "2",
           "applicationMethod": "mixing",
           "priority": "standard"
         }
@@ -6302,7 +6677,15 @@
         "description": "very high sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "1 Polar 0.05"
+      "additives": "Polar *0.05",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": {
+        "productName": "TOG-L-101",
+        "concentrationRate": "0.5",
+        "applicationMethod": "mixing",
+        "priority": "standard"
+      },
+      "leafTreatment": null
     },
     "scientificName": "Phlox paniculata",
     "commonNames": [
@@ -6357,19 +6740,25 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
-        },
-        {
-          "productName": "TOG-10",
-          "concentrationRate": "0.05",
-          "applicationMethod": "mixing",
           "priority": "standard"
         },
         {
           "productName": "TOG-30",
+          "concentrationRate": "0.05",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-75",
           "concentrationRate": "0.5",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
+        },
+        {
+          "productName": "Sugar",
+          "concentrationRate": "10",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -6397,7 +6786,10 @@
         "description": "very high sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Polianthes tuberosa",
     "commonNames": [
@@ -6468,7 +6860,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "Rovral 0.2%+TOG-6 0.18%"
+      "additives": "Rovral0.2%+TOG-6 0.18%*",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Pittosporum spp.",
     "commonNames": [
@@ -6524,12 +6919,6 @@
           "concentrationRate": "0.1",
           "applicationMethod": "mixing",
           "priority": "standard"
-        },
-        {
-          "productName": "TOG-Galileo",
-          "concentrationRate": "0.25",
-          "applicationMethod": "mixing",
-          "priority": "standard"
         }
       ],
       "customerTreatment": [
@@ -6551,7 +6940,15 @@
         "description": "low sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "Ga3 10 ppm"
+      "additives": "Ga3 10 ppm",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": {
+        "productName": "TOG-L-101",
+        "concentrationRate": "0.25",
+        "applicationMethod": "mixing",
+        "priority": "standard"
+      },
+      "leafTreatment": null
     },
     "scientificName": "Ranunculus asiaticus",
     "commonNames": [
@@ -6627,7 +7024,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "Ultra fine 0.5+Polar 0.05"
+      "additives": "Ultra fine 0.5+Polar 0.05*",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Ruscus spp.",
     "commonNames": [
@@ -6676,6 +7076,18 @@
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
           "priority": "recommended"
+        },
+        {
+          "productName": "TOG-75",
+          "concentrationRate": "0.2",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-Galileo",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
         }
       ],
       "customerTreatment": [
@@ -6697,7 +7109,10 @@
         "description": "low sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Scabiosa spp.",
     "commonNames": [
@@ -6749,25 +7164,19 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
-        },
-        {
-          "productName": "TOG-10",
-          "concentrationRate": "0.035",
-          "applicationMethod": "mixing",
           "priority": "standard"
         },
         {
           "productName": "TOG-30",
-          "concentrationRate": "0.1",
+          "concentrationRate": "0.035",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         },
         {
           "productName": "TOG-75",
-          "concentrationRate": "0.5",
+          "concentrationRate": "0.1",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -6795,7 +7204,15 @@
         "description": "moderate sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "Culter 0.2"
+      "additives": "Culter 0.2",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": {
+        "productName": "TOG-L-101",
+        "concentrationRate": "0.5",
+        "applicationMethod": "mixing",
+        "priority": "standard"
+      },
+      "leafTreatment": null
     },
     "scientificName": "Solidago spp.",
     "commonNames": [
@@ -6846,19 +7263,25 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
-        },
-        {
-          "productName": "TOG-10",
-          "concentrationRate": "0.035",
-          "applicationMethod": "mixing",
           "priority": "standard"
         },
         {
           "productName": "TOG-30",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-75",
           "concentrationRate": "0.3",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
+        },
+        {
+          "productName": "Sugar",
+          "concentrationRate": "5",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -6886,7 +7309,10 @@
         "description": "very high sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "1"
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Spathiphyllum spp.",
     "commonNames": [
@@ -6935,7 +7361,19 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-10",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
           "priority": "recommended"
+        },
+        {
+          "productName": "TOG-Galileo",
+          "concentrationRate": "0.1",
+          "applicationMethod": "mixing",
+          "priority": "standard"
         }
       ],
       "customerTreatment": [
@@ -6975,7 +7413,10 @@
         "description": "non sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Helianthus annuus",
     "commonNames": [
@@ -7028,19 +7469,19 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
-        },
-        {
-          "productName": "TOG-10",
-          "concentrationRate": "0.035",
-          "applicationMethod": "mixing",
           "priority": "standard"
         },
         {
           "productName": "TOG-30",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
+          "priority": "recommended"
+        },
+        {
+          "productName": "TOG-75",
           "concentrationRate": "0.3",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -7062,7 +7503,10 @@
         "description": "moderate sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Lathyrus odoratus",
     "commonNames": [
@@ -7115,13 +7559,19 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-30",
+          "concentrationRate": "0.035",
+          "applicationMethod": "mixing",
           "priority": "recommended"
         },
         {
-          "productName": "TOG-10",
-          "concentrationRate": "0.035",
+          "productName": "Sugar",
+          "concentrationRate": "5",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -7149,7 +7599,10 @@
         "description": "low sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Trachelium caeruleum",
     "commonNames": [
@@ -7199,17 +7652,23 @@
           "productName": "TOG-3",
           "concentrationRate": "0.15",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         },
         {
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
+          "priority": "standard"
+        },
+        {
+          "productName": "TOG-75",
+          "concentrationRate": "0.2",
+          "applicationMethod": "mixing",
           "priority": "recommended"
         },
         {
-          "productName": "TOG-30",
-          "concentrationRate": "0.2",
+          "productName": "Sugar",
+          "concentrationRate": "2",
           "applicationMethod": "mixing",
           "priority": "standard"
         }
@@ -7239,7 +7698,10 @@
         "description": "low sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": null
+      "additives": null,
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Veronica longifolia",
     "commonNames": [
@@ -7290,19 +7752,19 @@
           "productName": "TOG-3",
           "concentrationRate": "0.5",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         },
         {
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
+          "priority": "standard"
         },
         {
-          "productName": "TOG-30",
+          "productName": "TOG-75",
           "concentrationRate": "0.3",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -7324,7 +7786,10 @@
         "description": "very high sensitive",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "STS 0.3 2,4 D 20 ppm (Hadranol 0.04)"
+      "additives": "STS 0.3*  2,4 D  20 ppm(Hadranol 0.04)*",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Viburnum spp.",
     "commonNames": [
@@ -7375,25 +7840,25 @@
           "productName": "TOG-6",
           "concentrationRate": "0.0089",
           "applicationMethod": "mixing",
-          "priority": "recommended"
+          "priority": "standard"
         },
         {
-          "productName": "TOG-10",
+          "productName": "TOG-30",
           "concentrationRate": "0.035",
           "applicationMethod": "mixing",
           "priority": "standard"
         },
         {
-          "productName": "TOG-30",
+          "productName": "TOG-75",
           "concentrationRate": "0.3",
           "applicationMethod": "dipping",
-          "priority": "standard"
+          "priority": "recommended"
         },
         {
-          "productName": "TOG-75",
+          "productName": "TOG-Galileo",
           "concentrationRate": "0.1",
           "applicationMethod": "mixing",
-          "priority": "standard"
+          "priority": "recommended"
         }
       ],
       "customerTreatment": [
@@ -7415,7 +7880,10 @@
         "description": "moderate sensitivity",
         "scale": "1=non sensitive, 2=low sensitivity, 3=moderate sensitivity, 4=very high sensitive"
       },
-      "additives": "Polar 0.05+TOG-10 20.1%"
+      "additives": "Polar 0.05*+ TOG-1020.1%*",
+      "waterBucketHeight": null,
+      "ethyleneBlocker": null,
+      "leafTreatment": null
     },
     "scientificName": "Chamelaucium uncinatum",
     "commonNames": [

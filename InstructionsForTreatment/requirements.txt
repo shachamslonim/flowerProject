@@ -1,0 +1,9 @@
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-ollama>=0.1.0
+pytest>=7.0.0
+
+# Optional, Windows only. Needed solely by extract_doc_table.py to re-read the
+# TOG table (including its red "recommended" marking) out of the legacy .doc.
+# Not required to run or test the module - doc_table.json is committed.
+pywin32==311; sys_platform == "win32"
