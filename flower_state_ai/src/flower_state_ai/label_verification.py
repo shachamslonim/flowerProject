@@ -222,14 +222,22 @@ def merge_verified_labels(
     unclear_kept_csv: Path = config.VERIFICATION_REPORT_UNCLEAR_KEPT_CSV,
     review_unclear_csv: Path = config.VERIFICATION_REPORT_REVIEW_UNCLEAR_CSV,
     dry_run: bool = False,
+    species_ids: list[int] | None = None,
 ) -> pd.DataFrame:
     """Folds verified verdicts back into labels_master.csv. Existing open/closed rows get
     resolved_state overwritten unless the verdict is 'unclear' (never a valid
     CLASS_TO_IDX key - the prior label is kept and logged instead). review/ images with an
     open/closed verdict become new rows; review/ images verdicted 'unclear' are excluded
-    and logged. Species outside the verified set pass through untouched."""
+    and logged. Species outside the verified set pass through untouched.
+
+    species_ids restricts the merge to a subset of label_verification.csv's rows (e.g. to
+    merge only the species whose spot-checked corrections looked trustworthy, holding back
+    others pending further investigation). Defaults to every species in the CSV."""
     verified_df = pd.read_csv(verification_csv)
     labels_df = pd.read_csv(labels_master_csv)
+
+    if species_ids is not None:
+        verified_df = verified_df[verified_df["species_id"].isin(species_ids)]
 
     existing_mask = verified_df["prior_resolved_state"].notna()
     existing = verified_df[existing_mask]
@@ -248,6 +256,16 @@ def merge_verified_labels(
     still_exists = review_clear["image_path"].map(lambda p: (config.PHOTO_ROOT / p).exists())
     stale_review = review_clear[~still_exists]
     review_clear = review_clear[still_exists]
+
+    # label_verification.csv is append-only and accumulates across every verify-labels run
+    # (species 1-15, then later species batches) - a review/ row from an earlier run stays
+    # in it forever, even after that image was already promoted into labels_master.csv by
+    # a prior merge. Without this filter, re-running merge (e.g. to fold in a newly
+    # verified species batch) would re-add every already-promoted review image as a
+    # duplicate labels_master.csv row instead of just the new batch's.
+    already_promoted = review_clear["image_path"].isin(labels_df["image_path"])
+    n_already_promoted = int(already_promoted.sum())
+    review_clear = review_clear[~already_promoted]
 
     overrides = dict(zip(existing_clear["image_path"], existing_clear["ollama_state"]))
     changed_mask = labels_df["image_path"].isin(overrides) & (
@@ -278,7 +296,7 @@ def merge_verified_labels(
 
     print(f"[verify-labels] merge summary: changed={n_changed} added_from_review={len(new_review_rows)} "
           f"kept_prior_unclear={len(existing_unclear)} excluded_review_unclear={len(review_unclear)} "
-          f"excluded_stale_review={len(stale_review)}")
+          f"excluded_stale_review={len(stale_review)} excluded_already_promoted={n_already_promoted}")
 
     if dry_run:
         return combined

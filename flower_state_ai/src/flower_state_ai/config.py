@@ -111,6 +111,30 @@ AUGMENTATION_MAX_MULTIPLIER = 4
 AUGMENTATION_TARGET_RATIO = 1.0
 AUGMENTATION_SEED = 42
 
+# PaliGemma augmentation: unlike augment_closed_class above (which balances open:closed
+# *within* a species), this boosts species with few total train images (Adenanthos n=15,
+# Ammi_visnaga n=76, Astilbe n=88, Celosia n=101, Achillea n=128, Clarkia n=183, vs. a ~330
+# median) - a species-identification task needs enough examples per species, not just a
+# balanced state ratio. Rotation reuses ROTATION_ANGLES above; flip and color-jitter are
+# PaliGemma-specific op types (see augmentation.py's FLIP/COLOR_JITTER handling) so this
+# pulls from 3 distinct augmentation families rather than one, per the user's request for
+# more variety than the classifier's rotation-only approach.
+PALIGEMMA_AUG_TARGET_COUNT = 300
+PALIGEMMA_AUG_MAX_MULTIPLIER = 6
+PALIGEMMA_AUG_COLOR_JITTER_FACTORS = [0.8, 1.2]
+# Species whose species-name accuracy (from the most recent evaluate run) falls below 0.80
+# also get boosted, not just species with few raw images - a species with plenty of photos
+# but poor recognition still benefits from more augmented variety. Severity scales with how
+# bad the accuracy is: worse-performing species get both a bigger count multiplier AND a
+# wider variety of augmentation op types (more distinct "views" of the same source photos),
+# rather than just more copies of the same narrow transform.
+PALIGEMMA_AUG_TIERS = [
+    # (accuracy upper bound, exclusive; count multiplier; op-pool name)
+    (0.40, 2.5, "heavy"),   # rotate (all angles) + flip + color_jitter (all factors)
+    (0.60, 1.8, "medium"),  # rotate (4 small angles) + flip + color_jitter (1 factor)
+    (0.80, 1.3, "light"),   # rotate (2 angles) + flip
+]
+
 # Training
 BATCH_SIZE = 32
 NUM_WORKERS = 4
@@ -119,6 +143,44 @@ PHASE1_LR = 1e-3
 PHASE2_EPOCHS = 15
 PHASE2_LR = 1e-4
 UNFREEZE_LAST_N_BLOCKS = 5
+
+# PaliGemma-3B fine-tuning: a joint species-name + open/closed captioning model over species
+# 1-23, complementary to the ARCH_REGISTRY classifiers above (which predict only state, given
+# species is already known from the folder). Kept as a flat sibling block like TINY_CNN_* above
+# rather than folded into ARCH_REGISTRY - that registry's contract (img_size/mean/std for a
+# hand-rolled Normalize, one .pt checkpoint, a 2-class confusion matrix) doesn't fit a
+# generative model whose normalization lives inside its own processor and whose "checkpoint"
+# is a PEFT adapter directory.
+PALIGEMMA_MODEL_ID = "google/paligemma2-3b-pt-224"
+PALIGEMMA_SPECIES_MIN_ID = 1
+PALIGEMMA_SPECIES_MAX_ID = 24
+PALIGEMMA_LORA_R = 8
+PALIGEMMA_LORA_ALPHA = 16
+PALIGEMMA_LORA_TARGET_REGEX = r".*language_model.*\.(q_proj|k_proj|v_proj|o_proj|gate_proj|up_proj|down_proj)$"
+PALIGEMMA_BATCH_SIZE = 1
+PALIGEMMA_GRAD_ACCUM_STEPS = 16
+PALIGEMMA_EPOCHS = 3
+PALIGEMMA_LR = 2e-4
+PALIGEMMA_PROMPT = "answer en what flower species and bloom state is shown in this photo?"
+# state_only mode: species name goes IN the prompt (as the classifiers already get it, e.g.
+# from folder structure) - target is just "open"/"closed", not "<species> <state>". Tests
+# whether PaliGemma's world knowledge of a *named* species' bloom morphology beats the
+# classifiers at the one thing they're actually asked to do (state only), instead of also
+# making it guess species, which is a strictly harder task than either classifier attempts.
+PALIGEMMA_STATE_ONLY_PROMPT_TEMPLATE = "answer en is this {species} flower open or closed?"
+PALIGEMMA_ADAPTER_DIR = CHECKPOINTS_DIR / "paligemma_lora_adapter"
+PALIGEMMA_STATE_ONLY_ADAPTER_DIR = CHECKPOINTS_DIR / "paligemma_lora_adapter_state_only"
+PALIGEMMA_AUGMENTED_DIR = PROCESSED_DIR / "paligemma_augmented"
+PALIGEMMA_LABELS_TRAIN_FINAL_CSV = PROCESSED_DIR / "paligemma_labels_train_final.csv"
+PALIGEMMA_AUGMENTATION_REPORT_CSV = PROCESSED_DIR / "paligemma_augmentation_report.csv"
+PALIGEMMA_TRAIN_LOG_CSV = LOGS_DIR / "paligemma_train_log.csv"
+PALIGEMMA_TEST_REPORT_CSV = LOGS_DIR / "paligemma_test_report.csv"
+PALIGEMMA_STATE_CONFUSION_CSV = LOGS_DIR / "paligemma_state_confusion_matrix.csv"
+PALIGEMMA_MISCLASSIFIED_CSV = LOGS_DIR / "paligemma_misclassified_samples.csv"
+PALIGEMMA_STATE_ONLY_TRAIN_LOG_CSV = LOGS_DIR / "paligemma_state_only_train_log.csv"
+PALIGEMMA_STATE_ONLY_TEST_REPORT_CSV = LOGS_DIR / "paligemma_state_only_test_report.csv"
+PALIGEMMA_STATE_ONLY_STATE_CONFUSION_CSV = LOGS_DIR / "paligemma_state_only_state_confusion_matrix.csv"
+PALIGEMMA_STATE_ONLY_MISCLASSIFIED_CSV = LOGS_DIR / "paligemma_state_only_misclassified_samples.csv"
 
 # Agent
 OLLAMA_MODEL = "llama3.2:latest"
@@ -158,5 +220,5 @@ ARCH_REGISTRY = {
     },
 }
 
-for _d in (LABELS_DIR, PROCESSED_DIR, CACHE_DIR, AUGMENTED_DIR, CHECKPOINTS_DIR, TINY_DIR, LOGS_DIR):
+for _d in (LABELS_DIR, PROCESSED_DIR, CACHE_DIR, AUGMENTED_DIR, PALIGEMMA_AUGMENTED_DIR, CHECKPOINTS_DIR, TINY_DIR, LOGS_DIR):
     _d.mkdir(parents=True, exist_ok=True)

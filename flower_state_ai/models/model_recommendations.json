@@ -1,0 +1,1732 @@
+{
+  "generated_from": {
+    "mobilenet_v2_checkpoint": "models/checkpoints/mobilenet_v2_best.pt",
+    "tiny_cnn_checkpoint": "models/checkpoints/tiny_cnn_best.pt",
+    "paligemma_joint_adapter": "models/checkpoints/paligemma_lora_adapter (r=8, 3 epochs, tiered augmentation, predicts species+state)",
+    "paligemma_state_only_adapter": "models/checkpoints/paligemma_lora_adapter_state_only (r=8, 3 epochs, species given in prompt, predicts state only)",
+    "paligemma_species_coverage": "1-24 only"
+  },
+  "species": [
+    {
+      "species_id": 1,
+      "species_name": "Anemone",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "paligemma_state_only",
+        "state_accuracy": 0.8556,
+        "mobilenet_v2_state_accuracy": 0.8444,
+        "tiny_cnn_state_accuracy": 0.7556,
+        "paligemma_state_only_accuracy": 0.8556
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": "paligemma_joint",
+        "available": true,
+        "species_accuracy": 0.6,
+        "state_accuracy": 0.8,
+        "joint_accuracy": 0.4556
+      },
+      "notes": []
+    },
+    {
+      "species_id": 2,
+      "species_name": "Rose",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "paligemma_state_only",
+        "state_accuracy": 0.9231,
+        "mobilenet_v2_state_accuracy": 0.9077,
+        "tiny_cnn_state_accuracy": 0.8,
+        "paligemma_state_only_accuracy": 0.9231
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": "paligemma_joint",
+        "available": true,
+        "species_accuracy": 0.9692,
+        "state_accuracy": 0.8769,
+        "joint_accuracy": 0.8462
+      },
+      "notes": []
+    },
+    {
+      "species_id": 3,
+      "species_name": "Sunflower",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.7324,
+        "mobilenet_v2_state_accuracy": 0.7324,
+        "tiny_cnn_state_accuracy": 0.7042,
+        "paligemma_state_only_accuracy": 0.7042
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": "paligemma_joint",
+        "available": true,
+        "species_accuracy": 0.9859,
+        "state_accuracy": 0.7042,
+        "joint_accuracy": 0.6901
+      },
+      "notes": []
+    },
+    {
+      "species_id": 4,
+      "species_name": "Tulip",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.8167,
+        "mobilenet_v2_state_accuracy": 0.8167,
+        "tiny_cnn_state_accuracy": 0.7833,
+        "paligemma_state_only_accuracy": 0.8167
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": "paligemma_joint",
+        "available": true,
+        "species_accuracy": 0.8333,
+        "state_accuracy": 0.8333,
+        "joint_accuracy": 0.6833
+      },
+      "notes": []
+    },
+    {
+      "species_id": 5,
+      "species_name": "Daffodil",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.8824,
+        "mobilenet_v2_state_accuracy": 0.8824,
+        "tiny_cnn_state_accuracy": 0.6275,
+        "paligemma_state_only_accuracy": 0.8824
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": "paligemma_joint",
+        "available": true,
+        "species_accuracy": 0.7843,
+        "state_accuracy": 0.902,
+        "joint_accuracy": 0.7059
+      },
+      "notes": []
+    },
+    {
+      "species_id": 6,
+      "species_name": "Lily",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "paligemma_state_only",
+        "state_accuracy": 0.8472,
+        "mobilenet_v2_state_accuracy": 0.8056,
+        "tiny_cnn_state_accuracy": 0.7778,
+        "paligemma_state_only_accuracy": 0.8472
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": "paligemma_joint",
+        "available": true,
+        "species_accuracy": 0.5278,
+        "state_accuracy": 0.875,
+        "joint_accuracy": 0.4583
+      },
+      "notes": []
+    },
+    {
+      "species_id": 7,
+      "species_name": "Sage",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "paligemma_state_only",
+        "state_accuracy": 0.7358,
+        "mobilenet_v2_state_accuracy": 0.6509,
+        "tiny_cnn_state_accuracy": 0.6038,
+        "paligemma_state_only_accuracy": 0.7358
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": "paligemma_joint",
+        "available": true,
+        "species_accuracy": 0.5472,
+        "state_accuracy": 0.7642,
+        "joint_accuracy": 0.3962
+      },
+      "notes": []
+    },
+    {
+      "species_id": 8,
+      "species_name": "Ageratum",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.8529,
+        "mobilenet_v2_state_accuracy": 0.8529,
+        "tiny_cnn_state_accuracy": 0.7647,
+        "paligemma_state_only_accuracy": 0.8382
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": "paligemma_joint",
+        "available": true,
+        "species_accuracy": 0.5588,
+        "state_accuracy": 0.8676,
+        "joint_accuracy": 0.4706
+      },
+      "notes": []
+    },
+    {
+      "species_id": 9,
+      "species_name": "Statice_Limonium",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "paligemma_state_only",
+        "state_accuracy": 0.8219,
+        "mobilenet_v2_state_accuracy": 0.7808,
+        "tiny_cnn_state_accuracy": 0.6849,
+        "paligemma_state_only_accuracy": 0.8219
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": "paligemma_joint",
+        "available": true,
+        "species_accuracy": 0.4521,
+        "state_accuracy": 0.863,
+        "joint_accuracy": 0.3425
+      },
+      "notes": [
+        "PaliGemma species recognition (joint mode) unreliable for this species (under 50%)"
+      ]
+    },
+    {
+      "species_id": 10,
+      "species_name": "Geranium",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "paligemma_state_only",
+        "state_accuracy": 0.7805,
+        "mobilenet_v2_state_accuracy": 0.7195,
+        "tiny_cnn_state_accuracy": 0.5488,
+        "paligemma_state_only_accuracy": 0.7805
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": "paligemma_joint",
+        "available": true,
+        "species_accuracy": 0.5732,
+        "state_accuracy": 0.8537,
+        "joint_accuracy": 0.4512
+      },
+      "notes": []
+    },
+    {
+      "species_id": 11,
+      "species_name": "Petunia",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.7789,
+        "mobilenet_v2_state_accuracy": 0.7789,
+        "tiny_cnn_state_accuracy": 0.6526,
+        "paligemma_state_only_accuracy": 0.7579
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": "paligemma_joint",
+        "available": true,
+        "species_accuracy": 0.7368,
+        "state_accuracy": 0.8,
+        "joint_accuracy": 0.5684
+      },
+      "notes": []
+    },
+    {
+      "species_id": 12,
+      "species_name": "Poppy",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "paligemma_state_only",
+        "state_accuracy": 0.7969,
+        "mobilenet_v2_state_accuracy": 0.7188,
+        "tiny_cnn_state_accuracy": 0.625,
+        "paligemma_state_only_accuracy": 0.7969
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": "paligemma_joint",
+        "available": true,
+        "species_accuracy": 0.6094,
+        "state_accuracy": 0.8125,
+        "joint_accuracy": 0.5
+      },
+      "notes": []
+    },
+    {
+      "species_id": 13,
+      "species_name": "Dahlia",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "tiny_cnn",
+        "state_accuracy": 0.8065,
+        "mobilenet_v2_state_accuracy": 0.7258,
+        "tiny_cnn_state_accuracy": 0.8065,
+        "paligemma_state_only_accuracy": 0.7742
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": "paligemma_joint",
+        "available": true,
+        "species_accuracy": 0.9516,
+        "state_accuracy": 0.6774,
+        "joint_accuracy": 0.629
+      },
+      "notes": []
+    },
+    {
+      "species_id": 14,
+      "species_name": "Zinnia",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "paligemma_state_only",
+        "state_accuracy": 0.8182,
+        "mobilenet_v2_state_accuracy": 0.6818,
+        "tiny_cnn_state_accuracy": 0.7614,
+        "paligemma_state_only_accuracy": 0.8182
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": "paligemma_joint",
+        "available": true,
+        "species_accuracy": 0.9773,
+        "state_accuracy": 0.8523,
+        "joint_accuracy": 0.8295
+      },
+      "notes": []
+    },
+    {
+      "species_id": 15,
+      "species_name": "Cosmos",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "tiny_cnn",
+        "state_accuracy": 0.8427,
+        "mobilenet_v2_state_accuracy": 0.7865,
+        "tiny_cnn_state_accuracy": 0.8427,
+        "paligemma_state_only_accuracy": 0.7978
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": "paligemma_joint",
+        "available": true,
+        "species_accuracy": 0.9775,
+        "state_accuracy": 0.7416,
+        "joint_accuracy": 0.7303
+      },
+      "notes": []
+    },
+    {
+      "species_id": 16,
+      "species_name": "Celosia",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "paligemma_state_only",
+        "state_accuracy": 0.7727,
+        "mobilenet_v2_state_accuracy": 0.6818,
+        "tiny_cnn_state_accuracy": 0.5,
+        "paligemma_state_only_accuracy": 0.7727
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": "paligemma_joint",
+        "available": true,
+        "species_accuracy": 0.8636,
+        "state_accuracy": 0.8182,
+        "joint_accuracy": 0.7273
+      },
+      "notes": []
+    },
+    {
+      "species_id": 17,
+      "species_name": "Clarkia",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.8974,
+        "mobilenet_v2_state_accuracy": 0.8974,
+        "tiny_cnn_state_accuracy": 0.6923,
+        "paligemma_state_only_accuracy": 0.7179
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": "paligemma_joint",
+        "available": true,
+        "species_accuracy": 0.4103,
+        "state_accuracy": 0.7436,
+        "joint_accuracy": 0.3077
+      },
+      "notes": [
+        "PaliGemma species recognition (joint mode) unreliable for this species (under 50%)",
+        "photo folder contains non-Clarkia images - species predictions unreliable regardless of model"
+      ]
+    },
+    {
+      "species_id": 18,
+      "species_name": "Gladiolus",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "paligemma_state_only",
+        "state_accuracy": 0.7167,
+        "mobilenet_v2_state_accuracy": 0.6667,
+        "tiny_cnn_state_accuracy": 0.55,
+        "paligemma_state_only_accuracy": 0.7167
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": "paligemma_joint",
+        "available": true,
+        "species_accuracy": 0.7833,
+        "state_accuracy": 0.7333,
+        "joint_accuracy": 0.5667
+      },
+      "notes": []
+    },
+    {
+      "species_id": 19,
+      "species_name": "Achillea",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "paligemma_state_only",
+        "state_accuracy": 0.7857,
+        "mobilenet_v2_state_accuracy": 0.6429,
+        "tiny_cnn_state_accuracy": 0.5714,
+        "paligemma_state_only_accuracy": 0.7857
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": "paligemma_joint",
+        "available": true,
+        "species_accuracy": 0.8571,
+        "state_accuracy": 0.8571,
+        "joint_accuracy": 0.75
+      },
+      "notes": []
+    },
+    {
+      "species_id": 20,
+      "species_name": "Aconitum",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "paligemma_state_only",
+        "state_accuracy": 0.9167,
+        "mobilenet_v2_state_accuracy": 0.8167,
+        "tiny_cnn_state_accuracy": 0.7,
+        "paligemma_state_only_accuracy": 0.9167
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": "paligemma_joint",
+        "available": true,
+        "species_accuracy": 0.75,
+        "state_accuracy": 0.8667,
+        "joint_accuracy": 0.6333
+      },
+      "notes": []
+    },
+    {
+      "species_id": 21,
+      "species_name": "Adenanthos",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.0,
+        "mobilenet_v2_state_accuracy": 0.0,
+        "tiny_cnn_state_accuracy": 0.0,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": [
+        "low confidence (state accuracy under 50%) - treat predictions with caution",
+        "only 2 test images - accuracy numbers not statistically meaningful"
+      ]
+    },
+    {
+      "species_id": 22,
+      "species_name": "Alstromeria",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "paligemma_state_only",
+        "state_accuracy": 0.9615,
+        "mobilenet_v2_state_accuracy": 0.8718,
+        "tiny_cnn_state_accuracy": 0.7949,
+        "paligemma_state_only_accuracy": 0.9615
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": "paligemma_joint",
+        "available": true,
+        "species_accuracy": 0.6026,
+        "state_accuracy": 0.9615,
+        "joint_accuracy": 0.5769
+      },
+      "notes": []
+    },
+    {
+      "species_id": 23,
+      "species_name": "Astilbe",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "paligemma_state_only",
+        "state_accuracy": 0.8947,
+        "mobilenet_v2_state_accuracy": 0.7368,
+        "tiny_cnn_state_accuracy": 0.7368,
+        "paligemma_state_only_accuracy": 0.8947
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": "paligemma_joint",
+        "available": true,
+        "species_accuracy": 0.9474,
+        "state_accuracy": 0.9474,
+        "joint_accuracy": 0.8947
+      },
+      "notes": []
+    },
+    {
+      "species_id": 24,
+      "species_name": "Ammi_visnaga",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "paligemma_state_only",
+        "state_accuracy": 0.9412,
+        "mobilenet_v2_state_accuracy": 0.8824,
+        "tiny_cnn_state_accuracy": 0.4118,
+        "paligemma_state_only_accuracy": 0.9412
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": "paligemma_joint",
+        "available": true,
+        "species_accuracy": 0.8824,
+        "state_accuracy": 0.8824,
+        "joint_accuracy": 0.8235
+      },
+      "notes": []
+    },
+    {
+      "species_id": 26,
+      "species_name": "Antirrhinum",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.4286,
+        "mobilenet_v2_state_accuracy": 0.4286,
+        "tiny_cnn_state_accuracy": 0.1429,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": [
+        "low confidence (state accuracy under 50%) - treat predictions with caution"
+      ]
+    },
+    {
+      "species_id": 27,
+      "species_name": "Aralia",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 1.0,
+        "mobilenet_v2_state_accuracy": 1.0,
+        "tiny_cnn_state_accuracy": 0.6,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 28,
+      "species_name": "Asclpias_tuberrosa",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.6667,
+        "mobilenet_v2_state_accuracy": 0.6667,
+        "tiny_cnn_state_accuracy": 0.4667,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 29,
+      "species_name": "Asparagus_Myriocladius",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.75,
+        "mobilenet_v2_state_accuracy": 0.75,
+        "tiny_cnn_state_accuracy": 0.4583,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 30,
+      "species_name": "Aspidistra",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 1.0,
+        "mobilenet_v2_state_accuracy": 1.0,
+        "tiny_cnn_state_accuracy": 0.7,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 31,
+      "species_name": "Aster",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.6818,
+        "mobilenet_v2_state_accuracy": 0.6818,
+        "tiny_cnn_state_accuracy": 0.4773,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 32,
+      "species_name": "Aster_Callistephus_Chinensis",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.7742,
+        "mobilenet_v2_state_accuracy": 0.7742,
+        "tiny_cnn_state_accuracy": 0.5161,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 33,
+      "species_name": "Banksia",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.8462,
+        "mobilenet_v2_state_accuracy": 0.8462,
+        "tiny_cnn_state_accuracy": 0.6154,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 34,
+      "species_name": "Campanula",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.6286,
+        "mobilenet_v2_state_accuracy": 0.6286,
+        "tiny_cnn_state_accuracy": 0.5429,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 35,
+      "species_name": "Carthamus",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.5,
+        "mobilenet_v2_state_accuracy": 0.5,
+        "tiny_cnn_state_accuracy": 0.5,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 36,
+      "species_name": "Cestrum",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.6,
+        "mobilenet_v2_state_accuracy": 0.6,
+        "tiny_cnn_state_accuracy": 0.5,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 37,
+      "species_name": "Cotinus",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.7857,
+        "mobilenet_v2_state_accuracy": 0.7857,
+        "tiny_cnn_state_accuracy": 0.6786,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 38,
+      "species_name": "Chrysanthemum",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "tiny_cnn",
+        "state_accuracy": 0.5714,
+        "mobilenet_v2_state_accuracy": 0.4821,
+        "tiny_cnn_state_accuracy": 0.5714,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 39,
+      "species_name": "Curcuma",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.8846,
+        "mobilenet_v2_state_accuracy": 0.8846,
+        "tiny_cnn_state_accuracy": 0.6154,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 40,
+      "species_name": "Delphinium_elatum",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.75,
+        "mobilenet_v2_state_accuracy": 0.75,
+        "tiny_cnn_state_accuracy": 0.25,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 41,
+      "species_name": "Delphinium_belladonna",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.5833,
+        "mobilenet_v2_state_accuracy": 0.5833,
+        "tiny_cnn_state_accuracy": 0.3333,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 42,
+      "species_name": "Dianthus_standard_spray",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.5775,
+        "mobilenet_v2_state_accuracy": 0.5775,
+        "tiny_cnn_state_accuracy": 0.5634,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 43,
+      "species_name": "Digitalis",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.6087,
+        "mobilenet_v2_state_accuracy": 0.6087,
+        "tiny_cnn_state_accuracy": 0.5652,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 44,
+      "species_name": "Echinops",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "tiny_cnn",
+        "state_accuracy": 0.6562,
+        "mobilenet_v2_state_accuracy": 0.5625,
+        "tiny_cnn_state_accuracy": 0.6562,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 45,
+      "species_name": "Euphorbia_fulgens",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.72,
+        "mobilenet_v2_state_accuracy": 0.72,
+        "tiny_cnn_state_accuracy": 0.64,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 46,
+      "species_name": "Eustoma_Lisianthus",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 1.0,
+        "mobilenet_v2_state_accuracy": 1.0,
+        "tiny_cnn_state_accuracy": 0.6667,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 47,
+      "species_name": "Eryngium",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.7143,
+        "mobilenet_v2_state_accuracy": 0.7143,
+        "tiny_cnn_state_accuracy": 0.7143,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 48,
+      "species_name": "Gerbera",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.6143,
+        "mobilenet_v2_state_accuracy": 0.6143,
+        "tiny_cnn_state_accuracy": 0.4714,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 49,
+      "species_name": "Godetia",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.9556,
+        "mobilenet_v2_state_accuracy": 0.9556,
+        "tiny_cnn_state_accuracy": 0.6,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 50,
+      "species_name": "Gomphrena",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "tiny_cnn",
+        "state_accuracy": 1.0,
+        "mobilenet_v2_state_accuracy": 0.6667,
+        "tiny_cnn_state_accuracy": 1.0,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 51,
+      "species_name": "Grevillea",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "tiny_cnn",
+        "state_accuracy": 0.7273,
+        "mobilenet_v2_state_accuracy": 0.5455,
+        "tiny_cnn_state_accuracy": 0.7273,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 52,
+      "species_name": "Gypsophila",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "tiny_cnn",
+        "state_accuracy": 0.6486,
+        "mobilenet_v2_state_accuracy": 0.4054,
+        "tiny_cnn_state_accuracy": 0.6486,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 53,
+      "species_name": "Hibiscus",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.6377,
+        "mobilenet_v2_state_accuracy": 0.6377,
+        "tiny_cnn_state_accuracy": 0.5797,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 54,
+      "species_name": "Hippeastrum",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.4545,
+        "mobilenet_v2_state_accuracy": 0.4545,
+        "tiny_cnn_state_accuracy": 0.4545,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": [
+        "low confidence (state accuracy under 50%) - treat predictions with caution"
+      ]
+    },
+    {
+      "species_id": 55,
+      "species_name": "Hloborus",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.7273,
+        "mobilenet_v2_state_accuracy": 0.7273,
+        "tiny_cnn_state_accuracy": 0.6667,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 56,
+      "species_name": "Hypericum",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "tiny_cnn",
+        "state_accuracy": 0.6316,
+        "mobilenet_v2_state_accuracy": 0.4737,
+        "tiny_cnn_state_accuracy": 0.6316,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 57,
+      "species_name": "Hydrangea",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.5921,
+        "mobilenet_v2_state_accuracy": 0.5921,
+        "tiny_cnn_state_accuracy": 0.4868,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 58,
+      "species_name": "Kochia",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "tiny_cnn",
+        "state_accuracy": 0.6364,
+        "mobilenet_v2_state_accuracy": 0.5909,
+        "tiny_cnn_state_accuracy": 0.6364,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 59,
+      "species_name": "Liatris",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.8333,
+        "mobilenet_v2_state_accuracy": 0.8333,
+        "tiny_cnn_state_accuracy": 0.3333,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 60,
+      "species_name": "Lipdium",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.8367,
+        "mobilenet_v2_state_accuracy": 0.8367,
+        "tiny_cnn_state_accuracy": 0.6122,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 61,
+      "species_name": "Leucadendron_Safari_sunset",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.3333,
+        "mobilenet_v2_state_accuracy": 0.3333,
+        "tiny_cnn_state_accuracy": 0.3333,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": [
+        "low confidence (state accuracy under 50%) - treat predictions with caution"
+      ]
+    },
+    {
+      "species_id": 62,
+      "species_name": "Lilium",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.7885,
+        "mobilenet_v2_state_accuracy": 0.7885,
+        "tiny_cnn_state_accuracy": 0.5769,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 63,
+      "species_name": "Limonium",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.7857,
+        "mobilenet_v2_state_accuracy": 0.7857,
+        "tiny_cnn_state_accuracy": 0.5714,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 65,
+      "species_name": "Lupinus",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.3462,
+        "mobilenet_v2_state_accuracy": 0.3462,
+        "tiny_cnn_state_accuracy": 0.3462,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": [
+        "low confidence (state accuracy under 50%) - treat predictions with caution"
+      ]
+    },
+    {
+      "species_id": 66,
+      "species_name": "Matthiola",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 1.0,
+        "mobilenet_v2_state_accuracy": 1.0,
+        "tiny_cnn_state_accuracy": 1.0,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 67,
+      "species_name": "Mollcella",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 1.0,
+        "mobilenet_v2_state_accuracy": 1.0,
+        "tiny_cnn_state_accuracy": 0.0,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 68,
+      "species_name": "Myrtus",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 1.0,
+        "mobilenet_v2_state_accuracy": 1.0,
+        "tiny_cnn_state_accuracy": 0.4286,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 69,
+      "species_name": "Ornithogalum_Dubium",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "tiny_cnn",
+        "state_accuracy": 0.875,
+        "mobilenet_v2_state_accuracy": 0.5,
+        "tiny_cnn_state_accuracy": 0.875,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 70,
+      "species_name": "Paeonia",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.6053,
+        "mobilenet_v2_state_accuracy": 0.6053,
+        "tiny_cnn_state_accuracy": 0.4737,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 71,
+      "species_name": "Philodendron",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "tiny_cnn",
+        "state_accuracy": 0.5833,
+        "mobilenet_v2_state_accuracy": 0.5,
+        "tiny_cnn_state_accuracy": 0.5833,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 72,
+      "species_name": "Phlox",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "tiny_cnn",
+        "state_accuracy": 0.7143,
+        "mobilenet_v2_state_accuracy": 0.6667,
+        "tiny_cnn_state_accuracy": 0.7143,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 73,
+      "species_name": "Polianthes_tuberosa",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 1.0,
+        "mobilenet_v2_state_accuracy": 1.0,
+        "tiny_cnn_state_accuracy": 1.0,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 74,
+      "species_name": "Pittosporum",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "tiny_cnn",
+        "state_accuracy": 0.8462,
+        "mobilenet_v2_state_accuracy": 0.7692,
+        "tiny_cnn_state_accuracy": 0.8462,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 75,
+      "species_name": "Ranunculus",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "tiny_cnn",
+        "state_accuracy": 0.6857,
+        "mobilenet_v2_state_accuracy": 0.5143,
+        "tiny_cnn_state_accuracy": 0.6857,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 77,
+      "species_name": "Scabiosa",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.4737,
+        "mobilenet_v2_state_accuracy": 0.4737,
+        "tiny_cnn_state_accuracy": 0.4737,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": [
+        "low confidence (state accuracy under 50%) - treat predictions with caution"
+      ]
+    },
+    {
+      "species_id": 78,
+      "species_name": "Solidago",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.4545,
+        "mobilenet_v2_state_accuracy": 0.4545,
+        "tiny_cnn_state_accuracy": 0.1818,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": [
+        "low confidence (state accuracy under 50%) - treat predictions with caution"
+      ]
+    },
+    {
+      "species_id": 79,
+      "species_name": "Spathipyllium",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.7027,
+        "mobilenet_v2_state_accuracy": 0.7027,
+        "tiny_cnn_state_accuracy": 0.5946,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 80,
+      "species_name": "Sun_flower",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 0.7674,
+        "mobilenet_v2_state_accuracy": 0.7674,
+        "tiny_cnn_state_accuracy": 0.6512,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 81,
+      "species_name": "Sweet_pea",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "tiny_cnn",
+        "state_accuracy": 0.5,
+        "mobilenet_v2_state_accuracy": 0.4444,
+        "tiny_cnn_state_accuracy": 0.5,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 83,
+      "species_name": "Veronica",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "tiny_cnn",
+        "state_accuracy": 0.5,
+        "mobilenet_v2_state_accuracy": 0.2857,
+        "tiny_cnn_state_accuracy": 0.5,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 84,
+      "species_name": "Viburnum",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "tiny_cnn",
+        "state_accuracy": 0.6829,
+        "mobilenet_v2_state_accuracy": 0.6341,
+        "tiny_cnn_state_accuracy": 0.6829,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    },
+    {
+      "species_id": 85,
+      "species_name": "Wax_flower",
+      "known_species_workflow": {
+        "description": "species already known (e.g. sorted by folder) - only need open/closed state",
+        "recommended_model": "mobilenet_v2",
+        "state_accuracy": 1.0,
+        "mobilenet_v2_state_accuracy": 1.0,
+        "tiny_cnn_state_accuracy": 1.0,
+        "paligemma_state_only_accuracy": null
+      },
+      "unknown_species_workflow": {
+        "description": "species not known - need species name + state from the photo alone",
+        "recommended_model": null,
+        "available": false,
+        "species_accuracy": null,
+        "state_accuracy": null,
+        "joint_accuracy": null
+      },
+      "notes": []
+    }
+  ]
+}
