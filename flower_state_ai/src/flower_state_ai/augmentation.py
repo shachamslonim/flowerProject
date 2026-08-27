@@ -18,7 +18,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
-from PIL import Image
+from PIL import Image, ImageEnhance, ImageOps
 
 from flower_state_ai import config
 
@@ -84,14 +84,38 @@ def scale_and_crop(img: Image.Image, scale: float) -> Image.Image:
     return Image.fromarray(padded[:h, :w])
 
 
+def flip_horizontal(img: Image.Image, _param: float) -> Image.Image:
+    return ImageOps.mirror(img)
+
+
+def color_jitter(img: Image.Image, factor: float) -> Image.Image:
+    """factor scales brightness/contrast/color together, each perturbed by an independent
+    random draw around it, so two calls with the same factor still produce visibly different
+    variants - useful when a rare species needs several color-jitter copies from one source."""
+    rng = random.Random(hash((id(img), factor)) & 0xFFFFFFFF)
+    out = img
+    for enhancer_cls in (ImageEnhance.Brightness, ImageEnhance.Contrast, ImageEnhance.Color):
+        jitter = rng.uniform(min(factor, 1 / factor), max(factor, 1 / factor))
+        out = enhancer_cls(out).enhance(jitter)
+    return out
+
+
+_OP_APPLIERS = {
+    "rotate": rotate_and_crop,
+    "scale": scale_and_crop,
+    "flip": flip_horizontal,
+    "color_jitter": color_jitter,
+}
+
+
 def apply_aug_op(img: Image.Image, op: AugOp) -> Image.Image:
     op_type, param = op
-    return rotate_and_crop(img, param) if op_type == "rotate" else scale_and_crop(img, param)
+    return _OP_APPLIERS[op_type](img, param)
 
 
-def _op_tag(op: AugOp) -> str:
+def op_tag(op: AugOp) -> str:
     op_type, param = op
-    return f"rot{param:g}" if op_type == "rotate" else f"scl{param:g}"
+    return f"{op_type}{param:g}"
 
 
 def augment_closed_class(
@@ -136,7 +160,7 @@ def augment_closed_class(
                     src = Path(row.cached_abs_path)
                     dst_dir = aug_root / f"{species_id:03d}_{species_name}" / "closed"
                     dst_dir.mkdir(parents=True, exist_ok=True)
-                    dst = dst_dir / f"aug_{_op_tag(op)}_{src.name}"
+                    dst = dst_dir / f"aug_{op_tag(op)}_{src.name}"
 
                     if not dst.exists():
                         with Image.open(src) as img:
