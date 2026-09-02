@@ -3,6 +3,20 @@ langchain-core>=0.2.0
 langchain-ollama>=0.1.0
 pytest>=7.0.0
 
+# Hebrew LLM output: small local models write broken Hebrew, so the module
+# composes in English and machine-translates. Free, no API key.
+deep-translator>=1.9.0
+
+# Text-to-speech for the --read / speak_text() read-aloud feature.
+# Only the engine you use is required:
+#   pyttsx3 - offline, OS speech engine (SAPI5 on Windows), writes WAV
+#   gTTS    - online (Google Translate TTS), no API key, writes MP3, better Hebrew
+#   mms     - offline neural VITS/MMS-TTS (facebook/mms-tts-*); needs
+#             transformers + torch + scipy (downloads the model on first use)
+pyttsx3>=2.90
+gTTS>=2.5.0
+# transformers>=4.40 ; torch ; scipy   # only for --speak-engine mms
+
 # Optional, Windows only. Needed solely by extract_doc_table.py to re-read the
 # TOG table (including its red "recommended" marking) out of the legacy .doc.
 # Not required to run or test the module - doc_table.json is committed.

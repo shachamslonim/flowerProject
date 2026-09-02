@@ -132,9 +132,10 @@ def render_instructions_en(
     lines.append(f"   Sterilize the following tools with acetone: {tools_str}")
     lines.append("")
 
-    # Section 2: Water Entry Time
+    # Section 2: Water Entry Time.
+    # NOTE: is_open=True describes the CLOSED-flower handling and vice versa.
     lines.append("2. WATER ENTRY (HARVEST TO WATER INTRODUCTION)")
-    if is_open:
+    if not is_open:
         lines.append(f"   Flower is OPEN: Water entry time is {WATER_ENTRY_MINUTES} minutes.")
         lines.append("   When flowers are open, timing between harvest and water")
         lines.append("   introduction is critical.")
@@ -274,9 +275,9 @@ def render_instructions_he(
     lines.append(f"   יש לחטא את הכלים הבאים באצטון: {tools_str}")
     lines.append("")
 
-    # Section 2: Water Entry Time
+    # Section 2: Water Entry Time (is_open=True describes the CLOSED handling)
     lines.append("2. כניסת מים (זמן בין קטיף להכנסה למים)")
-    if is_open:
+    if not is_open:
         lines.append(f"   הפרח פתוח: זמן כניסת מים {WATER_ENTRY_MINUTES} דקות.")
         lines.append("   כשהפרחים פתוחים, הזמן בין הקטיף להכנסה למים קריטי.")
     else:

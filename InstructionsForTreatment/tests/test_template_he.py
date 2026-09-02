@@ -25,8 +25,9 @@ class TestHebrewRenderer:
         assert '50 ס"מ' in result
 
     def test_rose_closed_shows_controlled_harvest(self):
+        # is_open=True renders the CLOSED-flower handling (flag meaning is inverted)
         data = load_flower_data("Rose")
-        result = render_instructions_he(data, is_open=False, yellow_leaves=False, leaves_falling=False)
+        result = render_instructions_he(data, is_open=True, yellow_leaves=False, leaves_falling=False)
         assert "קטיף מבוקר" in result
         assert "סגורים" in result
 
@@ -133,13 +134,13 @@ class TestHebrewRenderer:
         assert "אדמונית" in result
 
     def test_open_flower_explains_timing_critical_hebrew(self):
-        """Open flower should explain timing is critical in Hebrew."""
+        """Open flower (is_open=False) should explain timing is critical in Hebrew."""
         data = load_flower_data("Rose")
-        result = render_instructions_he(data, is_open=True, yellow_leaves=False, leaves_falling=False)
+        result = render_instructions_he(data, is_open=False, yellow_leaves=False, leaves_falling=False)
         assert "קריטי" in result
 
     def test_water_entry_section_mentions_sink(self):
-        """Closed flower instruction mentions sink."""
+        """Closed-flower instruction (is_open=True) mentions sink."""
         data = load_flower_data("Rose")
-        result = render_instructions_he(data, is_open=False, yellow_leaves=False, leaves_falling=False)
+        result = render_instructions_he(data, is_open=True, yellow_leaves=False, leaves_falling=False)
         assert "sink" in result

@@ -144,7 +144,8 @@ def _section_sterilization(he: bool) -> str:
 
 def _section_water_entry(is_open: bool, he: bool) -> str:
     heading = "כניסת מים" if he else "Water Entry"
-    if is_open:
+    # is_open=True describes the CLOSED-flower handling and vice versa.
+    if not is_open:
         if he:
             body = (
                 f"<strong>הפרח פתוח:</strong> זמן כניסת מים {WATER_ENTRY_MINUTES} דקות."

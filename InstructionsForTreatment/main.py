@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from .data_loader import load_flower_data
+from .llm_renderer import VALID_AUDIENCES
 from .template_renderer import render_instructions_en, render_instructions_he
 
 VALID_LANGUAGES = ("en", "he")
@@ -16,22 +17,34 @@ def generate_treatment_instructions(
     leaves_falling: bool = False,
     language: str = "en",
     mode: str = "template",
+    audience: str = "farmer",
+    model: str | None = None,
+    translate: bool = True,
 ) -> str:
     """Generate shelf life extension instructions for a picked flower.
 
     Args:
         flower_name: English name of the flower (looked up in flowers.json).
-        is_open: Whether the flower is open (True = 15 min water entry time).
+        is_open: Water-entry handling. True renders the CLOSED-flower wording
+            (controlled harvest); False renders the OPEN-flower wording (timing
+            critical). Either way the 15-minute water-entry time is stated.
         yellow_leaves: Whether leaves are yellow (True = add Gibberellin).
         leaves_falling: Whether leaves are falling (reserved for future use).
         language: Output language - "en" for English, "he" for Hebrew.
         mode: Generation mode - "template" (default) or "llm" (uses Ollama).
+        audience: Who the LLM writes for - "farmer" (default), "agronomist" or
+            "layperson". Only affects mode="llm".
+        model: Ollama model tag for mode="llm" (default: OLLAMA_MODEL env var,
+            else llama3.2:latest).
+        translate: For language="he" + mode="llm". True (default) composes in
+            English and machine-translates to Hebrew; False trusts the model to
+            write Hebrew directly.
 
     Returns:
         Formatted treatment instruction text.
 
     Raises:
-        ValueError: If flower_name not found, or language/mode is invalid.
+        ValueError: If flower_name not found, or language/mode/audience is invalid.
     """
     # Validate inputs
     language = language.strip().lower()
@@ -44,6 +57,12 @@ def generate_treatment_instructions(
     if mode not in VALID_MODES:
         raise ValueError(
             f"Invalid mode '{mode}'. Must be one of: {', '.join(VALID_MODES)}"
+        )
+
+    audience = audience.strip().lower()
+    if audience not in VALID_AUDIENCES:
+        raise ValueError(
+            f"Invalid audience '{audience}'. Must be one of: {', '.join(VALID_AUDIENCES)}"
         )
 
     # Load flower data (raises ValueError if not found)
@@ -59,6 +78,9 @@ def generate_treatment_instructions(
             yellow_leaves=yellow_leaves,
             leaves_falling=leaves_falling,
             language=language,
+            audience=audience,
+            model=model,
+            translate=translate,
         )
 
     # Template mode

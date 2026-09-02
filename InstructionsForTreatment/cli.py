@@ -30,7 +30,9 @@ def build_parser() -> argparse.ArgumentParser:
         "--open",
         type=parse_bool,
         default=False,
-        help="Whether the flower is open (true/false, default: false)",
+        help="true renders the CLOSED-flower water-entry handling (controlled "
+        "harvest); false renders the OPEN-flower handling (timing critical). "
+        "Default: false",
     )
     parser.add_argument(
         "--yellow-leaves",
@@ -55,6 +57,47 @@ def build_parser() -> argparse.ArgumentParser:
         choices=["template", "llm"],
         default="template",
         help="Generation mode: template (default) or llm (uses Ollama)",
+    )
+    parser.add_argument(
+        "--audience",
+        choices=["farmer", "agronomist", "layperson"],
+        default="farmer",
+        help="Who the LLM writes for (llm mode only): farmer (default), "
+        "agronomist, or layperson",
+    )
+    parser.add_argument(
+        "--llm-model",
+        default=None,
+        help="Ollama model tag for --mode llm (default: OLLAMA_MODEL env var, "
+        "else llama3.2:latest)",
+    )
+    parser.add_argument(
+        "--no-translate",
+        dest="translate",
+        action="store_false",
+        help="For --language he --mode llm: trust the model to write Hebrew "
+        "directly instead of composing in English and machine-translating "
+        "(default: translate, because llama3.2 cannot write Hebrew)",
+    )
+    parser.add_argument(
+        "--read",
+        action="store_true",
+        help="After printing the instructions, speak them aloud and save an audio "
+        "file. Ignored for --format html.",
+    )
+    parser.add_argument(
+        "--speak-engine",
+        choices=["pyttsx3", "gtts", "mms"],
+        default="pyttsx3",
+        help="Speech engine for --read: pyttsx3 (default, offline, WAV), "
+        "gtts (online, no API key, MP3, better Hebrew), or "
+        "mms (offline neural VITS/MMS-TTS from Hugging Face, WAV)",
+    )
+    parser.add_argument(
+        "--audio-output",
+        default=None,
+        help="Path for the spoken audio file (default: "
+        "result/<flower>_<audience>_instructions.<wav|mp3>)",
     )
     parser.add_argument(
         "--format",
@@ -101,6 +144,10 @@ def main(argv: list[str] | None = None) -> None:
             with open(out_path, "w", encoding="utf-8") as f:
                 f.write(html_content)
             print(f"HTML written to: {out_path}")
+            if args.read:
+                print(
+                    "Note: --read is ignored for --format html.", file=sys.stderr
+                )
         else:
             result = generate_treatment_instructions(
                 flower_name=args.flower,
@@ -109,8 +156,33 @@ def main(argv: list[str] | None = None) -> None:
                 leaves_falling=args.leaves_falling,
                 language=args.language,
                 mode=args.mode,
+                audience=args.audience,
+                model=args.llm_model,
+                translate=args.translate,
             )
             print(result)
+
+            if args.read:
+                from pathlib import Path
+
+                from .speak import engine_extension, speak_text
+
+                if args.audio_output:
+                    audio_path = args.audio_output
+                else:
+                    ext = engine_extension(args.speak_engine)
+                    result_dir = Path(__file__).resolve().parent / "result"
+                    result_dir.mkdir(exist_ok=True)
+                    audio_path = str(
+                        result_dir
+                        / f"{args.flower.replace(' ', '_')}_{args.audience}_instructions{ext}"
+                    )
+                speak_text(
+                    result,
+                    out_path=audio_path,
+                    language=args.language,
+                    engine=args.speak_engine,
+                )
     except ValueError as e:
         print(f"Error: {e}", file=sys.stderr)
         sys.exit(1)
