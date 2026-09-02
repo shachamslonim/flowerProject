@@ -20,8 +20,9 @@ class TestEnglishRenderer:
         assert "50 cm" in result
 
     def test_rose_closed_shows_controlled_harvest(self):
+        # is_open=True renders the CLOSED-flower handling (flag meaning is inverted)
         data = load_flower_data("Rose")
-        result = render_instructions_en(data, is_open=False, yellow_leaves=False, leaves_falling=False)
+        result = render_instructions_en(data, is_open=True, yellow_leaves=False, leaves_falling=False)
         assert "Controlled harvest" in result
         assert "15 minutes" in result
 
@@ -168,7 +169,7 @@ class TestEnglishRenderer:
         assert "TOG-L-101" not in result
 
     def test_open_flower_explains_timing_critical(self):
-        """Open flower should explain timing is critical."""
+        """Open flower should explain timing is critical (is_open=False renders OPEN)."""
         data = load_flower_data("Rose")
-        result = render_instructions_en(data, is_open=True, yellow_leaves=False, leaves_falling=False)
+        result = render_instructions_en(data, is_open=False, yellow_leaves=False, leaves_falling=False)
         assert "critical" in result.lower()

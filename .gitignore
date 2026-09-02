@@ -16,3 +16,8 @@ flower_state_ai/*.egg-info/
 
 # Generated HTML instruction outputs
 InstructionsForTreatment/result/
+
+# Prompt-tuning run artifacts (the applied prompt, system_en.txt, is kept)
+InstructionsForTreatment/prompts/tuning_log.md
+InstructionsForTreatment/prompts/system_en.candidate.txt
+InstructionsForTreatment/prompts/comparison.md
