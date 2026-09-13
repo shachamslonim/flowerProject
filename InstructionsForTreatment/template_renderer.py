@@ -132,13 +132,15 @@ def render_instructions_en(
     lines.append(f"   Sterilize the following tools with acetone: {tools_str}")
     lines.append("")
 
-    # Section 2: Water Entry Time.
+    # Section 2: Water Entry Time. The fixed WATER_ENTRY_MINUTES allowance is a
+    # CLOSED-flower (controlled harvest) rule only - open flowers have no fixed
+    # window, just an urgent "as soon as possible" requirement.
     # NOTE: is_open=True describes the CLOSED-flower handling and vice versa.
     lines.append("2. WATER ENTRY (HARVEST TO WATER INTRODUCTION)")
     if not is_open:
-        lines.append(f"   Flower is OPEN: Water entry time is {WATER_ENTRY_MINUTES} minutes.")
+        lines.append("   Flower is OPEN: No fixed water entry time - get to water as soon as possible.")
         lines.append("   When flowers are open, timing between harvest and water")
-        lines.append("   introduction is critical.")
+        lines.append("   introduction is less critical.")
     else:
         lines.append(f"   Flower is CLOSED: Water entry time is {WATER_ENTRY_MINUTES} minutes.")
         lines.append("   Controlled harvest. Harvest when flowers are closed.")
@@ -275,11 +277,13 @@ def render_instructions_he(
     lines.append(f"   יש לחטא את הכלים הבאים באצטון: {tools_str}")
     lines.append("")
 
-    # Section 2: Water Entry Time (is_open=True describes the CLOSED handling)
+    # Section 2: Water Entry Time (is_open=True describes the CLOSED handling).
+    # The fixed WATER_ENTRY_MINUTES allowance is a CLOSED-flower rule only - open
+    # flowers have no fixed window, just an urgent "as soon as possible" requirement.
     lines.append("2. כניסת מים (זמן בין קטיף להכנסה למים)")
     if not is_open:
-        lines.append(f"   הפרח פתוח: זמן כניסת מים {WATER_ENTRY_MINUTES} דקות.")
-        lines.append("   כשהפרחים פתוחים, הזמן בין הקטיף להכנסה למים קריטי.")
+        lines.append("   הפרח פתוח: אין זמן קבוע לכניסה למים - יש להכניס למים בהקדם האפשרי.")
+        lines.append("   כשהפרחים פתוחים, הזמן בין הקטיף להכנסה למים פחות קריטי.")
     else:
         lines.append(f"   הפרח סגור: זמן כניסת מים {WATER_ENTRY_MINUTES} דקות.")
         lines.append("   קטיף מבוקר. יש לקטוף כשהפרחים סגורים.")

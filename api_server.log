@@ -1,0 +1,17 @@
+INFO:     Started server process [23956]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8877 (Press CTRL+C to quit)
+[monitor] LANGCHAIN_API_KEY not set - LangSmith tracing disabled (set it in the repo-root .env to enable; see smith.langchain.com)
+INFO:     127.0.0.1:63709 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:62267 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62268 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57871 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:57871 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57871 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     Started server process [17328]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8877 (Press CTRL+C to quit)
+[monitor] LangSmith tracing enabled -> project 'flower-pipeline'
+INFO:     127.0.0.1:49722 - "GET /health HTTP/1.1" 200 OK

@@ -1,0 +1,7 @@
+fastapi>=0.115
+uvicorn[standard]>=0.32
+python-multipart>=0.0.9
+python-dotenv>=1.0
+
+# LangSmith tracing (monitor/ package) - opt-in via LANGCHAIN_API_KEY in .env
+langsmith>=0.1.130

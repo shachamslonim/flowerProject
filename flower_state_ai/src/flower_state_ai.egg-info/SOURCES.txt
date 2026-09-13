@@ -9,10 +9,16 @@ src/flower_state_ai/dataset.py
 src/flower_state_ai/evaluate.py
 src/flower_state_ai/export_tiny.py
 src/flower_state_ai/inference.py
+src/flower_state_ai/label_verification.py
 src/flower_state_ai/labeling.py
 src/flower_state_ai/model.py
+src/flower_state_ai/paligemma_dataset.py
+src/flower_state_ai/paligemma_evaluate.py
+src/flower_state_ai/paligemma_predict.py
+src/flower_state_ai/paligemma_train.py
 src/flower_state_ai/preprocessing.py
 src/flower_state_ai/splitting.py
+src/flower_state_ai/tiny_model.py
 src/flower_state_ai/train.py
 src/flower_state_ai.egg-info/PKG-INFO
 src/flower_state_ai.egg-info/SOURCES.txt

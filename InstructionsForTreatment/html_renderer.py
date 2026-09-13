@@ -149,12 +149,12 @@ def _section_water_entry(is_open: bool, he: bool) -> str:
         if he:
             body = (
                 f"<strong>הפרח פתוח:</strong> זמן כניסת מים {WATER_ENTRY_MINUTES} דקות."
-                "<br>כשהפרחים פתוחים, הזמן בין הקטיף להכנסה למים קריטי."
+                "<br>כשהפרחים פתוחים, הזמן בין הקטיף להכנסה למים פחות קריטי."
             )
         else:
             body = (
                 f"<strong>Flower is OPEN:</strong> Water entry time is {WATER_ENTRY_MINUTES} minutes."
-                "<br>When flowers are open, timing between harvest and water introduction is critical."
+                "<br>When flowers are open, timing between harvest and water introduction is less critical."
             )
     else:
         if he:

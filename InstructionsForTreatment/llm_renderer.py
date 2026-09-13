@@ -275,8 +275,8 @@ def _build_data_prompt(
     # NOTE: is_open=True describes the CLOSED-flower handling and vice versa.
     if not is_open:
         fixed.append(
-            f"Get the flowers into water within {WATER_ENTRY_MINUTES} minutes of harvest. "
-            "The flower is open, so this timing is critical."
+            "No fixed water entry time for open flowers - get them into water as soon as "
+            "possible. This timing is less critical than for closed flowers."
         )
     else:
         fixed.append(
