@@ -113,9 +113,11 @@ class TestGenerateTreatmentInstructions:
             is_open=False,
         )
         assert "Sunflower" in result
-        assert "15 minutes" in result  # always shown regardless of is_open
-        # is_open=False renders the OPEN-flower wording (flag meaning is inverted)
+        # is_open=False renders the OPEN-flower wording (flag meaning is inverted) - open
+        # flowers have no fixed water-entry window, only closed (controlled harvest) does
         assert "OPEN" in result
+        assert "No fixed water entry time" in result
+        assert "15 minutes" not in result
 
     def test_sunflower_no_sts(self):
         """A flower the DOC gives no TOG-L-101 rate for, at low sensitivity, gets no STS."""

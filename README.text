@@ -2,6 +2,24 @@
   Flower Vision Project
 ===============================================================
 
+## Quick Start: Open the GUI
+
+The full pipeline (species ID -> open/closed state -> care instructions)
+has a Streamlit GUI. It needs the API running first, then the GUI itself:
+
+  1) Start the API (from the project root, in one terminal):
+       uvicorn api.main:app --host 127.0.0.1 --port 8877
+
+  2) Start the GUI (from the project root, in a second terminal):
+       streamlit run gui\app.py --server.headless true
+
+  3) Open the URL Streamlit prints (default: http://localhost:8501)
+     in a browser.
+
+See "Combined Pipeline: API (FastAPI + Swagger), GUI (Streamlit),
+Monitoring (LangSmith)" below for the full GUI walkthrough, all API
+endpoints, and the Swagger UI at http://127.0.0.1:8877/docs.
+
 ## Setup
 
 Go to the project:
@@ -154,3 +172,125 @@ Summary:
 - The API struggles with less common flowers (e.g., Statice, Ageratum)
 - Web Detection often catches flowers that Label Detection misses
 - Retries help by testing different photos of the same flower
+
+===============================================================
+  Combined Pipeline: API (FastAPI + Swagger), GUI (Streamlit), Monitoring (LangSmith)
+===============================================================
+
+The three components (flower_vision, flower_state_ai, InstructionsForTreatment)
+are combined into a single pipeline: photo -> species identification ->
+open/closed state -> care instructions. The pipeline is exposed through one
+FastAPI service (folder api/), driven by a Streamlit GUI (folder gui/), and
+traced end-to-end with LangSmith (folder monitor/).
+
+## Install dependencies for the API and GUI
+
+  pip install -r api\requirements.txt
+  pip install -r gui\requirements.txt
+
+(also make sure requirements.txt, flower_state_ai\requirements.txt, and
+InstructionsForTreatment\requirements.txt are installed, since the API
+imports all three components)
+
+## Running the API (with Swagger UI)
+
+Start the server from the project root:
+
+  uvicorn api.main:app --host 127.0.0.1 --port 8877
+
+Once running, open in a browser:
+
+  http://127.0.0.1:8877/          -> redirects to Swagger UI
+  http://127.0.0.1:8877/docs      -> Swagger UI (interactive API docs, try endpoints here)
+  http://127.0.0.1:8877/redoc     -> ReDoc (read-only API docs)
+  http://127.0.0.1:8877/openapi.json -> raw OpenAPI schema
+
+Swagger UI lists every endpoint with its request/response schema and lets
+you upload a test image and call the endpoint directly from the browser,
+with no need for curl or Postman.
+
+## API Endpoints
+
+  GET  /health
+    Simple liveness check, returns {"status": "ok"}.
+
+  POST /identify
+    Form fields: image (file, required), vision_backend ("google" or
+    "paligemma", default "google").
+    Identifies the flower species in the photo.
+
+  POST /state
+    Form fields: image (file, required), species_name (required),
+    arch ("mobilenet_v2" / "tiny_cnn" / "paligemma_state_only", optional -
+    auto-picked per species from flower_state_ai\models\model_recommendations.json
+    if omitted).
+    Classifies the flower as open or closed.
+
+  POST /instructions
+    JSON body: species_name, is_open, yellow_leaves, leaves_falling,
+    language ("en"/"he"), mode ("template"/"llm"), audience, llm_model,
+    translate, read, speak_engine.
+    Generates the care-instructions text (and optional read-aloud audio).
+    NOTE: is_open is InstructionsForTreatment's own flag and its meaning is
+    inverted - is_open=True renders the CLOSED-flower instructions and
+    is_open=False renders the OPEN-flower instructions (see
+    InstructionsForTreatment\README for details).
+
+  POST /pipeline
+    Form fields: image (file, required), vision_backend, state_arch,
+    yellow_leaves, leaves_falling, language, mode, audience, llm_model,
+    translate, read, speak_engine (all optional, same meaning as above).
+    Runs identify -> state -> instructions as one traced request. This is
+    the endpoint that shows up as a single end-to-end trace in LangSmith.
+
+  GET  /audio/{filename}
+    Serves a generated read-aloud audio file back to the caller (used by
+    the GUI to play audio returned from /instructions or /pipeline).
+
+## Running the GUI (Streamlit)
+
+With the API already running (see above), start the GUI from the project
+root in a separate terminal:
+
+  streamlit run gui\app.py --server.headless true
+
+Streamlit prints a local URL (default http://localhost:8501) - open it in
+a browser. The GUI is a pure API client: every action calls the FastAPI
+endpoints above over HTTP, it never imports flower_vision, flower_state_ai,
+or InstructionsForTreatment directly.
+
+GUI walkthrough:
+  1) Upload a flower photo.
+  2) Choose a vision backend (Google Vision or PaliGemma) and click
+     "Identify" - shows the detected species and raw labels.
+  3) Edit the species name if needed, choose a state-classification model
+     (pre-selected from model_recommendations.json) and click
+     "Classify state" - shows open/closed.
+  4) Choose language, mode, audience, and read-aloud options, then click
+     "Generate instructions" - shows the final care instructions text and,
+     if read-aloud was requested, an audio player.
+  Alternatively, expand "Run the full pipeline in one click instead" to do
+  all three steps in a single request.
+
+If the GUI needs to reach an API running somewhere other than
+http://127.0.0.1:8877, set the API_BASE environment variable before
+launching Streamlit:
+
+  $env:API_BASE = "http://127.0.0.1:8877"
+  streamlit run gui\app.py --server.headless true
+
+## Monitoring with LangSmith
+
+1) Sign up at https://smith.langchain.com and create an API key.
+2) Add to the project-root .env file:
+     LANGCHAIN_API_KEY=your_langsmith_api_key
+     LANGCHAIN_PROJECT=flower-pipeline
+3) Start the API as usual - on startup it calls monitor\langsmith_setup.py's
+   init_langsmith(), which enables tracing automatically when the key is
+   present (and no-ops with a warning if it's missing, so tracing is
+   optional and never blocks the pipeline from running).
+4) Call /pipeline (via Swagger, the GUI, or curl) and check
+   https://smith.langchain.com for a trace named after the run_pipeline
+   function, showing identify -> state -> instructions as nested spans
+   (LLM-mode instruction generation shows further nested token/latency
+   detail from the underlying Ollama call).

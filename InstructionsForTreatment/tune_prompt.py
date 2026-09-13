@@ -173,7 +173,11 @@ def expected_facts(flower_data: dict, is_open: bool) -> list[tuple[str, "callabl
             )
         )
 
-    facts.append(("water entry 15 minutes", lambda tx: re.search(r"15\s*min", tx) is not None))
+    # The 15-minute water-entry window is a CLOSED-flower (controlled harvest) rule only -
+    # is_open=True renders that CLOSED wording (see template_renderer.py); is_open=False
+    # renders OPEN wording, which has no fixed time to check for.
+    if is_open:
+        facts.append(("water entry 15 minutes", lambda tx: re.search(r"15\s*min", tx) is not None))
     return facts
 
 

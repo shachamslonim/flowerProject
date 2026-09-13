@@ -126,9 +126,10 @@ def generate_treatment_instructions(
 ## Instruction Output Order
 
 1. **Sterilization** - Clean tools (bins, shears, tables, guillotine) with acetone
-2. **Water Entry** - Harvest to water introduction, always 15 minutes.
-   `is_open=False` → OPEN flower, timing between harvest and water is critical.
-   `is_open=True` → CLOSED flower, controlled harvest.
+2. **Water Entry** - Harvest to water introduction.
+   `is_open=False` → OPEN flower, no fixed water entry time - get to water as soon as
+   possible; timing between harvest and water is less critical.
+   `is_open=True` → CLOSED flower, controlled harvest, fixed 15-minute water entry time.
    (The flag is intentionally inverted relative to the rendered OPEN/CLOSED label.)
 3. **Materials and Chemical Treatment** - Biocide options from `farmerTreatment`, ranked
    `Option 1`, `Option 2`, ... (see [Ranking](#ranking-of-materials))
