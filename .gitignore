@@ -1,8 +1,9 @@
 photo/
 .venv/
 .env
-requirements.zip
+*logrequirements.zip
 *.zip
+*.log
 __pycache__/
 *.pyc
 flower-504717-82788587b8ec.json
