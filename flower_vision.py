@@ -1,8 +1,36 @@
 import os
 import json
+import time
 from pathlib import Path
+from typing import Callable, TypeVar
 
+from google.api_core import exceptions as vision_exceptions
 from google.cloud import vision
+
+T = TypeVar("T")
+
+_TRANSIENT_VISION_ERRORS = (
+    vision_exceptions.ServiceUnavailable,
+    vision_exceptions.DeadlineExceeded,
+    vision_exceptions.TooManyRequests,
+    vision_exceptions.InternalServerError,
+)
+
+
+def _call_with_retry(fn: Callable[[], T], attempts: int = 3, base_delay: float = 1.0) -> T:
+    """Retries fn() up to `attempts` times, only on a transient Vision API error
+    (network blip, 429/503/500) - Vision is deterministic per image, so an in-band
+    response.error (e.g. a malformed image) would just fail the same way on every
+    attempt and is returned as-is for the caller to raise, not retried."""
+    assert attempts >= 1
+    for attempt in range(1, attempts + 1):
+        try:
+            return fn()
+        except _TRANSIENT_VISION_ERRORS:
+            if attempt == attempts:
+                raise
+            time.sleep(base_delay * attempt)
+    raise AssertionError("unreachable")
 
 
 def load_env_file(env_path: Path) -> None:
@@ -34,7 +62,7 @@ def resolve_image_path(project_root: Path) -> Path:
     return (project_root / "sample_flower.jpg").resolve()
 
 
-def extract_flower_names(labels: list[vision.EntityAnnotation]) -> list[str]:
+def extract_flower_names(descriptions: list[str]) -> list[str]:
     flower_keywords = {
         "flower",
         "rose",
@@ -57,20 +85,21 @@ def extract_flower_names(labels: list[vision.EntityAnnotation]) -> list[str]:
     }
 
     possible_flowers: list[str] = []
-    for label in labels:
-        text = label.description.lower()
+    for description in descriptions:
+        text = description.lower()
         if any(keyword in text for keyword in flower_keywords):
-            possible_flowers.append(label.description)
+            possible_flowers.append(description)
 
     return possible_flowers
 
 
-def match_known_species(labels: list[vision.EntityAnnotation], flowers_json_path: Path) -> list[str]:
-    """Matches Vision labels against flowers.json's englishName values only - e.g. Vision's
-    "Garden roses" matches flowers.json's "Rose" ("Rose" is a substring of the label).
-    Unlike extract_flower_names()'s fixed 18-keyword list (built for human-readable CLI
-    display), this returns names InstructionsForTreatment's exact-match lookup can
-    actually use, ready to pass as flower_name.
+def match_known_species(descriptions: list[str], flowers_json_path: Path) -> list[str]:
+    """Matches Vision descriptions (label_detection labels or web_detection entities)
+    against flowers.json's englishName values only - e.g. Vision's "Garden roses" matches
+    flowers.json's "Rose" ("Rose" is a substring of the description). Unlike
+    extract_flower_names()'s fixed 18-keyword list (built for human-readable CLI display),
+    this returns names InstructionsForTreatment's exact-match lookup can actually use,
+    ready to pass as flower_name.
 
     Deliberately does NOT match against commonNames or check the reverse direction (label
     found within the species name) - both were tried and produced real false positives:
@@ -86,8 +115,8 @@ def match_known_species(labels: list[vision.EntityAnnotation], flowers_json_path
     species_names = [flower["englishName"] for flower in flowers]
 
     matched: list[str] = []
-    for label in labels:
-        text = label.description.lower()
+    for description in descriptions:
+        text = description.lower()
         for english_name in species_names:
             if english_name not in matched and english_name.lower() in text:
                 matched.append(english_name)
@@ -131,13 +160,21 @@ def _ensure_credentials(project_root: Path) -> Path:
 def identify_flower(image_path: Path, project_root: Path | None = None) -> dict:
     """Programmatic entry point (the API/pipeline call this, not main()). Returns
     {"species_name": str | None, "confidence": None, "all_matches": [str, ...],
-    "all_labels": [{"description","score"}, ...], "source": "google_vision"}.
-    confidence is None because label_detection returns per-label scores, not one
-    flower-specific score - all_labels carries those for callers that want them.
-    species_name is the first keyword-matched label (label_detection doesn't rank
-    "flowerness", just generic label confidence); all_matches carries every match,
-    not just the first, so callers (including main()'s printing) never need to
-    re-run the keyword match themselves."""
+    "all_labels": [{"description","score"}, ...], "source": "google_vision_label" |
+    "google_vision_web"}. confidence is None because label_detection returns per-label
+    scores, not one flower-specific score - all_labels carries those for callers that
+    want them. species_name is the first keyword-matched label (label_detection doesn't
+    rank "flowerness", just generic label confidence); all_matches carries every match,
+    not just the first, so callers (including main()'s printing) never need to re-run
+    the keyword match themselves.
+
+    Tier 1 (label_detection) runs first. Tier 2 (web_detection) only runs as a fallback
+    when Tier 1's labels don't match any species in flowers.json - Vision is
+    deterministic per image, so re-running the same call on the same bytes can't turn a
+    miss into a hit; a different detection method can. Each tier retries up to 3 times,
+    but only on a transient Vision API error (network blip, 429/503/500) - an in-band
+    response.error (e.g. a malformed image) is the same on every attempt and isn't
+    retried."""
     project_root = project_root or Path(__file__).parent.resolve()
     _ensure_credentials(project_root)
 
@@ -148,15 +185,32 @@ def identify_flower(image_path: Path, project_root: Path | None = None) -> dict:
     client = vision.ImageAnnotatorClient()
     with open(image_path, "rb") as image_file:
         content = image_file.read()
+    image = vision.Image(content=content)
+    flowers_json_path = project_root / "flowers.json"
 
-    response = client.label_detection(image=vision.Image(content=content))
-    if response.error.message:
-        raise RuntimeError(f"Vision API error: {response.error.message}")
+    # Tier 1: Label Detection
+    label_response = _call_with_retry(lambda: client.label_detection(image=image))
+    if label_response.error.message:
+        raise RuntimeError(f"Vision API error: {label_response.error.message}")
 
-    labels = response.label_annotations
+    labels = label_response.label_annotations
+    label_descriptions = [label.description for label in labels]
     all_labels = [{"description": label.description, "score": label.score} for label in labels]
-    flower_names = extract_flower_names(labels)
-    known_species_matches = match_known_species(labels, project_root / "flowers.json")
+    flower_names = extract_flower_names(label_descriptions)
+    known_species_matches = match_known_species(label_descriptions, flowers_json_path)
+    source = "google_vision_label"
+
+    # Tier 2: Web Detection, fallback only - Tier 1 found no flowers.json match
+    if not known_species_matches:
+        web_response = _call_with_retry(lambda: client.web_detection(image=image))
+        if not web_response.error.message and web_response.web_detection.web_entities:
+            web_descriptions = [
+                entity.description for entity in web_response.web_detection.web_entities if entity.description
+            ]
+            web_species_matches = match_known_species(web_descriptions, flowers_json_path)
+            if web_species_matches:
+                known_species_matches = web_species_matches
+                source = "google_vision_web"
 
     # "flower" is itself a keyword (so a generic "Flower" label counts as a match, which is
     # correct for the human-readable CLI listing), but it's useless as a species_name - a
@@ -177,7 +231,7 @@ def identify_flower(image_path: Path, project_root: Path | None = None) -> dict:
         "all_matches": flower_names,
         "known_species_matches": known_species_matches,
         "all_labels": all_labels,
-        "source": "google_vision",
+        "source": source,
     }
 
 
